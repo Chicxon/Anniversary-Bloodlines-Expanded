@@ -1,31 +1,35 @@
 #Historical Bloodlines
+
 dumont = { #Gabriel Dumont - Legendary Metis General 
+	monthly_character_prestige = 0.2
+	metis_opinion = 5
+	blackfoot_opinion = 5
 	command_modifier = {
 		morale_defence = 0.10
 	}
-	metis_opinion = 5
-	blackfoot_opinion = 5
-	monthly_character_prestige = 0.2
 	bloodline_effect_great_heroes_appear = 1
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_bull
 	flags = { historical_bloodline }
 }
+
 yudkow = { #Emperors of California
-	cetic_opinion = 5
-	learning = 2
 	monthly_character_prestige = 0.3
 	monthly_character_piety = 0.3
+	cetic_opinion = 5
+	learning = 2
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_cetic #tbd
 	flags = { historical_bloodline bloodline_heroes }
 }
+
 dellarocca = {
 	picture = GFX_bloodlines_placeholder_symbol
 	inheritance = all_descendants
 	allow_bastards = yes
+	monthly_character_prestige = 0.1
 	gothamite_opinion = 10
 	americanist_opinion = 5
 	martial = 1
@@ -33,16 +37,13 @@ dellarocca = {
 		morale_defence = 0.10
 	}
 	combat_rating = 5
-	monthly_character_prestige = 0.1
 	active = {
 		culture = gothamite
 	}
 	flags = { historical_bloodline }
 }
+
 soady = { #Vikings
-	command_modifier = {
-		morale_offence = 0.10
-	}
 	norse_pagan_opinion = 5
 	norse_pagan_reformed_opinion = 5
 	viking_opinion = 5
@@ -50,31 +51,35 @@ soady = { #Vikings
 	ravager_opinion = 5
 	seaking_opinion = 5
 	sea_queen_opinion = 5
+	command_modifier = {
+		morale_offence = 0.10
+	}
 	bloodline_effect_always_viking = 1
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_norse
 	flags = { historical_bloodline bloodline_viking bloodline_historical_norse }
 }
+
 abbas01 = {
 	picture = GFX_bloodlines_symbol_imamite
 	inheritance = patrilineal
 	allow_bastards = yes
+	monthly_character_piety = 0.2
 	anjalusi_opinion = 5
 	imamite_opinion = 5
 	alawiyya_opinion = 5
 	qingzhen_opinion = 5
 	cetic_opinion = 5
 	faqih_opinion = 5
-	monthly_character_piety = 0.2
 	flags = { historical_bloodline }
 }
 
 renovator = { #Renovator
-	martial = 2
+	monthly_character_prestige = 0.1
 	falling_star_opinion = 5
 	strategist_opinion = 5
-	monthly_character_prestige = 0.1
+	martial = 2
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_horse
@@ -84,22 +89,13 @@ renovator = { #Renovator
 	}
 }
 
-iturbide = { #Mexican Emperors
-	mexicano_opinion = 5
-	sacred_heart_opinion = 5
-	monthly_character_prestige = 0.2
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_placeholder_symbol_2
-	flags = { historical_bloodline pre_event_bloodline cheap_reconquista }
-}
-
 mcmahon = { #McMahon
 	yankee_opinion = 5
 	occultist_opinion = 5
 	occultist_reformed_opinion = 5
+	combat_rating = 10
 	command_modifier = {
-		morale_defence = 0.10
+		morale_offence = 0.10
 	}
 	inheritance = patrilineal
 	allow_bastards = yes
@@ -108,19 +104,21 @@ mcmahon = { #McMahon
 }
 
 castel = { #Queen of Quebec
+	monthly_character_prestige = 0.1
 	quebecois_opinion = 5
 	ursuline_opinion = 10
-	monthly_character_prestige = 0.1
+	bloodline_effect_enatic_cognatic = 1
 	inheritance = matrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_fleur_de_lis_gold
-	flags = { historical_bloodline }
+	flags = { historical_bloodline bloodline_enatic_cognatic}
 }
 
 royall = { #HCC First Emperors
-	evangelical_opinion = 5
 	monthly_character_prestige = 0.2
 	monthly_character_piety = 0.1
+	evangelical_opinion = 5
+	combat_rating = 5
 	bloodline_effect_great_heroes_appear = 1
 	inheritance = patrilineal
 	allow_bastards = yes
@@ -132,29 +130,55 @@ royall = { #HCC First Emperors
 }
 
 bagley = { #Former dominant HCC family
-	south_anglo_opinion = 5
 	monthly_character_prestige = 0.2
+	south_anglo_opinion = 5
 	evangelical_opinion = 5
+	bloodline_effect_princely_elective_boon = 1
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_placeholder_symbol
-	flags = { historical_bloodline }
+	flags = { historical_bloodline bloodline_princely_elective_bonus}
 }
 
 littlepage = { #Current HCC Emperors
+	monthly_character_prestige = 0.1
 	southron_opinion = 5
 	evangelical_opinion = 5
-	monthly_character_prestige = 0.2
+	command_modifier = {
+		knights = 0.1
+	}
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_lion
 	flags = { historical_bloodline }
 }
 
+yelverton = { #Former dominant HCC family
+	monthly_character_prestige = 0.1
+	dixie_opinion = 10
+	martial = 1
+	bloodline_effect_battle_survivor = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_yelverton
+	flags = { historical_bloodline battle_survivor_bloodline }
+}
+
+gee = { #Former dominant HCC family
+	monthly_character_prestige = 0.1
+	tuskegean_opinion = 10
+	evangelical_opinion = 5
+	learning = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_placeholder_symbol
+	flags = { historical_bloodline }
+}
+
 bustamante = { #Caribbean Empress
+	monthly_character_prestige = 0.2
 	rastafarian_opinion = 5
 	west_indian_opinion = 5
-	monthly_character_prestige = 0.2
 	bloodline_effect_cognatic = 1
 	inheritance = patrilineal
 	allow_bastards = yes
@@ -166,13 +190,14 @@ bustamante = { #Caribbean Empress
 }
 
 sulley = { #Miskito Kings
-	miskito_opinion = 5
-	falling_star_opinion = 5
 	monthly_character_prestige = 0.1
+	miskito_opinion = 5
+	vassal_opinion = 5
+	bloodline_effect_less_factions = 1
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_placeholder_symbol_2
-	flags = { historical_bloodline pre_event_bloodline }
+	flags = { historical_bloodline pre_event_bloodline bloodline_less_factions}
 	active = {
 		OR = {
 			culture = miskito
@@ -182,11 +207,12 @@ sulley = { #Miskito Kings
 }
 
 clinton = { #Clintons
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.15
 	command_modifier = {
-		religious_enemy = 0.1
+		religious_enemy = 0.15
 	}
 	occultist_opinion = -15
-	monthly_character_prestige = 0.25
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_placeholder_symbol_2
@@ -200,9 +226,9 @@ clinton = { #Clintons
 }
 
 rothschild = { #Rothschild family
+	monthly_character_prestige = 0.1
 	yiddish_opinion = 5
 	jewish_group_opinion = 5
-	monthly_character_prestige = 0.1
 	stewardship = 2
 	inheritance = patrilineal
 	allow_bastards = yes
@@ -232,10 +258,12 @@ tlgunghung = { #Kings of BC
 	haida_opinion = 5
 	raven_tales_opinion = 5
 	raven_tales_reformed_opinion = 5
-	martial = 3
+	martial = 1
+	monthly_character_prestige = 0.25
+	bloodline_effect_teuta_ships = 1
 	inheritance = patrilineal
 	allow_bastards = yes
-	flags = { historical_bloodline }
+	flags = { historical_bloodline teuta_bloodline bloodline_spawned_ships}
 	active = {
 		OR = {
 			religion = raven_tales
@@ -245,9 +273,13 @@ tlgunghung = { #Kings of BC
 }
 
 freeland = { #Gaian lords
+	monthly_character_prestige = 0.15
+	# Removed Gaian opinion bonus as literally every single one of his kills were his own religion
 	north_pacific_opinion = 5
-	gaian_opinion = 10
-	martial = 2
+	command_modifier = {
+		damage = 0.05
+	}
+	combat_rating = 5
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_gaian
@@ -259,14 +291,64 @@ freeland = { #Gaian lords
 }
 
 gable = { #Kings of Jefferson
-	gaian_opinion = 5
+	monthly_character_prestige = 0.1
+	global_revolt_risk = -0.01
 	siskiyouan_opinion = 5
-	monthly_character_prestige = 0.2
+	command_modifier = {
+		morale_defence = 0.05
+	}
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_cetic
 	flags = { historical_bloodline}
 }
+
+rodman = { #Dukes of the Quad Cities
+	monthly_character_prestige = 0.1
+	grangelander_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	martial = 2
+	command_modifier = {
+		morale_offence = 0.1
+	}
+	picture = GFX_bloodlines_symbol_rodman
+	active = {
+		religion_group = christian	
+	}
+}
+
+leones = {
+	monthly_character_piety = 0.1
+	espiritista_opinion = 10
+	patria_grande_opinion = -5
+	command_modifier = {
+		religious_enemy = 0.05
+		ballestero = 0.05
+	}
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_lion
+	flags = { historical_bloodline }
+}
+
+buendia = {
+	just_opinion = 5
+	town_opinion = 10
+	city_vassal_tax_modifier = 0.05
+	global_revolt_risk = -0.02
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_placeholder_symbol_2
+	flags = { historical_bloodline }
+	active = {
+		OR = {
+			government = merchant_republic_government
+			government = republic_government
+		}
+	}
+}
+
 moroni_bloodline = {
 	monthly_character_piety = 0.15
 	command_modifier = {
@@ -766,25 +848,6 @@ general_gaia_female_both = {
 	}
 }
 
-yelverton = { #Former dominant HCC family
-	martial = 2
-	monthly_character_prestige = 0.15
-	evangelical_opinion = 5
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_yelverton
-	flags = { historical_bloodline }
-}
-gee = { #Former dominant HCC family
-	tuskegean_opinion = 5
-	monthly_character_prestige = 0.1
-	evangelical_opinion = 5
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_placeholder_symbol
-	flags = { historical_bloodline }
-}
-
 kalomte_votan_male = {
 	monthly_character_piety = 0.25
 	monthly_character_prestige = 0.5
@@ -863,23 +926,6 @@ alvarado = { #Falso Libertador
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_falso_libertador
-	flags = { historical_bloodline }
-}
-
-leones = {
-	espiritista_opinion = 6
-	patria_grande_opinion = -3
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_lion
-	flags = { historical_bloodline }
-}
-
-buendia = {
-	costeno_opinion = 5
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_placeholder_symbol_2
 	flags = { historical_bloodline }
 }
 
@@ -1008,22 +1054,6 @@ heartbreaker_male_bloodline = {
 	picture = GFX_bloodlines_symbol_fleur_de_lis #heartbreaker
 	flags = { created_bloodline matilde_bloodline bloodline_princely_elective_bonus }
 }
-
-rodman = { #Dukes of the Quad Cities
-	catholic_opinion = 5
-	grangelander_opinion = 5
-	inheritance = patrilineal
-	allow_bastards = yes
-	martial = 2
-	command_modifier = {
-		morale_offence = 0.1
-	}
-	picture = GFX_bloodlines_symbol_rodman
-	active = {
-		religion_group = christian	
-	}
-}
-
 
 #male emperor of texarkana
 tex_texarkana_male = { 
