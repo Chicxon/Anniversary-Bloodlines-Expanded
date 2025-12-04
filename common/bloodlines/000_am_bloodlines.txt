@@ -1,28 +1,60 @@
-#Historical Bloodlines
+### Historical Bloodlines ###
 
-dumont = { #Gabriel Dumont - Legendary Metis General 
-	monthly_character_prestige = 0.2
-	metis_opinion = 5
-	blackfoot_opinion = 5
-	command_modifier = {
-		morale_defence = 0.10
-	}
-	bloodline_effect_great_heroes_appear = 1
+### Northeast ###
+
+irving = { #Irving Family
+	christian_opinion = -5
+	bloodline_effect_macabre_banquet = 1
+	levy_reinforce_rate = 0.05
+	monthly_character_prestige = 0.13
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_bull
+	picture = GFX_bloodlines_symbol_irving
+	flags = { historical_bloodline pre_event_bloodline bloodline_macabre_banquet }
+}
+
+castel = { #Queen of Quebec
+	monthly_character_prestige = 0.1
+	quebecois_opinion = 5
+	ursuline_opinion = 10
+	bloodline_effect_enatic_cognatic = 1
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_fleur_de_lis_gold
+	flags = { historical_bloodline bloodline_enatic_cognatic}
+}
+
+mcmahon = { #McMahon
+	yankee_opinion = 5
+	occultist_opinion = 5
+	occultist_reformed_opinion = 5
+	combat_rating = 10
+	command_modifier = {
+		morale_offence = 0.10
+	}
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_elder_gods
 	flags = { historical_bloodline }
 }
 
-yudkow = { #Emperors of California
-	monthly_character_prestige = 0.3
-	monthly_character_piety = 0.3
-	cetic_opinion = 5
-	learning = 2
+clinton = { #Clintons
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.15
+	command_modifier = {
+		religious_enemy = 0.15
+	}
+	occultist_opinion = -15
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_cetic #tbd
-	flags = { historical_bloodline bloodline_heroes }
+	picture = GFX_bloodlines_placeholder_symbol_2
+	flags = { historical_bloodline pre_event_bloodline }
+	active = {
+		OR = {
+			religion_group = christian
+			religion_openly_americanist_or_heresy_trigger = yes
+		}
+	}
 }
 
 dellarocca = {
@@ -43,75 +75,49 @@ dellarocca = {
 	flags = { historical_bloodline }
 }
 
-soady = { #Vikings
-	norse_pagan_opinion = 5
-	norse_pagan_reformed_opinion = 5
-	viking_opinion = 5
-	pirate_opinion = 5
-	ravager_opinion = 5
-	seaking_opinion = 5
-	sea_queen_opinion = 5
-	command_modifier = {
-		morale_offence = 0.10
-	}
-	bloodline_effect_always_viking = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_norse
-	flags = { historical_bloodline bloodline_viking bloodline_historical_norse }
-}
-
-abbas01 = {
-	picture = GFX_bloodlines_symbol_imamite
-	inheritance = patrilineal
-	allow_bastards = yes
-	monthly_character_piety = 0.2
-	anjalusi_opinion = 5
-	imamite_opinion = 5
-	alawiyya_opinion = 5
-	qingzhen_opinion = 5
-	cetic_opinion = 5
-	faqih_opinion = 5
-	flags = { historical_bloodline }
-}
-
-renovator = { #Renovator
+rothschild = { #Rothschild family
 	monthly_character_prestige = 0.1
-	falling_star_opinion = 5
-	strategist_opinion = 5
+	yiddish_opinion = 5
+	jewish_group_opinion = 5
+	stewardship = 2
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_jewish
+	flags = { historical_bloodline }
+	active = {
+		religion_group = jewish_group
+	}
+}
+
+gutfreund = { #Levi the Liberator
+	yiddish_opinion = 5
+	jewish_group_opinion = 5
+	global_revolt_risk = -0.01
 	martial = 2
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_horse
-	flags = { historical_bloodline }
+	picture = GFX_bloodlines_symbol_jewish
+	flags = { historical_bloodline bloodline_heroes }
 	active = {
-		religion = falling_star
+		religion_group = jewish_group
 	}
 }
 
-mcmahon = { #McMahon
-	yankee_opinion = 5
-	occultist_opinion = 5
-	occultist_reformed_opinion = 5
-	combat_rating = 10
-	command_modifier = {
-		morale_offence = 0.10
-	}
+### Dixie ###
+
+hanovers_bloodline = {
+	americanist_opinion = -5
+	christian_opinion = 5
+	southron_opinion = 5
+	monthly_character_prestige = 0.1
+	bloodline_effect_great_heroes_appear = 1
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_elder_gods
-	flags = { historical_bloodline }
-}
-
-castel = { #Queen of Quebec
-	monthly_character_prestige = 0.1
-	quebecois_opinion = 5
-	ursuline_opinion = 10
-	bloodline_effect_enatic_cognatic = 1
-	inheritance = matrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_fleur_de_lis_gold
-	flags = { historical_bloodline bloodline_enatic_cognatic}
+	picture = GFX_bloodlines_symbol_hanover
+	flags = { historical_bloodline bloodline_heroes }
+	active = {
+		religion_group = christian	
+	}
 }
 
 royall = { #HCC First Emperors
@@ -175,99 +181,132 @@ gee = { #Former dominant HCC family
 	flags = { historical_bloodline }
 }
 
-bustamante = { #Caribbean Empress
+nokona_bloodline = {
+	combat_rating = 5
+	comanche_opinion = 5
+	christian_opinion = 5
+	monthly_character_piety = 0.1
+	saintly_defender_bloodline = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_nokona
+	flags = { historical_bloodline saintly_bloodline defender_of_the_faith }
+	active = {
+		OR = {
+			religion = catholic
+		}
+	}
+}
+
+
+### Midwest and Such ###
+
+dumont = { #Gabriel Dumont - Legendary Metis General 
 	monthly_character_prestige = 0.2
-	rastafarian_opinion = 5
-	west_indian_opinion = 5
-	bloodline_effect_cognatic = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_portia
-	flags = { historical_bloodline pre_event_bloodline }
-	active = {
-		religion_group = afro_syncretic
-	}
-}
-
-sulley = { #Miskito Kings
-	monthly_character_prestige = 0.1
-	miskito_opinion = 5
-	vassal_opinion = 5
-	bloodline_effect_less_factions = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_placeholder_symbol_2
-	flags = { historical_bloodline pre_event_bloodline bloodline_less_factions}
-	active = {
-		OR = {
-			culture = miskito
-			religion = falling_star
-		}
-	}
-}
-
-clinton = { #Clintons
-	monthly_character_prestige = 0.1
-	monthly_character_piety = 0.15
+	metis_opinion = 5
+	blackfoot_opinion = 5
 	command_modifier = {
-		religious_enemy = 0.15
+		morale_defence = 0.10
 	}
-	occultist_opinion = -15
+	bloodline_effect_great_heroes_appear = 1
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_placeholder_symbol_2
-	flags = { historical_bloodline pre_event_bloodline }
-	active = {
-		OR = {
-			religion_group = christian
-			religion_openly_americanist_or_heresy_trigger = yes
-		}
-	}
+	picture = GFX_bloodlines_symbol_bull
+	flags = { historical_bloodline }
 }
 
-rothschild = { #Rothschild family
-	monthly_character_prestige = 0.1
-	yiddish_opinion = 5
-	jewish_group_opinion = 5
-	stewardship = 2
+soady = { #Vikings
+	norse_pagan_opinion = 5
+	norse_pagan_reformed_opinion = 5
+	viking_opinion = 5
+	pirate_opinion = 5
+	ravager_opinion = 5
+	seaking_opinion = 5
+	sea_queen_opinion = 5
+	command_modifier = {
+		morale_offence = 0.10
+	}
+	bloodline_effect_always_viking = 1
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_jewish
+	picture = GFX_bloodlines_symbol_norse
+	flags = { historical_bloodline bloodline_viking bloodline_historical_norse }
+}
+
+rodman = { #Dukes of the Quad Cities
+	monthly_character_prestige = 0.1
+	grangelander_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	martial = 2
+	command_modifier = {
+		morale_offence = 0.1
+	}
+	picture = GFX_bloodlines_symbol_rodman
+	flags = { historical_bloodline }
+	#active = {
+	#	religion_group = christian	
+	#}
+}
+
+### California ###
+
+yudkow = { #Emperors of California
+	monthly_character_prestige = 0.3
+	monthly_character_piety = 0.3
+	cetic_opinion = 5
+	learning = 2
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_cetic #tbd
+	flags = { historical_bloodline bloodline_heroes }
+}
+
+abbas01 = {
+	picture = GFX_bloodlines_symbol_imamite
+	inheritance = patrilineal
+	allow_bastards = yes
+	monthly_character_piety = 0.5
+	anjalusi_opinion = 5
+	imamite_opinion = 5
+	alawiyya_opinion = 5
+	qingzhen_opinion = 5
+	cetic_opinion = 5
+	faqih_opinion = 5
+	flags = { historical_bloodline }
+}
+
+gable = { #Kings of Jefferson
+	monthly_character_prestige = 0.1
+	global_revolt_risk = -0.01
+	siskiyouan_opinion = 5
+	command_modifier = {
+		morale_defence = 0.05
+	}
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_cetic
+	flags = { historical_bloodline }
+}
+
+### Pacific NW ###
+
+#op but completely useless
+bushart_bloodline = { 
+	gaian_opinion = 15
+	canuck_opinion = 5
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 0.5
+	bloodline_effect_great_heroes_appear = 1
+	stewardship = 1
+	inheritance = matrilineal
+	allow_bastards = no
+	picture = GFX_bloodlines_symbol_gaian
 	flags = { historical_bloodline }
 	active = {
-		religion_group = jewish_group
-	}
-}
-
-gutfreund = { #Levi the Liberator
-	yiddish_opinion = 5
-	jewish_group_opinion = 5
-	global_revolt_risk = -0.01
-	martial = 2
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_jewish
-	flags = { historical_bloodline bloodline_heroes }
-	active = {
-		religion_group = jewish_group
-	}
-}
-
-tlgunghung = { #Kings of BC
-	picture = GFX_bloodlines_symbol_raven_eagle
-	haida_opinion = 5
-	raven_tales_opinion = 5
-	raven_tales_reformed_opinion = 5
-	martial = 1
-	monthly_character_prestige = 0.25
-	bloodline_effect_teuta_ships = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	flags = { historical_bloodline teuta_bloodline bloodline_spawned_ships}
-	active = {
-		OR = {
-			religion = raven_tales
-			religion = raven_tales_reformed
+		religion = gaian
+		NOT = {
+			trait = adopted_child
 		}
 	}
 }
@@ -290,32 +329,118 @@ freeland = { #Gaian lords
 	}
 }
 
-gable = { #Kings of Jefferson
-	monthly_character_prestige = 0.1
-	global_revolt_risk = -0.01
-	siskiyouan_opinion = 5
-	command_modifier = {
-		morale_defence = 0.05
-	}
+tlgunghung = { #Kings of BC
+	picture = GFX_bloodlines_symbol_raven_eagle
+	haida_opinion = 5
+	raven_tales_opinion = 5
+	raven_tales_reformed_opinion = 5
+	martial = 1
+	monthly_character_prestige = 0.25
+	bloodline_effect_teuta_ships = 1
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_cetic
-	flags = { historical_bloodline}
+	flags = { historical_bloodline teuta_bloodline bloodline_spawned_ships}
+	active = {
+		OR = {
+			religion = raven_tales
+			religion = raven_tales_reformed
+		}
+	}
 }
 
-rodman = { #Dukes of the Quad Cities
+### Central America/Carribean ###
+
+renovator = { #Renovator
 	monthly_character_prestige = 0.1
-	grangelander_opinion = 5
+	falling_star_opinion = 5
+	strategist_opinion = 5
+	martial = 2
 	inheritance = patrilineal
 	allow_bastards = yes
-	martial = 2
-	command_modifier = {
-		morale_offence = 0.1
-	}
-	picture = GFX_bloodlines_symbol_rodman
+	picture = GFX_bloodlines_symbol_horse
+	flags = { historical_bloodline }
 	active = {
-		religion_group = christian	
+		religion = falling_star
 	}
+}
+
+bustamante = { #Caribbean Empress
+	monthly_character_prestige = 0.2
+	rastafarian_opinion = 5
+	west_indian_opinion = 5
+	bloodline_effect_cognatic = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_portia
+	flags = { historical_bloodline pre_event_bloodline bloodline_cognatic}
+	active = {
+		religion_group = afro_syncretic
+	}
+}
+
+sulley = { #Miskito Kings
+	monthly_character_prestige = 0.1
+	miskito_opinion = 5
+	vassal_opinion = 5
+	bloodline_effect_less_factions = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_placeholder_symbol_2
+	flags = { historical_bloodline pre_event_bloodline bloodline_less_factions}
+	active = {
+		OR = {
+			culture = miskito
+			religion = falling_star
+		}
+	}
+}
+
+salazar = {
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.1
+	neomayan_opinion = 10
+	martial = 1
+	intrigue = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_bloodthirsty
+	flags = { historical_bloodline }
+	active = {
+		OR = {
+			religion = neomayan
+			religion = qabantajik
+		}
+	}
+}
+
+jaguar = {
+	monthly_character_piety = 0.3
+	neomayan_opinion = 5
+	qabantajik_opinion = 5
+	learning = 2
+	bloodline_effect_inquisitional = 1
+	inheritance = all_descendants
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_neomayan
+	flags = { historical_bloodline inquisitional_bloodline }
+	active = {
+		OR = {
+			religion = neomayan
+			religion = qabantajik
+		}
+	}
+}
+
+### South America ###
+
+alvarado = { #Falso Libertador
+	patria_grande_opinion = 10
+	monthly_character_prestige = 0.2
+	bloodline_effect_great_heroes_appear = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_falso_libertador
+	flags = { historical_bloodline }
 }
 
 leones = {
@@ -324,30 +449,34 @@ leones = {
 	patria_grande_opinion = -5
 	command_modifier = {
 		religious_enemy = 0.05
-		ballestero = 0.05
 	}
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_lion
 	flags = { historical_bloodline }
+	active = {
+		NOT={religion = patria_grande}
+	}
 }
 
 buendia = {
 	just_opinion = 5
 	town_opinion = 10
 	city_vassal_tax_modifier = 0.05
-	global_revolt_risk = -0.02
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_placeholder_symbol_2
 	flags = { historical_bloodline }
-	active = {
-		OR = {
-			government = merchant_republic_government
-			government = republic_government
-		}
-	}
+	#active = {
+	#	OR = {
+	#		government = merchant_republic_government
+	#		government = republic_government
+	#	}
+	#}
 }
+
+
+##Earned Bloodlines
 
 moroni_bloodline = {
 	monthly_character_piety = 0.15
@@ -386,7 +515,6 @@ super_moroni_bloodline = {
 		religion_group = latter_day_saints
 	}
 }
-##Earned Bloodlines
 
 
 metis_confederacy_male = {
@@ -562,6 +690,7 @@ hajjajbloodline = {
 	monthly_character_prestige = 0.5
 	flags = { created_bloodline bloodline_islamic }
 }
+
 revivalist_bloodline_01 = {
 	picture = GFX_bloodlines_symbol_sunni
 	inheritance = patrilineal
@@ -571,16 +700,6 @@ revivalist_bloodline_01 = {
 	combat_rating = 10
 	monthly_character_piety = 0.2
 	flags = { created_bloodline bloodline_conqueror }
-}
-
-irving = { #Irving Family
-	maritimer_opinion = -5
-	stewardship = 2
-	monthly_character_prestige = 0.25
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_irving
-	flags = { historical_bloodline pre_event_bloodline }
 }
 
 
@@ -886,49 +1005,6 @@ kalomte_votan_female = {
 	}
 }
 
-salazar = {
-	monthly_character_piety = 0.25
-	monthly_character_prestige = 0.4
-	neomayan_opinion = 10
-	martial = 2
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_bloodthirsty
-	active = {
-		OR = {
-			religion = neomayan
-			religion = qabantajik
-		}
-	}
-}
-
-jaguar = {
-	monthly_character_piety = 0.4
-	monthly_character_prestige = 0.25
-	neomayan_opinion = 5
-	qabantajik_opinion = 5
-	learning = 2
-	inheritance = all_descendants
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_neomayan
-	active = {
-		OR = {
-			religion = neomayan
-			religion = qabantajik
-		}
-	}
-}
-
-alvarado = { #Falso Libertador
-	patria_grande_opinion = 5
-	monthly_character_prestige = 0.2
-	bloodline_effect_great_heroes_appear = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_falso_libertador
-	flags = { historical_bloodline }
-}
-
 mountain_lord_male = {
 	rockland_opinion = 5
 	monthly_character_piety = 0.15
@@ -979,36 +1055,6 @@ ya_shamal_bloodline = {
 			religion = orientalist
 			religion = misrist
 		}
-	}
-}
-
-nokona_bloodline = {
-	combat_rating = 5
-	comanche_opinion = 5
-	christian_opinion = 5
-	monthly_character_piety = 0.1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_nokona
-	active = {
-		OR = {
-			religion = catholic
-		}
-	}
-}
-
-hanovers_bloodline = {
-	americanist_opinion = -5
-	christian_opinion = 5
-	southron_opinion = 5
-	monthly_character_prestige = 0.1
-	bloodline_effect_great_heroes_appear = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_hanover
-	flags = { historical_bloodline bloodline_heroes }
-	active = {
-		religion_group = christian	
 	}
 }
 
@@ -1121,26 +1167,6 @@ high_queen_bloodline = {
 	flags = { bloodline_heroes }
 	active = {
 		culture_group = starfolk
-	}
-}
-
-#op but completly useless
-bushart_bloodline = { 
-	gaian_opinion = 15
-	canuck_opinion = 5
-	monthly_character_prestige = 0.5
-	monthly_character_piety = 0.5
-	bloodline_effect_great_heroes_appear = 1
-	stewardship = 1
-	inheritance = matrilineal
-	allow_bastards = no
-	picture = GFX_bloodlines_symbol_gaian
-	flags = { historical_bloodline }
-	active = {
-		religion = gaian
-		NOT = {
-			trait = adopted_child
-		}
 	}
 }
 

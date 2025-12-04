@@ -1,4 +1,4 @@
-###ï¿½NSI
+###ÄNSI
 1810000={
 	name="Carbajal"
 	dynasty=1810000 # dos Santos
@@ -71,7 +71,7 @@
 }
 
 1810004={
-	name="Cï¿½ndido"
+	name="Cándido"
 	dynasty=1810015 # Garza
 	culture=bravo
 	religion=sacred_heart
@@ -179,7 +179,7 @@
 
 1810010={
 	name="Vicente"
-	dynasty=1823000 #Cimarrï¿½n
+	dynasty=1823000 #Cimarrón
 	dna="gkbkleaklcf"
 	culture=west_indian
 	religion=sacred_heart
@@ -229,7 +229,7 @@
 1810012={
 	name="Elodia"
 	female=yes
-	dynasty=1823000 #Cimarrï¿½n
+	dynasty=1823000 #Cimarrón
 	dna="gibndlabgcp"
 	culture=west_indian
 	religion=sacred_heart
@@ -254,7 +254,7 @@
 
 1810013={
 	name="Marcelino"
-	dynasty=1823000 #Cimarrï¿½n
+	dynasty=1823000 #Cimarrón
 	dna="lkbndeabacp"
 	culture=west_indian
 	religion=sacred_heart
@@ -281,7 +281,7 @@
 1810014={
 	name="Bonita"
 	female=yes
-	dynasty=1823000 #Cimarrï¿½n
+	dynasty=1823000 #Cimarrón
 	dna="lcbklllbgep"
 	culture=west_indian
 	religion=sacred_heart
@@ -307,7 +307,7 @@
 
 1810015={
 	name="Yanga"
-	dynasty=1823000 #Cimarrï¿½n
+	dynasty=1823000 #Cimarrón
 	dna="gpbnbelkgcp"
 	culture=west_indian
 	religion=sacred_heart
@@ -331,7 +331,7 @@
 }
 
 1810020={
-	name="ï¿½ngela"
+	name="Ángela"
 	female=yes
 	dna="fcphbhlchde"
 	culture=jarocho
@@ -369,7 +369,7 @@
 }
 
 1810022={
-	name="Marï¿½a"
+	name="María"
 	female=yes
 	dynasty=2035030 #Raffoul
 	dna="epphbjlcpok"
@@ -389,7 +389,7 @@
 }
 
 1810023={
-	name="Antï¿½n"
+	name="Antón"
 	dynasty=2035030 #Raffoul
 	dna="bfphbhlcpdk"
 	culture=filastino
@@ -481,7 +481,7 @@
 }
 
 1810036={
-	name="Josï¿½ Ignacio"
+	name="José Ignacio"
 	dynasty=1823003
 	dna="oppomenedpo"
 	culture=gulfard
@@ -528,7 +528,7 @@
 }
 
 1810038={
-	name="Josï¿½ Francisco"
+	name="José Francisco"
 	dynasty=1823003
 	dna="gppomenidab"
 	culture=gulfard
@@ -551,7 +551,7 @@
 }
 
 1810039={
-	name="Sofï¿½a"
+	name="Sofía"
 	female=yes
 	dynasty=1823003
 	dna="opplfenikko"
@@ -664,7 +664,7 @@
 }
 
 1810044={
-	name="Josï¿½ Ignacio"
+	name="José Ignacio"
 	dynasty=1823004
 	dna="hmdjmiomocb"
 	culture=jarocho
@@ -685,7 +685,7 @@
 }
 
 1810045={
-	name="ï¿½ngela"
+	name="Ángela"
 	female=yes
 	dynasty=1823004
 	dna="hgdjgbomoco"
@@ -796,7 +796,7 @@
 }
 
 1810053={
-	name="Pï¿½nfilo"
+	name="Pánfilo"
 	dynasty=1823020
 	dna="blhddagmokm"
 	culture=jarocho
@@ -867,7 +867,7 @@
 }
 
 1810056={
-	name="Antonia Marï¿½a"
+	name="Antonia María"
 	female=yes
 	dynasty=1823031
 	dna="hcnmgjebhee"
@@ -956,7 +956,7 @@
 }
 
 1810060={
-	name="Rubï¿½n"
+	name="Rubén"
 	dynasty=1823031
 	dna="jdfmomeekej"
 	culture=jarocho
@@ -1074,9 +1074,9 @@
 	}
 }
 
-#Cristï¿½bal Nï¿½jera
+#Cristóbal Nájera
 1810065={
-	name="Cristï¿½bal "
+	name="Cristóbal "
 	dynasty=5001131
 	culture=chilango
 	religion=sacred_heart
@@ -1141,7 +1141,7 @@
 }
 
 1810068={
-	name="Josï¿½ Marï¿½a"
+	name="José María"
 	dynasty=1519001
 	dna="ipjefllgmkb"
 	culture=chilango
@@ -1185,9 +1185,9 @@
 	2609.3.22={death=yes}
 }
 
-#Neomï¿½ de Annaba
+#Neomí de Annaba
 1810070={
-	name="Neomï¿½"
+	name="Neomí"
 	female=yes
 	dynasty=5001132
 	culture=menomex
@@ -1340,7 +1340,7 @@
 }
 
 1810077={
-	name="Tristï¿½n"
+	name="Tristán"
 	dynasty=4201067
 	dna="plflleainkj"
 	culture=abajeno
@@ -1385,7 +1385,7 @@
 }
 
 1810079={
-	name="Germï¿½n"
+	name="Germán"
 	dynasty=4201067
 	dna="haonpcjmlgl"
 	culture=abajeno
@@ -1482,9 +1482,9 @@
 	2671.10.20={death=yes}
 }
 
-#Jefe Politico Germï¿½n, formerly called Benemï¿½rito Wenceslao de Iturbide
+#Jefe Politico Germán, formerly called Benemérito Wenceslao de Iturbide
 1810083={
-	name="Germï¿½n"
+	name="Germán"
 	dynasty=1519000
 	dna="cibdd0ga000"
 	culture=chilango
@@ -1652,7 +1652,7 @@
 }
 
 1810090={
-	name="Jetrï¿½"
+	name="Jetró"
 	dynasty=5001132
 	culture=menomex
 	religion=cristo_rey
@@ -1737,7 +1737,7 @@
 }
 
 1810094={
-	name="Sebastiï¿½n"
+	name="Sebastián"
 	dynasty=1519001
 	dna="mhdmhmdjffb"
 	culture=chilango
@@ -1821,7 +1821,7 @@
 }
  
 1810098={
-	name="Benjamï¿½n"
+	name="Benjamín"
 	dynasty=5001132
 	culture=menomex
 	religion=cristo_rey
@@ -1868,7 +1868,7 @@
 }
 
 1810100={
-	name="Penï¿½lope"
+	name="Penélope"
 	female=yes
 	dna="jhkmiickcpp"
 	religion=sacred_heart
@@ -1889,7 +1889,7 @@
 }
 
 1810101={
-	name="Augustï¿½n"
+	name="Augustín"
 	dynasty=1519003
 	dna="jcmhojoolck"
 	religion=sacred_heart
@@ -1932,7 +1932,7 @@
 }
 
 1810103={
-	name="Agustï¿½n"
+	name="Agustín"
 	dynasty=1519999 # de Iturbide
 	culture=chilango
 	occluded=yes
@@ -1963,7 +1963,7 @@
 
 # Colima Merchant Republic
 1810110={
-	name="Lï¿½zaro"
+	name="Lázaro"
 	dynasty=1542003
 	culture=tapatio
 	religion=sol_invicta
@@ -2020,7 +2020,7 @@
 }
 
 1810120={
-	name="Hï¿½ctor"
+	name="Héctor"
 	dynasty=1542012
 	culture=tapatio
 	religion=sacred_heart
@@ -2038,7 +2038,7 @@
 }
 
 1810121={
-	name="Rubï¿½n"
+	name="Rubén"
 	dynasty=1542012
 	culture=tapatio
 	religion=sacred_heart
@@ -2173,7 +2173,7 @@
 }
 
 1810150={
-	name="Esaï¿½"
+	name="Esaú"
 	dynasty=1519022
 	culture=tapatio
 	religion=cristo_rey
@@ -2263,7 +2263,7 @@
 }
 
 1810154={
-	name="Juliï¿½n"
+	name="Julián"
 	dynasty=1823024
 	dna="kkkndinmdmm"
 	culture=cholano
@@ -2523,7 +2523,7 @@
 }
 
 1810169={
-	name="Bartolomï¿½"
+	name="Bartolomé"
 	dynasty=4201108
 	culture=abajeno
 	religion=cristo_rey
@@ -2563,7 +2563,7 @@
 }
 
 1810172={
-	name="Verï¿½nica"
+	name="Verónica"
 	female=yes
 	culture=abajeno
 	religion=cristo_rey
@@ -2690,7 +2690,7 @@
 }
 
 1810188={
-	name="Nicolï¿½s"
+	name="Nicolás"
 	dynasty=1542006
 	culture=tapatio
 	religion=sacred_heart
@@ -2877,7 +2877,7 @@
 }
 
 1810206={
-	name="Jesï¿½s"
+	name="Jesús"
 	dynasty=1815018
 	culture=bravo
 	religion=atomicist
@@ -2894,7 +2894,7 @@
 }
 
 1810207={
-	name="Josï¿½"
+	name="José"
 	dynasty=1815021
 	culture=tejano
 	religion=woolleyite
@@ -2990,7 +2990,7 @@
 }
 
 1810215={
-	name="Pakï¿½tami"
+	name="Pakótami"
 	dynasty=1260000
 	culture=raramuri
 	religion=sol_invicta
@@ -3007,7 +3007,7 @@
 }
 
 1810216={
-	name="Birï¿½tari"
+	name="Birétari"
 	female=yes
 	dynasty=1260000
 	culture=raramuri
@@ -3078,7 +3078,7 @@
 }
 
 1810222={
-	name="Raï¿½l"
+	name="Raúl"
 	dynasty=4401166
 	culture=sonorense
 	religion=navegante
@@ -3090,7 +3090,7 @@
 }
 
 1810225={
-	name="Lï¿½zaro"
+	name="Lázaro"
 	dynasty=1700008
 	culture=sonorense
 	religion=sol_invicta
@@ -3126,7 +3126,7 @@
 }
 
 1810227={
-	name="Darï¿½o"
+	name="Darío"
 	dynasty=1700008
 	culture=sonorense
 	religion=atomicist
@@ -3153,7 +3153,7 @@
 }
 
 1810229={
-	name="Fï¿½lix"
+	name="Félix"
 	dynasty=1700013
 	culture=sonorense
 	religion=atomicist
@@ -3321,7 +3321,7 @@
 }
 
 1810246={ # needs family
-	name="Belï¿½n"
+	name="Belén"
 	female=yes
 	dynasty=1428033
 	culture=nahua
@@ -3381,7 +3381,7 @@
 }
 
 1810249={
-	name="Elï¿½as Hermilo"
+	name="Elías Hermilo"
 	dynasty=1810021
 	culture=bravo
 	religion=sacred_heart
@@ -3419,7 +3419,7 @@
 }
 
 1810251={
-	name="Josï¿½"
+	name="José"
 	dynasty=1810018
 	dna=cfkkbujcdag
 	properties=va0cjg
@@ -3451,7 +3451,7 @@
 }
 
 1810252={
-	name="Juliï¿½n"
+	name="Julián"
 	dynasty=1519000
 	dna="ab0ki0jc0b0"
 	culture=chilango
@@ -3477,9 +3477,9 @@
 	2504.12.4={death=yes}
 }
 
-#Benemï¿½rito Agustï¿½n de Iturbide, formally called Aureliano
+#Benemérito Agustín de Iturbide, formally called Aureliano
 1810253={
-	name="Agustï¿½n"
+	name="Agustín"
 	dynasty=1519000
 	culture=chilango
 	religion=cristo_rey
@@ -3520,7 +3520,7 @@
 }
 
 1810255={
-	name="Jesï¿½s Ezequiel"
+	name="Jesús Ezequiel"
 	dynasty=1519000
 	culture=chilango
 	religion=sacred_heart
@@ -3536,7 +3536,7 @@
 }
 
 1810256={
-	name="Joaquï¿½n"
+	name="Joaquín"
 	dynasty=1700025
 	culture=sonorense
 	religion=sol_invicta
@@ -3565,7 +3565,7 @@
 	2530.2.21={death=yes}
 }
 
-#Prelado Atanasio Sï¿½mbolo
+#Prelado Atanasio Símbolo
 1810258={
 	name="Atanasio"
 	dynasty=5001171
@@ -3598,9 +3598,9 @@
 	2484.9.12={death=yes}
 }
 
-#Prelado Saï¿½l Santï¿½ngelo
+#Prelado Saúl Santángelo
 1810260={
-	name="Saï¿½l"
+	name="Saúl"
 	dynasty=5001172
 	culture=gothamite
 	trait=brilliant_strategist
@@ -3638,9 +3638,9 @@
 	2513.7.24={death=yes}
 }
 
-#Prelado Jonatï¿½n Vï¿½zquez
+#Prelado Jonatán Vázquez
 1810262={ 
-	name="Jonatï¿½n"
+	name="Jonatán"
 	dynasty=5001173
 	culture=neomexicano
 	religion=cristo_rey
@@ -3735,7 +3735,7 @@
 	2597.9.10={death=yes}
 }
 
-#Prelado Fernando III Suï¿½rez
+#Prelado Fernando III Suárez
 1810268={ 
 	name="Fernando"
 	dynasty=5001179
@@ -3754,7 +3754,7 @@
 	}
 }
 
-#Prelado Francisco II Gï¿½erera
+#Prelado Francisco II Güerera
 1810269={ 
 	name="Francisco"
 	dynasty=5001180
@@ -3804,9 +3804,9 @@
 	2640.2.2={death=yes}
 } 
 
-#Prelado Tomï¿½s Gomez
+#Prelado Tomás Gomez
 1810272={ 
-	name="Tomï¿½s"
+	name="Tomás"
 	dynasty=5001182
 	culture=abajeno
 	religion=cristo_rey

@@ -1,0 +1,10 @@
+devil_in_the_grass = { #Gulfcoast Dukes
+	monthly_character_prestige = 0.05
+	gulfard_opinion = 5
+	command_modifier = {
+		terrain = marsh
+	}
+    inheritance = patrilineal
+	allow_bastards = yes
+	flags = { historical_bloodline }
+}
