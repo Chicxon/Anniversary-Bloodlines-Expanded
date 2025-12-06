@@ -1,10 +1,102 @@
 devil_in_the_grass = { #Gulfcoast Dukes
 	monthly_character_prestige = 0.05
 	gulfard_opinion = 5
+	strategist_opinion = 5
 	command_modifier = {
 		terrain = marsh
 	}
     inheritance = patrilineal
 	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_african_waves
+	flags = { historical_bloodline }
+}
+
+bald_knob = {
+	monthly_character_piety = -0.1
+	fertility = 0.1
+	bloodline_effect_free_legitimize = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_bacchants
+	flags = { historical_bloodline bloodline_legitimize }
+}
+
+duque = {
+	monthly_character_prestige = -0.05
+	intrigue = 1
+	learning = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_placeholder_symbol_2
+	flags = { historical_bloodline }
+}
+
+tregart = {
+	monthly_character_prestige = 0.05
+	combat_rating = 12
+	hudsonian_opinion = 10
+	brave_opinion = 5
+	duelist_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_war_knight
+	flags = { historical_bloodline }
+}
+
+braganza = {
+	portuguese_opinion = 5
+	portunhol_opinion = 5
+	monthly_character_prestige = 0.4
+	monthly_grace = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_placeholder_symbol_2
+	flags = { historical_bloodline }
+}
+
+dandridge = {
+	americanist_opinion = 10
+	monthly_character_prestige = 0.1
+	monthly_character_piety = 0.05
+	command_modifier = {
+		religious_enemy = 0.1
+	}
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_washington
+	active = {
+		OR = {
+			religion = americanist
+			religion = hamiltonian
+			religion = jeffersonian
+			religion = libertarian
+		}
+	}
+	flags = { historical_bloodline }
+}
+
+king = {
+	monthly_character_prestige = 0.05
+	monthly_character_piety = 0.05
+	combat_rating = 8
+	yankee_opinion = 5
+	just_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_occultist
+	flags = { historical_bloodline }
+}
+
+fenimore = {
+	monthly_character_prestige = 0.1
+	command_modifier = {
+		random = 0.05
+	}
+	combat_rating = 5
+	yankee_opinion = 5
+	poet_opinion = 5
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_occultist
 	flags = { historical_bloodline }
 }
