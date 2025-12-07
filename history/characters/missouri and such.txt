@@ -1072,7 +1072,7 @@
 	female=yes
 	culture=riverlander
 	religion=catholic
-	trait=seducer
+	trait=seductress #Correct trait for her gender
 	trait=fair
 	trait=lustful
 	trait=gluttonous

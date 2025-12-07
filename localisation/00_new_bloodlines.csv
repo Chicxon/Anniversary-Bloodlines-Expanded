@@ -16,8 +16,17 @@ braganza_desc;Alexandre Cantarini claimed descent from the legendary pre-event r
 dandridge;Dandridge Blood;;;;;;;;;;;;;x
 dandridge_desc;Marcellus Dandridge was awarded the Medal of Honor for his service to America. He was later elected President on the back of that fame.;;;;;;;;;;;;;x
 
-king;Blood of Solomon;;;;;;;;;;;;;x
-king_desc;Solomon King was a paragon of virtue and bravery, who saved New England from the tyranny of Vincent II. His untimely death would undo his accomplishments.;;;;;;;;;;;;x
+king_bloodline;Blood of Solomon;;;;;;;;;;;;;x
+king_bloodline_desc;Solomon King was a paragon of virtue and bravery, who saved New England from the tyranny of Vincent II. His untimely death would undo his accomplishments.;;;;;;;;;;;;x
 
 fenimore;Fenimore Blood;;;;;;;;;;;;;x
 fenimore_desc;One of New England's most storied dynasties, House Fenimore ruled Maine even before the rise of the Mahonics. They would eventually become the last kings of New England.;;;;;;;;;;;;x
+
+silvermount;Silvermount Blood;;;;;;;;;;;;;x
+silvermount_desc;An adventurer and Rough Rider, Granger Silvermount's reputation was fearsome even before his conquests. His descendants have done much to maintain that reputation.;;;;;;;;;;;;;x
+
+ponderosa;Ponderosa Blood;;;;;;;;;;;;;x
+ponderosa_desc;The Ponderosa family have been Gaia's Western bulwark for centuries, most famously against the Trailwalker Silvermounts of Clearwater.;;;;;;;;;;;;;x
+
+reyes;Bravo Blood;;;;;;;;;;;;;x
+reyes_desc;After the Plan of Ixcateopan, the Cajita Gaspar Reyes seized the opportunity and carved out an independent Fidencista kingdom in Rio Bravo.;;;;;;;;;;;;;x

@@ -1,0 +1,31 @@
+decisions = {
+	guillermo_duque_set_bloodline = {
+		is_high_prio = yes
+
+		potential = {
+			has_character_flag = is_guillermo_duque
+			NOT = {
+				any_owned_bloodline = {
+					has_bloodline_flag = duque_bloodline
+				}
+			}
+		}
+		allow = {
+            NOT = {
+				any_owned_bloodline = {
+					has_bloodline_flag = duque_bloodline
+				}
+			}
+		}
+		effect = {
+			if = {
+				any_bloodline = {
+					limit = {
+						has_bloodline_flag = duque_bloodline
+					}
+					add_bloodline_member = root
+				}
+			}
+		}
+	}
+}

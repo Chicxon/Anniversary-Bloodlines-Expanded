@@ -45,6 +45,11 @@
 	trait=brave
 	give_nickname=nick_the_culture
 	2578.6.5={birth=yes}
+	2610.1.1={
+		create_bloodline={
+			type=reyes
+		}
+	}
 	2623.7.20={death=yes}
 }
 

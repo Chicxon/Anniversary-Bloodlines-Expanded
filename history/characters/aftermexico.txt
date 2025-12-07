@@ -2370,10 +2370,10 @@
 	father=6900117
 	2639.1.12={birth=yes}
 	2657.11.13={
-			death={
+		death={
 			death_reason=death_battle
-			}
 		}
+	}
 }
 
 6900125={
@@ -2382,7 +2382,12 @@
 	culture=jarocho
 	religion=sacred_heart
 	mother=6900116
-	2665.2.25={birth=yes}
+	2665.2.25={
+		birth=yes
+		effect={
+			set_character_flag=is_guillermo_duque
+		}
+	}
 	2742.2.25={death=yes}
 }
 
