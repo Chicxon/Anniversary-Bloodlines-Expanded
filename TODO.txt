@@ -18,3 +18,4 @@ MAYBE for:
 
 Add event to regain Bushart bloodline if descendant regains kingdom of BC
 Restrict Braganza grace gain to if the emperor is a Braganza
+Finish adding patron saints for historical sacred heart characters

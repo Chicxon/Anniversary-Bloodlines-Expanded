@@ -257,9 +257,10 @@
 	2701.7.13={death=yes}
 }
 
-6900016={ #Founder of del Zócalo
+6900016={ #Founder of del Zócalo? #Adopted son of Renato I, eventually killed by Luis de Armas
 	name="Moisés"
-	dynasty=1823005
+	dynasty=5001133 #Idk about the old dynasty
+	trait=marian_san_juditas
 	trait=adopted_child
 	trait=charitable
 	trait=trusting
@@ -1701,6 +1702,7 @@
 	2541.12.3={
 		give_nickname=nick_el_tizon
 		religion=sacred_heart
+		trait=marian_guadalupe
 		create_bloodline={
 			type=tizon
 			has_dlc="Holy Fury"
@@ -1725,6 +1727,7 @@
 	2530.5.5={add_spouse=6900083}
 	2531.12.8={
 		religion=sacred_heart
+		trait=marian_guadalupe
 	}
 	2568.4.30={death=yes}
 }
@@ -1737,10 +1740,10 @@
 	culture=chilango
 	dynasty=5001131
 	trait=tough_soldier
+	trait=marian_guadalupe
 	trait=content
 	trait=diligent
 	trait=trusting
-	trait=thrifty_clerk
 	father=6900083
 	mother=6900102
 	2532.2.15={birth=yes}
@@ -1758,7 +1761,7 @@
 	culture=menomex
 	dynasty=5001132
 	trait=gardener
-	trait=child_of_consort
+	trait=bastard #Concubines not allowed and he's a separate dynasty
 	trait=pilgrim	
 	trait=diligent
 	trait=proud
@@ -1799,6 +1802,7 @@
 	martial=8
 	learning=8
 	trait=skilled_tactician
+	trait=marian_el_santo
 	trait=honest
 	trait=slothful
 	trait=patient
@@ -1823,6 +1827,7 @@
 	trait=craven
 	trait=stubborn
 	trait=intricate_webweaver
+	trait=marian_guadalupe
 	father=6900083
 	mother=6900102
 	2533.4.15={birth=yes}
@@ -1888,10 +1893,11 @@
 	religion=sacred_heart
 	culture=chilango
 	dynasty=5001131
+	trait=scholarly_theologian
+	trait=marian_san_charbel
 	trait=charitable
 	trait=zealous
 	trait=trusting
-	trait=scholarly_theologian
 	father=6900085
 	2554.6.15={birth=yes}
 	2580.10.30={death={
@@ -1908,12 +1914,13 @@
 	dynasty=5001131
 	martial=8
 	learning=1
+	trait=tough_soldier
+	trait=marian_el_santo
 	trait=slothful
 	trait=curious
 	trait=honest
 	trait=slow
 	father=6900084
-	trait=tough_soldier
 	2565.9.10={birth=yes}
 	2581.6.2={
 			death={
@@ -1935,6 +1942,7 @@
 	trait=drunkard
 	trait=depressed
 	trait=fortune_builder
+	trait=marian_santa_muerte
 	father=6900085
 	2555.1.12={birth=yes}
 	2582.2.22={death={
@@ -2107,6 +2115,11 @@
 	dynasty=5001133
 	culture=chilango
 	religion=sacred_heart
+	diplomacy=8
+	martial=6
+	stewardship=9
+	intrigue=7
+	learning=8
 	trait=thrifty_clerk
 	trait=marian_san_juditas
 	trait=slothful
@@ -2155,6 +2168,7 @@
 	intrigue=5
 	learning=5
 	trait=misguided_warrior
+	trait=marian_santa_muerte
 	trait=hedonist
 	trait=depressed
 	trait=gluttonous
@@ -2207,6 +2221,7 @@
 	stewardship=1
 	intrigue=10
 	learning=12
+	trait=underhanded_rogue
 	trait=marian_el_santo
 	trait=robust
 	trait=distractible
@@ -2216,9 +2231,13 @@
 	trait=ambitious
 	trait=inspiring_leader
 	2550.9.2={birth=yes}
+	2616.5.28={
+		create_bloodline={
+			type=gabsol
+		}
+	}
 	2624.3.11={death=yes}	
 }
-
 
 #Benemérito Fernando Gabsol
 6900093={
@@ -2237,7 +2256,7 @@
 	2629.2.17={death=yes}
 }
 
-#Benemérito Alejo II Gabsol
+#Benemérito Alejo III Gabsol
 6900094={ 
 	name="Alejo"
 	dynasty=5001134
@@ -2286,6 +2305,7 @@
 	intrigue=6
 	learning=6
 	trait=grey_eminence
+	trait=marian_san_charbel
 	trait=humble
 	trait=chaste
 	trait=content
@@ -2301,10 +2321,11 @@
 	dynasty=5001133
 	culture=chilango
 	religion=sacred_heart
+	trait=charismatic_negotiator
+	trait=marian_san_juditas
 	trait=sturdy
 	trait=just
 	trait=zealous
-	trait=charismatic_negotiator
 	father=6900124
 	2625.6.16={birth=yes}
 	2651.3.4={death={
@@ -2325,6 +2346,7 @@
 	intrigue=3
 	learning=3
 	trait=fortune_builder
+	trait=marian_san_juditas
 	trait=brave
 	trait=shrewd
 	father=6900091
@@ -2364,6 +2386,7 @@
 	intrigue=1
 	learning=1
 	trait=skilled_tactician
+	trait=marian_el_santo
 	trait=cruel
 	trait=trusting
 	trait=brave

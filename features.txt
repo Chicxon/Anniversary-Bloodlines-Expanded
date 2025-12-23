@@ -1,0 +1,25 @@
+New bloodlines added for:
+    Solomon King
+    Roisin Fenimore
+    Darius Tregart
+    Marcellus Dandridge
+    Darien de Tyrone
+    Constantine Burntower
+    Julia Ponderosa
+    Granger Silvermount
+    
+    Julian de Iturbide
+    Renato I Duque
+    Gaspar Reyes
+    Alexandre Cantarini
+
+Edited existing bloodline effects for (almost) all historical bloodlines
+
+Added a couple decisions to ensure bloodline inheritance for a few characters
+
+Made some changes/fixes to history:
+    Randolph King's daughters marriages to landless men made matrilineal
+    Some characters' spouses made the missing parent of their children
+    Specified traits for various historical characters who don't have them
+    Added patron saints for some historical sacred heart characters
+    Jebedias Aijel given bastard trait

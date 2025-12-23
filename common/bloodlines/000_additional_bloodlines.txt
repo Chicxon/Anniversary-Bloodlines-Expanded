@@ -31,6 +31,19 @@ duque = {
 	flags = { historical_bloodline duque_bloodline}
 }
 
+gabsol = {
+	monthly_character_prestige = 0.05
+	mexicano_opinion = 5
+	command_modifier = {
+		morale_defence = 0.05
+	}
+	stewardship = -1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_bull
+	flags = { historical_bloodline }
+}
+
 tregart = {
 	monthly_character_prestige = 0.05
 	combat_rating = 12
@@ -49,7 +62,7 @@ braganza = {
 	portunhol_opinion = 5
 	monthly_character_prestige = 0.4
 	monthly_grace = 1
-	inheritance = patrilineal
+	inheritance = universal #Probably claims descent from Pedro II's daughters
 	allow_bastards = yes
 	picture = GFX_bloodlines_placeholder_symbol_2
 	flags = { historical_bloodline }
@@ -139,4 +152,14 @@ reyes = {
 	}
 	picture = GFX_bloodlines_symbol_war
 	flags = { historical_bloodline }
+}
+
+cambariday = {
+	monthly_character_prestige = 0.05
+	ambitious_opinion = 10
+	bloodline_effect_bloodline_mercenary_traditions = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_revelationist
+	flags = { historical_bloodline bloodline_mercenary_traditions }
 }

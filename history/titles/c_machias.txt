@@ -1,0 +1,23 @@
+# 2460.1.1={ #Keep Solomon feudal
+#	holder=1620200
+# }
+2489.12.25={
+	holder=1620107
+}
+2511.3.24={
+	holder=1620108
+}
+2554.7.21={
+	holder=1620109
+}
+2574.4.14={
+	holder=1620110
+}
+2589.4.14={
+	holder=1620111
+}
+2617.6.14={
+	holder=1620026
+	liege=d_penobscot
+	law=succ_tanistry
+}

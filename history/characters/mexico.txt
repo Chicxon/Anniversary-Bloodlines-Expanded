@@ -3754,7 +3754,8 @@
 	2603.12.11={
 		death={
 			death_reason=death_battle
-			killer=6900084
+			#killer=6900084 #Benemerito Alejandro II, makes no sense as he died 30 years prior
+			killer=6900016 #Moises, adopted son of Benemerito Renato I, makes more sense
 		}
 	}
 }
