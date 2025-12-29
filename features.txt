@@ -19,7 +19,11 @@ Added a couple decisions to ensure bloodline inheritance for a few characters
 
 Made some changes/fixes to history:
     Randolph King's daughters marriages to landless men made matrilineal
-    Some characters' spouses made the missing parent of their children
+    Some characters' spouses made the missing other parent of their children
     Specified traits for various historical characters who don't have them
     Added patron saints for some historical sacred heart characters
     Jebedias Aijel given bastard trait
+    Emperor Scipio Gee given the appropriate crown
+
+    Added title history for Penobscot
+    Added title history for Amarillo

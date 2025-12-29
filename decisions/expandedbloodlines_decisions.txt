@@ -1,5 +1,5 @@
 decisions = {
-	guillermo_duque_set_bloodline = {
+	guillermo_duque_set_bloodline = { # Give Guillermo Duque his mother's bloodline, since he has an unknown father
 		is_high_prio = yes
 
 		potential = {
