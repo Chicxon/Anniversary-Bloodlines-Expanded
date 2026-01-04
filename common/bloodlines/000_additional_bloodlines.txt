@@ -65,7 +65,7 @@ braganza = {
 	inheritance = universal #Probably claims descent from Pedro II's daughters
 	allow_bastards = yes
 	picture = GFX_bloodlines_placeholder_symbol_2
-	flags = { historical_bloodline }
+	flags = { historical_bloodline pre_event_bloodline }
 }
 
 dandridge = {

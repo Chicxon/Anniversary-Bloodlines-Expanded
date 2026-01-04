@@ -818,10 +818,10 @@
 	learning=10
 	trait=ambitious
 	trait=quick
+	trait=strong #Order it more nicely
 	trait=brilliant_strategist
 	trait=sympathy_oldworld
 	trait=patient
-	trait=strong
 	trait=just
 	trait=brave
 	trait=organizer
@@ -923,7 +923,7 @@
 	religion=sedevacantist
 	martial=7
 	diplomacy=6
-	intrigue=2
+	intrigue=7 # Increased base from 2 as after all she probably did kill Sidrach to keep New England fighting itself
 	stewardship=7
 	learning=6
 	trait=intricate_webweaver

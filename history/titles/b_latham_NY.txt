@@ -1,0 +1,39 @@
+2300.1.1={
+	liege=c_albany
+}
+2381.6.30={
+	holder=1788104 # Ellis Clinton
+}
+2430.12.26={
+	holder=1788105
+}
+2444.12.16={
+	holder=1788106
+}
+2451.5.30={
+	holder=1788108 # Tiaogeara I Clinton
+}
+2459.12.1={
+	holder=1788200  # Darius Tregart, granted by Queen Tiaogeara as a reward for killing Zadok Mahonic
+}
+2505.10.26={
+	holder=1788202
+}
+2536.2.8={
+	holder=1788203
+}
+2555.9.28={
+	holder=1788204
+}
+2577.5.18={
+	holder=1788205
+}
+2609.1.16={
+	holder=1788206
+}
+2647.11.19={
+	holder=1788038
+}
+2652.6.11={
+	holder=1788035 # Kel Tregart
+}

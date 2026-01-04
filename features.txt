@@ -13,7 +13,13 @@ New bloodlines added for:
     Gaspar Reyes
     Alexandre Cantarini
 
+Changes to historical bloodlines to improve variety and fix bugs:
+
+
 Edited existing bloodline effects for (almost) all historical bloodlines
+
+Fixed female Texas unifier not getting the right icon
+Fixed Texas unifier invasion effect not working
 
 Added a couple decisions to ensure bloodline inheritance for a few characters
 
@@ -23,7 +29,10 @@ Made some changes/fixes to history:
     Specified traits for various historical characters who don't have them
     Added patron saints for some historical sacred heart characters
     Jebedias Aijel given bastard trait
-    Emperor Scipio Gee given the appropriate crown
+    Emperor Scipio Gee's portait given the Dixie crown
 
-    Added title history for Penobscot
-    Added title history for Amarillo
+Added title history for:
+    Penobscot
+    Amarillo
+    Lochloosa/Steinhatchee
+    Barony of Latham (in Hudsonia)
