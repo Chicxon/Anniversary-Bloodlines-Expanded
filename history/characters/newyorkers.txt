@@ -57,9 +57,15 @@
 	father=1788006
 	female=yes
 	culture=hudsonian
-	religion=catholic
-	trait=gamer
-	2581.1.1={birth=yes}
+	religion=catholic     # Last Catholic Hudsonian ruler and the last to be crowned
+	trait=gamer       
+	trait=grey_eminence   # Played Rust Cultists off against Ontario rather than fight them directly     
+	trait=cynical         # Disliked her zealous father and saw his failures, willing to switch religion for political gain
+	trait=slothful        # De-facto accepted status quo on Southern border by converting to Anabaptism
+	trait=humble          # Her husband was lowborn, and also an Anabaptist.
+	trait=patient         # Despite her cynicism, maybe she did really believe in the Anabaptist ideals of pacifism and simple living
+	2581.1.1={birth=yes}  
+	2610.1.1={trait=crowned_by_bishop} 
 	2621.1.1={religion=anabaptist}
 	2622.1.1={give_nickname=nick_the_shrewd}
 	2657.1.1={death=yes}
@@ -70,6 +76,9 @@
 	dynasty=1776000 # Groot
 	culture=hudsonian
 	religion=anabaptist
+	trait=charismatic_negotiator
+	trait=gregarious         # He did convince a princess to marry his landless ass
+	trait=devout             # and also to convert to his religion
 	2575.1.1={birth=yes}
 	2597.1.1={add_spouse=1788004}
 	2624.1.1={death=yes}
@@ -81,7 +90,13 @@
 	father=1788007
 	culture=hudsonian
 	religion=catholic
+	trait=zealous           # Tried to force Catholicism on his Anabaptist Southern vassals
+	trait=misguided_warrior # ...And lost, hence the independence of the Triple Cities and The Wilds
+	trait=cruel             # Didn't have the best relationship with his daughter (Tiaogeara II)
+	trait=chaste            # But as he was a pious man who didn't bang much, nor sire any sons, she succeeded him anyway
+	disallow_random_traits=yes
 	2555.1.1={birth=yes}
+	2570.1.1={trait=crowned_by_bishop}
 	2609.1.1={death=yes}
 }
 
@@ -92,9 +107,15 @@
 	culture=hudsonian
 	religion=catholic
 	trait=mastermind_theologian
+	trait=devout
+	trait=charitable
+	trait=patient
+	trait=kind
 	2528.1.1={birth=yes}
+	2552.3.1={trait=crowned_by_pope} # Cared more about the ceremony than most do
 	2564.1.1={give_nickname=nick_the_blessed}
 	2569.1.1={death=yes}
+	2570.1.1={trait=beatified} # He's BLESSED, get it? :D
 }
 
 1788008={
@@ -103,7 +124,13 @@
 	culture=hudsonian
 	religion=catholic
 	father=1788109
+	trait=thrifty_clerk
+	trait=content # New England collapsed just before he came to the throne
+	trait=gluttonous
+	trait=erudite
+	trait=patient
 	2490.1.1={birth=yes}
+	2520.1.1={trait=crowned_by_bishop}
 	2552.1.1={death=yes}
 }
 
@@ -915,44 +942,66 @@
 	}
 }
 
+# IMO Tiaogeara deserves a bit more characterization than she got in base given all the events that happened during her reign if you look carefully
+# She came to the throne at age 9 as Hudsonia's first female ruler, having been 3rd in line for the throne just a little while before
+# And successfully weathered the greatest threat to her country in its history, albeit with help from her big brother Norton
+# Then she also resolved the schism with the St Louis papacy as well, but is only remembered for sleeping around.
+# My girl deserves better, even if she's really more like everyone's girl...
 1788108={
-	name="Tiaogeara"
+	name="Tiaogeara" # I
 	dynasty=1776013 # Clinton
 	female=yes
 	culture=hudsonian
 	religion=sedevacantist
 	martial=7
-	diplomacy=6
-	intrigue=7 # Increased base from 2 as after all she probably did kill Sidrach to keep New England fighting itself
+	diplomacy=8   # Increased base from 6 as she did pull together a pan-Christian alliance to fight Zadok AT AGE 17
+	intrigue=7    # Increased base from 2 as after all she probably did kill Sidrach to keep New England fighting itself afterwards
 	stewardship=7
 	learning=6
 	trait=intricate_webweaver
+	trait=groomed
 	trait=deceitful
 	trait=lustful
 	trait=diligent
+	trait=ambitious
+	trait=proud
 	father=1788106
 	2441.9.25={birth=yes}
-	2460.7.18={religion=catholic}
-	2469.11.25={give_nickname=nick_the_unfaithful}
+	2460.7.18={
+		religion=catholic        # Brought her kingdom back under St Louis months after winning a decisive victory over heathens, while still a teenager
+		trait=crowned_by_pope    # Real Jeanne d'Arc type stuff. I think she deserved a big ceremony. As did the Pope. And herself.
+	}
+	2469.11.25={
+		give_nickname=nick_the_unfaithful       # Probably would have got beatified if it wasn't for this
+	}                            
 	2479.8.12={death=yes}
 }
 
+# I think of Holbrook as much like his mother in a way, but having grown up without the strong family bonds that she had. (Apart from Uncle Norton!)
+# While Tiaogeara had a golden legacy to preserve and imitate, Holbrook was deeply insecure that his birth had tarnished the family's honour.
+# Tiaogeara's greatest accomplishments happened early in her reign, followed by a decline in her later years
+# While Holbrook did well to even hold onto power for 40 years against some rather hostile circumstances
 1788109={
 	name="Holbrook"
 	dynasty=1776013 # Clinton
 	culture=hudsonian
 	religion=catholic
 	martial=6
-	diplomacy=3
+	diplomacy=4
 	intrigue=6
 	stewardship=2
 	learning=2
 	trait=charismatic_negotiator
 	trait=legit_bastard
+	trait=groomed
 	trait=proud
 	trait=envious
+	trait=paranoid
+	disallow_random_traits=yes
 	mother=1788108
 	2469.11.25={birth=yes}
+	2484.1.1={trait=crowned_by_priest} 
+	# Came to the throne a bastard aged 10, Gothamites invaded shortly after. Couldn't find anyone else to crown him after those "interesting" times.
 	2487.1.1={give_nickname=nick_the_bastard}
 	2519.8.20={death=yes}
 }
@@ -1271,7 +1320,7 @@
 	2648.1.1={death=yes}
 }
 
-1788216={#Florell's sister and spouse of Morris "the Bastard"
+1788216={#Florell's sister and spouse of DeWitt "the Bastard"
 	name="Brunella"
 	female=yes
 	dynasty=1777009 #Laggard

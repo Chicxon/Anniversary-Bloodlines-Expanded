@@ -31,9 +31,10 @@ Made some changes/fixes to history:
     Added patron saints for some historical sacred heart characters
     Jebedias Aijel given bastard trait
     Emperor Scipio Gee's portait given the Dixie crown
+    Appropriate traits given to the obscure Clintons, including coronation traits for the Catholic (not Sedevacantist) ones
 
 Added title history for:
-    Penobscot
+    Penobscot and associated counties
     Amarillo
     Lochloosa/Steinhatchee
     Barony of Latham (in Hudsonia)
