@@ -532,6 +532,9 @@
 	trait=shy
 	trait=proud
 	2587.2.23={birth=yes}
+	2607.5.1={
+		trait=crowned_by_pope
+	} # Proud, and brought his kingdom back into the fold after his pagan father conquered it.
 	2637.1.26={death=yes}
 }
 

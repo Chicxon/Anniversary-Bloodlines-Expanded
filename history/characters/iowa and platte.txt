@@ -34,6 +34,12 @@
 	trait=naive_appeaser
 	2607.1.1={birth=yes}
 	2626.1.1={add_spouse=1846002}
+	2637.3.1={
+		effect={                                                                                         # Localizes trait as "Crowned by Pope Corinth I"
+			ROOT = { save_persistent_event_target = { name = coronation_priest_per scope = c_666039 } }  # Who was Pope at the time of his coronation
+		}                                                                                                # Hell yeah
+		trait=crowned_by_pope
+	} # Someone like him probably wouldn't have bothered if he wasn't both first of his family and the pope's neighbour
 	2700.1.1={death=yes}
 }
 
@@ -370,7 +376,7 @@
 }
 
 1846025={
-	name="Ned"
+	name="Ned" # IV
 	dynasty=1797029 #Brasge
 	culture=grangelander
 	religion=catholic
@@ -387,6 +393,12 @@
 	trait=erudite
 	2617.3.1={birth=yes}
 	2644.1.1={add_spouse=1846026}
+	2643.6.1={
+		effect={                                                                                         # Localizes trait as "Crowned by Pope Corinth I"
+			ROOT = { save_persistent_event_target = { name = coronation_priest_per scope = c_666039 } }  # Who was still Pope at the time of Ned IV's coronation
+		}                                                                                                # Hell yeah
+		trait=crowned_by_pope
+	} # Happened before any of the currently-relevant priests would have been able to. Pope seems right, given his traits.
 	2664.1.1={add_trait=depressed}
 	2700.1.1={death=yes}
 }
@@ -742,6 +754,7 @@
 	trait=gregarious
 	trait=diligent
 	2313.3.3={birth=yes}
+	2340.1.1={trait=crowned_by_pope} # Ambition, zeal, and charisma. He would spare no expense.
 	2370.7.30={death=yes}
 }
 1846046={
@@ -776,6 +789,7 @@
 	trait=ambitious
 	2346.6.23={birth=yes}
 	2380.1.1={add_spouse=1846046}
+	2370.9.1={trait=crowned_by_pope} # "The throne is MINE, Rodman." Pope also was exiled from Chicago at the time, looking for allies?
 	2402.3.7={death=yes}
 }
 1846049={
@@ -786,6 +800,7 @@
 	father=1846048
 	mother=1846046
 	2381.1.6={birth=yes}
+	2403.1.1={trait=crowned_by_bishop} # "Geez, the Pope is expensive."
 	2424.2.4={death=yes}
 }
 1846050={
@@ -797,8 +812,10 @@
 	trait=thrifty_clerk
 	trait=arbitrary
 	trait=slothful
+	trait=greedy
 	trait=content
 	2400.1.6={birth=yes}
+	2425.1.1={trait=crowned_by_priest} # "Geez, all these priests are expensive."
 	2434.3.7={death={
 			death_reason=death_execution
 			killer=1846055
@@ -876,6 +893,7 @@
 			type=rodman
 			has_dlc="Holy Fury"
 		}
+		trait=crowned_by_pope  # "Look at me. I'm the king her now. That's right. I'm the king over there too. Got that?"
 	}
 	2440.1.1={add_spouse=1821205}
 	2478.3.9={death=yes}
@@ -912,6 +930,9 @@
 	trait=just
 	trait=patient
 	2444.4.2={birth=yes}
+	2479.1.1={
+		trait=crowned_by_pope # Alongside his brother Wilson, on the West side of a ship on the Missouri 
+	}                         # (My source is that I made it tf up)
 	2493.6.7={death=yes}
 }
 1846058={
@@ -929,6 +950,9 @@
 	trait=patient
 	trait=proud
 	2448.6.6={birth=yes}
+	2479.1.1={
+		trait=crowned_by_pope # Alongside his brother Tigris, on the East side of a ship on the Missouri 
+	}                         # (My source is that I made it tf up)
 	2501.6.6={death=yes}
 }
 1846059={
@@ -938,6 +962,7 @@
 	religion=catholic
 	father=1846058
 	2470.2.7={birth=yes}
+	2502.1.1={trait=crowned_by_bishop}
 	2525.2.5={death=yes}
 }
 1846060={
@@ -947,6 +972,7 @@
 	religion=catholic
 	father=1846059
 	2492.7.15={birth=yes}
+	2525.6.1={trait=crowned_by_bishop}
 	2538.7.23={death=yes}
 }
 1846061={
@@ -959,6 +985,7 @@
 	trait=hunter
 	trait=tough_soldier
 	2519.7.6={birth=yes}
+	2540.1.1={trait=crowned_by_priest} # "I have to get crowned? Meh. He'll do."
 	2550.1.9={death=yes}
 }
 1846062={
@@ -974,6 +1001,9 @@
 	trait=charitable
 	trait=ambitious
 	2530.3.3={birth=yes}
+	2550.1.9={
+		trait=crowned_by_pope
+		} # Ambitious, capable and vain. The Pope knew of his erudition and charity, but not his... proclivities...
 	2572.1.26={death=yes}
 }
 1846063={
@@ -1063,6 +1093,7 @@
 	religion=catholic
 	father=1846057
 	2465.5.9={birth=yes}
+	2493.9.1={trait=crowned_by_bishop}
 	2523.10.7={death=yes}
 }
 1846070={
@@ -1072,6 +1103,7 @@
 	religion=catholic
 	father=1846069
 	2490.9.4={birth=yes}
+	2524.1.1={trait=crowned_by_bishop}
 	2545.4.20={death=yes}
 }
 1846071={
@@ -1081,6 +1113,7 @@
 	religion=catholic
 	father=1846070
 	2513.2.6={birth=yes}
+	2545.9.1{trait=crowned_by_bishop}
 	2557.9.9={death=yes}
 }
 1846072={
@@ -1090,10 +1123,11 @@
 	religion=catholic
 	father=1846071
 	2530.8.7={birth=yes}
+	2558.1.1={trait=crowned_by_bishop}
 	2588.12.9={death=yes}
 }
 1846073={
-	name="Ned"
+	name="Ned" # I
 	dynasty=1797029 #Brasge
 	culture=grangelander
 	religion=trailwalker
@@ -1104,7 +1138,7 @@
 	2590.5.9={death=yes}
 }
 1846074={
-	name="Ned"
+	name="Ned" # II
 	dynasty=1797029 #Brasge
 	culture=grangelander
 	religion=trailwalker
@@ -1114,7 +1148,7 @@
 	2627.5.29={death=yes}
 }
 1846075={
-	name="Ned"
+	name="Ned" # III
 	dynasty=1797029 #Brasge
 	culture=grangelander
 	religion=catholic
@@ -1124,6 +1158,12 @@
 	trait=diligent
 	trait=mastermind_theologian
 	2590.11.7={birth=yes}
+	2627.8.1={
+		trait=crowned_by_pope    # Zealous and brought his kingdom back to Christ
+		effect={                                                                                         # Localizes trait as "Crowned by Pope Zealot"
+			ROOT = { save_persistent_event_target = { name = coronation_priest_per scope = c_666038 } }  # Who was Pope at the time of his coronation
+		}                                                                                                # (Sadly only visible prior to death, even using even_if_dead)
+	}
 	2643.3.8={death=yes}
 }
 1846076={

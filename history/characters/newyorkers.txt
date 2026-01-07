@@ -112,7 +112,9 @@
 	trait=patient
 	trait=kind
 	2528.1.1={birth=yes}
-	2552.3.1={trait=crowned_by_pope} # Cared more about the ceremony than most do
+	2552.3.1={
+		trait=crowned_by_pope  # Cared more about the ceremony than most do
+	}
 	2564.1.1={give_nickname=nick_the_blessed}
 	2569.1.1={death=yes}
 	2570.1.1={trait=beatified} # He's BLESSED, get it? :D
