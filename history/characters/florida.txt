@@ -1134,6 +1134,7 @@
 	trait=rough_terrain_leader
 	trait=brave
 	trait=scarred
+	trait=scarred_type_7
 	trait=weak
 	trait=ambitious
 	trait=patient

@@ -2772,18 +2772,25 @@
 	learning=3
 	trait=strong
 	trait=brilliant_strategist
-	trait=adventurer
-	trait=dorado
 	trait=atom_bless
 	trait=just
 	trait=wroth
 	trait=zealous
 	trait=paranoid
-	trait=scarred
 	give_nickname=nick_the_cockroach
 	2586.5.8={
 		birth=yes
 		culture=bravo
+	}
+	2606.1.1={
+		trait=dorado
+	}
+	2608.1.1={
+		trait=adventurer
+	}
+	2608.12.20={ # The day he killed Moises Duque
+		trait=scarred
+		trait=scarred_type_8
 	}
 	2610.3.10={
 		effect={add_artifact=old_world_shades
@@ -3700,6 +3707,7 @@
 	religion=cristo_rey
 	trait=charismatic_negotiator
 	trait=scarred_mid
+	trait=scarred_type_5
 	trait=gregarious
 	trait=devout
 	trait=just

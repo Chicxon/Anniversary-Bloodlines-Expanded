@@ -530,6 +530,7 @@
 	trait=brave
 	trait=wroth
 	trait=scarred
+	trait=scarred_type_2
 	trait=diligent
 	father=6900025
 	2452.2.16={birth=yes}
@@ -1652,6 +1653,7 @@
 	trait=content
 	trait=just
 	trait=scarred_high
+	trait=scarred_type_5
 	trait=maimed
 	father=6900079
 	2513.7.12={birth=yes}
@@ -2523,6 +2525,7 @@
 	trait=ambitious
 	trait=diligent
 	trait=scarred
+	trait=scarred_type_5
 	trait=skilled_tactician
 	father=6900118
 	2639.2.7={birth=yes}
@@ -2732,6 +2735,7 @@
 	trait=proud
 	trait=one_eyed
 	trait=scarred
+	trait=scarred_type_3
 	trait=wroth
 	father=72377906
 	2633.10.1={birth=yes}

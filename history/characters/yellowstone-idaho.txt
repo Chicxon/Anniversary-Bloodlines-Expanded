@@ -579,6 +579,7 @@
 	stewardship=5
 	trait=brilliant_strategist
 	trait=scarred_high
+	trait=scarred_type_2
 	trait=aggressive_leader
 	trait=trailwalker_leader
 	trait=one_handed

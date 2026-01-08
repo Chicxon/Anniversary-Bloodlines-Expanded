@@ -999,6 +999,7 @@
 	trait=proud
 	trait=envious
 	trait=paranoid
+	trait=ambitious
 	disallow_random_traits=yes
 	mother=1788108
 	2469.11.25={birth=yes}
@@ -1043,7 +1044,7 @@
 	trait=organizer
 	trait=unyielding_leader
 	2439.1.31={birth=yes}
-	2459.10.31=	{
+	2459.10.31={
 		create_bloodline={
 			type=tregart
 			has_dlc="Holy Fury"

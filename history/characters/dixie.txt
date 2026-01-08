@@ -149,6 +149,7 @@
 	trait=dead_crown_hcc
 	trait=ambitious
 	trait=scarred
+	trait=scarred_type_1
 	trait=zealous
 	trait=gregarious
 	trait=greedy
@@ -548,6 +549,7 @@
 	culture=southron
 	religion=evangelical
 	trait=scarred
+	trait=scarred_type_4
 	trait=temperate
 	trait=honest
 	trait=tough_soldier
@@ -704,8 +706,6 @@
 	religion=evangelical
 	father=1861257
 	give_nickname=nick_iron_hand
-	trait=one_handed
-	trait=scarred_mid
 	trait=strong
 	trait=poet
 	trait=duelist
@@ -718,6 +718,9 @@
 	2623.1.1={birth=yes}
 	2645.1.1={add_spouse=1861263}
 	2650.1.1={
+		trait=one_handed
+		trait=scarred_mid
+		trait=scarred_type_9
 		effect={add_artifact=prosthetic_hand_metal} 
 	}
 	2700.1.1={death=yes}
@@ -755,6 +758,7 @@
 	father=1861223
 	mother=3000098
 	trait=scarred
+	trait=scarred_type_10
 	trait=defensive_leader
 	trait=content
 	trait=thrifty_clerk
@@ -5004,6 +5008,7 @@
 	trait=ambitious
 	trait=diligent
 	trait=scarred_high
+	trait=scarred_type_5
 	trait=deceitful
 	trait=tough_soldier
 	2480.1.1={birth=yes}
@@ -6508,6 +6513,7 @@
 	father=1861182
 	trait=skilled_tactician
 	trait=scarred
+	trait=scarred_type_9
 	trait=brave
 	2476.1.1={birth=yes}
 	2504.3.18={death={
@@ -7476,6 +7482,7 @@
 	religion=evangelical
 	trait=underhanded_rogue
 	trait=scarred
+	trait=scarred_type_4
 	trait=charitable
 	trait=gluttonous
 	trait=craven
@@ -8214,6 +8221,7 @@
 	father=1861582
 	trait=grey_eminence
 	trait=scarred
+	trait=scarred_type_10
 	trait=shrewd
 	trait=feeble
 	trait=socializer
@@ -9600,6 +9608,7 @@
 	trait=adventurer
 	trait=administrator
 	trait=scarred_high
+	trait=scarred_type_10
 	trait=just
 	trait=kind
 	trait=temperate

@@ -1534,6 +1534,7 @@
 	trait=cruel
 	trait=honest
 	trait=scarred
+	trait=scarred_type_10
 	trait=gluttonous
 	trait=cannibal_trait
 	father=1620078
@@ -2289,6 +2290,7 @@
 	trait=lore_pact
 	trait=genius
 	trait=scarred
+	trait=scarred_type_1
 	trait=duelist
 	trait=strong
 	trait=brave
@@ -2888,6 +2890,7 @@
 	trait=lore_pact
 	trait=strong
 	trait=scarred
+	trait=scarred_type_6
 	trait=duelist
 	trait=brave
 	trait=chaste

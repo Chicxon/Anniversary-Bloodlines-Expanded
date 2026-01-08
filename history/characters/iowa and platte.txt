@@ -75,6 +75,7 @@
 	trait=trusting
 	trait=gregarious
 	trait=scarred
+	trait=scarred_type_8
 	trait=fair
 	trait=tough_soldier
 	2629.1.1={birth=yes}

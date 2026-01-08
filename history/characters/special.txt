@@ -1449,6 +1449,7 @@
 	trait=humble
 	trait=erudite
 	trait=scarred
+	trait=scarred_type_3
 	trait=distractible
 	trait=shy
 	trait=shrewd

@@ -545,6 +545,7 @@
 	trait=brave
 	trait=wroth
 	trait=scarred
+	trait=scarred_type_7
 	trait=diligent
 	trait=organizer
 	father=1910023

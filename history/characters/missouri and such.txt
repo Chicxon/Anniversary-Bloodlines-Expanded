@@ -1680,6 +1680,7 @@
 	trait=strong
 	trait=robust
 	trait=scarred_high
+	trait=scarred_type_9
 	trait=arbitrary
 	trait=brave
 	trait=wroth
@@ -1706,6 +1707,7 @@
 	trait=one_eyed
 	trait=cynical
 	trait=scarred_mid
+	trait=scarred_type_4
 	disallow_random_traits=yes
 	dynasty=1707002
 	2650.1.1={birth=yes}

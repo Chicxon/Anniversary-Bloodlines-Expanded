@@ -21,6 +21,7 @@
 	trait=duelist
 	trait=zealous
 	trait=scarred
+	trait=scarred_type_6
 	trait=arbitrary
 	trait=deceitful
 	trait=wroth
@@ -1525,6 +1526,7 @@
 	religion=gaian
 	trait=scholarly_theologian
 	trait=scarred
+	trait=scarred_type_10
 	trait=pilgrim
 	trait=chaste
 	trait=temperate
@@ -2103,6 +2105,7 @@
 	religion=gaian
 	trait=skilled_tactician
 	trait=scarred_high
+	trait=scarred_type_4
 	trait=adventurer
 	trait=discharged
 	trait=kind
