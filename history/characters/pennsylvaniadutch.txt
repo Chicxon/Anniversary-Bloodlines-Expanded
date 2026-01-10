@@ -21,6 +21,12 @@
 	dynasty=1779000 # Yoder
 	culture=deitsch
 	religion=anabaptist
+	trait=grey_eminence
+	trait=architect
+	trait=charitable
+	trait=diligent
+	trait=patient
+	trait=proud
 	2240.1.1={birth=yes}
 	2308.1.1={death=yes}
 }
@@ -51,6 +57,13 @@
 	culture=deitsch
 	religion=anabaptist
 	father=1997003
+	trait=scholarly_theologian
+	trait=content   # Did absolutely nothing at all to provoke Bannister Smithson
+	trait=trusting
+	trait=patient
+	trait=humble
+	trait=kind
+	trait=chaste
 	2302.1.1={birth=yes}
 	2376.1.1={death={
 			death_reason=death_murder
@@ -64,6 +77,13 @@
 	dynasty=1779005 # Stoltzfus
 	culture=deitsch
 	religion=anabaptist
+	trait=skilled_tactician
+	trait=inspiring_leader  # Rallied his stunned people into vengeance against Bannister Smithson
+	trait=zealous
+	trait=gregarious
+	trait=wroth       # Angry enough to abandon pacifism in favor of a century-long war
+	trait=stubborn
+	trait=just
 	2339.1.1={birth=yes}
 	2400.1.1={death=yes}
 }
@@ -73,6 +93,8 @@
 	dynasty=1779005 # Stoltzfus
 	culture=deitsch
 	religion=anabaptist
+	trait=tough_soldier
+	trait=proud
 	father=1997005
 	2356.1.1={birth=yes}
 	2405.1.1={death=yes}
@@ -84,13 +106,23 @@
 	culture=deitsch
 	religion=anabaptist
 	father=1997006
-	trait=brave # Makes sense since he got a scar
+	martial=6
+	trait=brilliant_strategist
+	trait=inspiring_leader
+	trait=experimenter
+	trait=brave # "Ya Wanna Know how I got these scars?"
+	trait=proud
+	trait=stubborn
+	trait=gregarious
+	disallow_random_traits=yes
 	2372.1.1={birth=yes}
 	2400.1.1={
 		add_trait=scarred
 		trait=scarred_type_1
 	}
-	2407.1.1={death=yes}
+	2407.1.1={death={
+		death_reason=death_battle
+	}}
 }
 
 1997008={
@@ -98,8 +130,20 @@
 	dynasty=1779005 # Stoltzfus
 	culture=deitsch
 	religion=anabaptist
+	martial=5
+	trait=mastermind_theologian
+	trait=shrewd
+	trait=ambitious
+	trait=devout
+	trait=patient
+	trait=just
+	trait=kind
 	father=1997007
 	2394.1.1={birth=yes}
+	2474.4.14={         #  Execution of President Kelleher
+		remove_trait=ambitious
+		trait=content   # "The Yoders are avenged now, a century later. We have spilled far too much blood. Enough is enough."
+	}
 	2483.1.1={death=yes}
 }
 

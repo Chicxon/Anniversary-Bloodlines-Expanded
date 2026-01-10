@@ -32,8 +32,9 @@ Made some changes/fixes to history:
     Jebedias Aijel given bastard trait
     Emperor Scipio Gee's portait given the Dixie crown
     Appropriate traits given to the obscure Clintons, including coronation traits for the Catholic (not Sedevacantist) ones
-    Added coronation traits for all Catholic Kings, including localisation for which pope crowned them if they are alive in 2666
+    Added coronation traits for all Catholic/Anglican Kings, including localisation for which pope crowned them if they are alive in 2666
     Historical scarred characters given physical scars on their portraits
+    Added some traits for a few Deitsch/Maritimer kings
 
 Added title history for:
     Penobscot and associated counties

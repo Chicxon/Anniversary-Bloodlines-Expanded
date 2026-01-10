@@ -93,7 +93,7 @@
 	trait=zealous           # Tried to force Catholicism on his Anabaptist Southern vassals
 	trait=misguided_warrior # ...And lost, hence the independence of the Triple Cities and The Wilds
 	trait=cruel             # Didn't have the best relationship with his daughter (Tiaogeara II)
-	trait=chaste            # But as he was a pious man who didn't bang much, nor sire any sons, she succeeded him anyway
+	trait=temperate
 	disallow_random_traits=yes
 	2555.1.1={birth=yes}
 	2570.1.1={trait=crowned_by_bishop}

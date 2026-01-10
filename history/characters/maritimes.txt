@@ -240,6 +240,12 @@
 		birth=yes
 		prestige=100
 	}
+	2646.1.1={
+		trait=crowned_by_pope
+		effect={                                                                                         # Localizes trait as "Archbishop Percy"
+			ROOT = { save_persistent_event_target = { name = coronation_priest_per scope = c_1899082 } } # Who was Archbishop at the time of her coronation
+		}                                                                                                # Hell yeah
+	}
 	2674.11.26={death=yes}
 }
 
@@ -1033,6 +1039,9 @@
 	trait=ambitious
 	trait=grey_eminence
 	2560.11.28={birth=yes}
+	2580.1.1={
+		trait=crowned_by_priest # Crowned in a hurry, Archbishop refused
+	}
 	2584.9.6={death={
 			death_reason=death_execution
 			killer=1899030
@@ -1064,6 +1073,9 @@
 	trait=impaler
 	trait=arbitrary
 	trait=skilled_tactician
+	trait=flanker
+	trait=trickster
+	trait=celtic_leader
 	give_nickname=nick_the_mad
 	2434.4.4={birth=yes}
 	2468.1.1={add_spouse=1899107}
@@ -1086,6 +1098,8 @@
 	culture=maritimer
 	religion=high_church
 	trait=skilled_tactician
+	trait=inspiring_leader
+	trait=holy_warrior
 	trait=ambitious
 	trait=quick
 	trait=just
@@ -1094,6 +1108,9 @@
 	trait=temperate
 	give_nickname=nick_the_just
 	2461.1.1={birth=yes}
+	2488.12.25={
+		trait=crowned_by_pope # Saved Canterbury from Tarleton
+	}
 	2512.11.26={death=yes}
 }
 1899061={
@@ -1104,6 +1121,8 @@
 	culture=maritimer
 	religion=high_church
 	trait=skilled_tactician
+	trait=experimenter
+	trait=unyielding_leader
 	trait=ambitious
 	trait=strong
 	trait=brave
@@ -1111,6 +1130,9 @@
 	trait=proud
 	give_nickname=nick_the_fearless
 	2503.1.1={birth=yes}
+	2519.1.1={
+		trait=crowned_by_pope # Archbishop as tributary
+	}
 	2575.1.1={death=yes}
 }
 1899062={
@@ -1127,6 +1149,9 @@
 	trait=zealous
 	give_nickname=nick_the_gentle
 	2573.1.1={birth=yes}
+	2586.1.1={
+		trait=crowned_by_pope # Second reign, not crowned due to Denholm's usurpation
+	}
 	2609.6.30={add_trait=pneumonic}
 	2610.1.1={death={death_reason=death_trait}
 	} # pneumonia
@@ -1145,6 +1170,9 @@
 	trait=architect
 	2577.1.1={birth=yes}
 	2600.1.1={add_spouse=1899130}
+	2611.1.1={
+		trait=crowned_by_pope
+	}
 	2645.1.2={death=yes}
 }
 1899064={
@@ -1412,6 +1440,9 @@
 	trait=hunter	
 	give_nickname=nick_the_rash
 	2483.6.2={birth=yes}
+	2513.1.1={
+		trait=crowned_by_pope  # Archbishop as tributary
+	}
 	2517.7.4={death={
 			death_reason=death_battle
 			killer=1620106
@@ -1444,6 +1475,9 @@
 	trait=depressed
 	trait=drunkard
 	2536.10.10={birth=yes}
+	2576.1.1={
+		trait=crowned_by_pope # His worst traits only came to the fore after his son died
+	}
 	2579.4.15={death=yes}
 }
 1899094={
@@ -1502,8 +1536,13 @@
 	trait=strong
 	trait=musician
 	trait=gregarious
+	trait=proud
 	trait=brilliant_strategist
+	trait=experimenter
+	trait=aggressive_leader
+	trait=celtic_leader
 	trait=legendary
+	disallow_random_traits=yes
 	2275.1.1={birth=yes}
 	2333.1.1={death={
 			death_reason=death_battle
