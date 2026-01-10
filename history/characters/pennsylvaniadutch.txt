@@ -132,6 +132,7 @@
 	religion=anabaptist
 	martial=5
 	trait=mastermind_theologian
+	trait=inspiring_leader
 	trait=shrewd
 	trait=ambitious
 	trait=devout

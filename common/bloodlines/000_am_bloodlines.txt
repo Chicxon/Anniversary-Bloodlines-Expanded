@@ -4,13 +4,13 @@
 
 irving = { #Irving Family
 	christian_opinion = -5
-	bloodline_effect_macabre_banquet = 1
-	levy_reinforce_rate = 0.05
-	monthly_character_prestige = 0.13
+	cruel_opinion = 10
+	bloodline_effect_blood_building = 1
+	monthly_character_prestige = 0.1
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_irving
-	flags = { historical_bloodline pre_event_bloodline bloodline_macabre_banquet }
+	flags = { historical_bloodline pre_event_bloodline bloodline_blood_building }
 }
 
 castel = { #Queen of Quebec
@@ -18,7 +18,7 @@ castel = { #Queen of Quebec
 	quebecois_opinion = 5
 	ursuline_opinion = 10
 	bloodline_effect_enatic_cognatic = 1
-	inheritance = matrilineal
+	inheritance = universal # Now her actual dynasts get her bloodline, not just the Blanchets
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_fleur_de_lis_gold
 	flags = { historical_bloodline bloodline_enatic_cognatic}

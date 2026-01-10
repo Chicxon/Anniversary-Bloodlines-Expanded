@@ -23,6 +23,7 @@ bald_knob = {
 
 duque = {
 	monthly_character_prestige = -0.05
+	monthly_character_piety = 0.05
 	intrigue = 1
 	learning = 1
 	inheritance = patrilineal

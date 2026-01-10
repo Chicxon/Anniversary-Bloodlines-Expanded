@@ -1307,6 +1307,7 @@
 	intrigue=6
 	learning=6
 	trait=grey_eminence
+	trait=marian_guadalupe
 	trait=humble
 	trait=chaste
 	trait=content
@@ -1330,6 +1331,7 @@
 	intrigue=7
 	learning=6
 	trait=midas_touched
+	trait=marian_san_charbel
 	trait=zealous
 	trait=temperate
 	trait=humble
@@ -1353,10 +1355,12 @@
 	intrigue=3
 	learning=6
 	trait=midas_touched
-	trait=chaste
 	trait=fair
+	trait=marian_santa_muerte
+	trait=chaste
 	trait=shrewd
 	trait=shy
+	disallow_random_traits=yes
 	2550.10.18={birth=yes}
 	2570.4.5={add_spouse=6900066}
 	2606.4.24={death=yes}
@@ -1374,6 +1378,7 @@
 	intrigue=1
 	learning=1
 	trait=thrifty_clerk
+	trait=marian_san_juditas
 	trait=gardener
 	trait=lustful
 	trait=content
@@ -1392,6 +1397,7 @@
 	stewardship=5
 	intrigue=5
 	learning=5
+	trait=marian_el_santo
 	trait=brave
 	trait=honest
 	trait=zealous
@@ -1412,8 +1418,12 @@
 	intrigue=4
 	learning=5
 	trait=honest
+	trait=diligent
+	trait=kind
+	trait=marian_guadalupe
 	trait=humble
 	trait=groomed
+	trait=intricate_webweaver
 	2559.6.16={birth=yes}
 	2610.10.1={death=yes}
 }
@@ -1848,9 +1858,9 @@
 	martial=10
 	learning=8
 	trait=skilled_tactician
+	trait=marian_santa_muerte  # Order more naturally
 	trait=familial_kinslayer
 	trait=trickster
-	trait=marian_santa_muerte
 	trait=ambitious
 	trait=musician
 	trait=stubborn
@@ -1993,6 +2003,7 @@
 	religion=sacred_heart
 	culture=chilango
 	dynasty=5001131
+	trait=marian_guadalupe
 	trait=monk
 	trait=patient
 	trait=stressed
@@ -2085,6 +2096,7 @@
 	culture=chilango
 	dynasty=5001131
 	trait=twin
+	trait=marian_guadalupe
 	father=6900109
 	2578.3.4={birth=yes}
 	2581.11.2={death={
@@ -2101,6 +2113,7 @@
 	culture=chilango
 	dynasty=5001131
 	trait=twin
+	trait=marian_guadalupe
 	father=6900109
 	2578.3.4={birth=yes}
 	2581.11.2={death={
@@ -2368,10 +2381,13 @@
 	intrigue=1
 	learning=1
 	trait=thrifty_clerk
-	trait=content
-	trait=gardener
-	trait=brave
+	trait=marian_san_charbel
 	trait=robust
+	trait=gardener
+	trait=content
+	trait=brave
+	trait=patient
+	disallow_random_traits=yes
 	father=6900117
 	2641.3.11={birth=yes}
 	2680.2.24={death=yes}

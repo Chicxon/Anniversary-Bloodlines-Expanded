@@ -28,7 +28,7 @@ Made some changes/fixes to history:
     Randolph King's daughters marriages to landless men made matrilineal
     Some characters' spouses made the missing other parent of their children
     Specified traits for various historical characters who don't have them
-    Added patron saints for some historical sacred heart characters
+    Added patron saints for all historical sacred heart characters
     Jebedias Aijel given bastard trait
     Emperor Scipio Gee's portait given the Dixie crown
     Appropriate traits given to the obscure Clintons, including coronation traits for the Catholic (not Sedevacantist) ones

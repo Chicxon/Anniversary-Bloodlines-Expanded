@@ -1426,6 +1426,7 @@
 	2544.12.2={
 		religion=sacred_heart
 		add_trait=sympathy_christendom
+		add_trait=marian_guadalupe
 	}
 	2576.8.1={death=yes}
 }

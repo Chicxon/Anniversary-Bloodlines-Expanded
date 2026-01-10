@@ -173,6 +173,7 @@
 	dna="beadg0ic000"
 	culture=tejano
 	religion=sacred_heart
+	trait=marian_santa_muerte
 	trait=heresiarch
 	trait=brave
 	trait=strong
@@ -200,6 +201,7 @@
 	culture=tejano
 	father=2500009
 	religion=sacred_heart
+	trait=marian_guadalupe
 	trait=slothful
 	trait=shrewd
 	trait=zealous
