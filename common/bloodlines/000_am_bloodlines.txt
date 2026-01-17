@@ -335,7 +335,7 @@ tlgunghung = { #Kings of BC
 	raven_tales_opinion = 5
 	raven_tales_reformed_opinion = 5
 	martial = 1
-	monthly_character_prestige = 0.25
+	monthly_character_prestige = 0.2
 	bloodline_effect_teuta_ships = 1
 	inheritance = patrilineal
 	allow_bastards = yes
@@ -551,7 +551,7 @@ metis_confederacy_female = {
 }
 
 usa_emperor_male = {
-	monthly_character_prestige = 0.25
+	monthly_character_prestige = 0.4
 	christian_opinion = 5
 	oldworld_opinion = 5
 	pagan_group_opinion = 5
@@ -575,7 +575,7 @@ usa_emperor_male = {
 }
 
 usa_emperor_female = {
-	monthly_character_prestige = 0.25
+	monthly_character_prestige = 0.4
 	christian_opinion = 5
 	oldworld_opinion = 5
 	pagan_group_opinion = 5
@@ -1139,12 +1139,13 @@ tex_texarkana_female = {
 
 #male texan king
 high_king_bloodline = { 
-	starfolk_opinion = 10
-	monthly_character_prestige = 0.5
+	starfolk_opinion = 15
+	monthly_character_prestige = 0.25
+	levy_reinforce_rate = 0.1
 	bloodline_effect_one_invasion = 1
-	command_modifier = {
-		religious_enemy = 0.3
-	}
+	#command_modifier = { # Doesn't make much sense IMO given Texas can be multiconfessional
+	#	religious_enemy = 0.3
+	#}
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_texas
@@ -1156,12 +1157,13 @@ high_king_bloodline = {
 
 #female texan king
 high_queen_bloodline = { 
-	starfolk_opinion = 10
-	monthly_character_prestige = 0.5
+	starfolk_opinion = 15
+	monthly_character_prestige = 0.25
+	levy_reinforce_rate = 0.1
 	bloodline_effect_one_invasion = 1
-	command_modifier = {
-		religious_enemy = 0.3
-	}
+	#command_modifier = { # Doesn't make much sense IMO given Texas can be multiconfessional
+	#	religious_enemy = 0.3
+	#}
 	inheritance = matrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_texas

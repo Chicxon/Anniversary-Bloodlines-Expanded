@@ -35,4 +35,8 @@ cambariday;Cambariday Blood;;;;;;;;;;;;;x
 cambariday_desc;Kimball Cambariday rose from obscure origins as an adventurer and ruthlessly exploited a power vacuum to seize Iowa for himself.;;;;;;;;;;;;;x
 
 gabsol;Blood of Aureliano;;;;;;;;;;;;;x
-gabsol_desc;After the disaster of Ixcateopan, Aureliano Gabsol was animated by a heroic passion to save México. Despite his bravado, his campaigns brought only mixed results.;;;;;;;;;;;;;x
+gabsol_desc;Aureliano Gabsol's heroism and bravado saved México after the disaster of Ixcateopan. His great campaigns brought back imperial glory, but hurt the treasury badly.;;;;;;;;;;;;;x
+
+high_king_bloodline;Blood of the High King;;;;;;;;;;;;;x
+high_queen_bloodline;Blood of the Second High Queen;;;;;;;;;;;;;x
+bloodline_desc_texas;[This.Founder.GetFirstNameWithNick] [This.Founder.GetOnlyDynastyName] claimed the High Queen's legacy, gathered the banners and rebuilt the Grand Kingdom of Texas, with [This.Founder.GetHerselfHimself] at its head.;;;;;;;;;;;;x

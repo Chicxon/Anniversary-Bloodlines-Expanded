@@ -15,12 +15,9 @@ New bloodlines added for:
     Gaspar Reyes
     Alexandre Cantarini
 
-Changes to historical bloodlines to improve variety and fix bugs:
+Changes to historical bloodlines to improve variety in their effects
 
-Edited existing bloodline effects for (almost) all historical bloodlines
-
-Fixed female Texas unifier not getting the right icon
-Fixed Texas unifier invasion effect not working
+Implemented the Texas Restorer bloodline with icon, description and effects fixed
 
 Added a couple decisions to ensure bloodline inheritance for a few characters
 
@@ -32,9 +29,11 @@ Made some changes/fixes to history:
     Jebedias Aijel given bastard trait
     Emperor Scipio Gee's portait given the Dixie crown
     Appropriate traits given to the obscure Clintons, including coronation traits for the Catholic (not Sedevacantist) ones
-    Added coronation traits for all Catholic/Anglican Kings, including localisation for which pope crowned them if they are alive in 2666
+    Added coronation traits for all Catholic/Anglican/Deseret Kings, including localisation for which pope crowned them if they are alive in 2666
     Historical scarred characters given physical scars on their portraits
     Added some traits for a few Deitsch/Maritimer kings
+    Given the Archbishop of Canterbury his vassal barony in demesne to stop him getting squished so easily
+    Cyndilou Angier (44-year-old sister of the First Coast Duke) married to the count of Golden Isles and made the mother of his children
 
 Added title history for:
     Penobscot and associated counties

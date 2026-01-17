@@ -1593,11 +1593,12 @@
 	culture=chilango
 	dynasty=5001129
 	trait=underhanded_rogue
+	trait=w_heel # HE KILLED ITURBIDE!
 	trait=temperate
 	trait=deceitful
 	trait=brave
 	trait=wroth
-	trait=zealous
+	#trait=zealous # Killed a "legitimate" zealous emperor
 	2457.11.6={birth=yes}
 	2517.12.21={death=yes}
 }
@@ -2231,7 +2232,7 @@
 	dynasty=5001134
 	culture=jarocho
 	religion=sacred_heart
-	martial=14
+	martial=12
 	diplomacy=7
 	stewardship=1
 	intrigue=10
@@ -2246,7 +2247,9 @@
 	trait=ambitious
 	trait=inspiring_leader
 	2550.9.2={birth=yes}
-	2616.5.28={
+	2616.5.28={ # He's a luchadore now
+		trait=w_eagle
+		trait=w_face
 		create_bloodline={
 			type=gabsol
 		}

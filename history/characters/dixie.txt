@@ -1444,6 +1444,9 @@
 	trait=erudite
 	trait=misguided_warrior
 	2620.1.1={birth=yes}
+	2642.1.1={
+		add_spouse=3000072 # Cyndilou Angier, sister of First Coast Duke
+	}
 	2700.1.1={death=yes}
 }
 
@@ -2094,6 +2097,7 @@
 	trait=gluttonous
 	trait=twin
 	father=1861081
+	mother=3000072
 	2647.9.16={birth=yes}
 	2727.4.9={death=yes}
 }
@@ -2185,7 +2189,7 @@
 	2656.11.25={death=yes}
 }
 
-3000072={
+3000072={ # Married her to the Golden Isles count to give her some more importance given she's already 44
 	name="Cyndilou"
 	female=yes
 	dynasty=1787014 # Angier
@@ -4693,6 +4697,7 @@
 	culture=dixie
 	religion=evangelical
 	father=1861081
+	mother=3000072
 	trait=twin
 	trait=mystic
 	trait=brave
