@@ -142,9 +142,11 @@ ponderosa = {
 
 reyes = {
 	fidencista_opinion = 10
+	bravo_opinion = 5
 	monthly_character_prestige = 0.1
 	command_modifier = {
-		cowboys = 0.1
+		cavalry = 0.1
+		speed = 0.1
 	}
 	inheritance = patrilineal
 	allow_bastards = yes
@@ -157,6 +159,7 @@ reyes = {
 
 cambariday = {
 	monthly_character_prestige = 0.05
+	global_levy_size = 0.05
 	ambitious_opinion = 10
 	bloodline_effect_bloodline_mercenary_traditions = 1
 	inheritance = patrilineal

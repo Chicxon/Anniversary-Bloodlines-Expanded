@@ -103,7 +103,7 @@
 	trait=lustful
 	trait=drunkard
 	2628.12.16={birth=yes}
-	2648.3.1={add_matrilineal_spouse=1911010}
+	# 2648.3.1={add_matrilineal_spouse=1911010} # Let's not marry ourselves!
 	2696.12.1={death=yes}
 }
 

@@ -10,8 +10,7 @@ MAYBE for:
     Esteban del Cabellero
     Gran Nicoya
     Sol Invicto leader
+    Tavibo the Mad
 
 Add event to regain Bushart bloodline if descendant regains kingdom of BC
 Restrict Braganza grace gain to if the emperor is a Braganza
-
-Fix iron chief bloodline spam

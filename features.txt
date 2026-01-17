@@ -19,6 +19,7 @@ Changes to historical bloodlines to improve variety in their effects
 
 Implemented the Texas Restorer bloodline with icon, description and effects fixed
 Implemented the Texarkana bloodline
+Fix Genghis Cree/Iron chief bloodline spam
 
 Added a couple decisions to ensure bloodline inheritance for a few characters
 
@@ -35,9 +36,12 @@ Made some changes/fixes to history:
     Added some traits for a few Deitsch/Maritimer kings
     Given the Archbishop of Canterbury his vassal barony in demesne to stop him getting squished so easily
     Cyndilou Angier (44-year-old sister of the First Coast Duke) married to the count of Golden Isles and made the mother of his children
+    Fixed Peter Huntersoint (husband of Wineland Prefect) being married to himself
 
 Added title history for:
     Penobscot and associated counties
     Amarillo
     Lochloosa/Steinhatchee
     Barony of Latham (in Hudsonia)
+
+Added missing loc tags for Fidencista, Navegante, Bravo and Altiplanense opinion modifiers

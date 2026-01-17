@@ -186,6 +186,9 @@ nokona_bloodline = {
 	comanche_opinion = 5
 	christian_opinion = 5
 	monthly_character_piety = 0.1
+	command_modifier = {
+		religious_enemy = 0.1
+	}
 	saintly_defender_bloodline = 1
 	inheritance = patrilineal
 	allow_bastards = yes
@@ -1100,88 +1103,4 @@ heartbreaker_male_bloodline = {
 	}
 	picture = GFX_bloodlines_symbol_fleur_de_lis #heartbreaker
 	flags = { created_bloodline matilde_bloodline bloodline_princely_elective_bonus }
-}
-
-#male emperor of texarkana
-tex_texarkana_male = { 
-	catholic_opinion = 5
-	monthly_character_prestige = 0.25
-	church_opinion = 10
-	command_modifier = {
-		religious_enemy = 0.1
-	}
-	bloodline_effect_great_heroes_appear = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_cross_crusader
-	flags = { bloodline_heroes }
-	active = {
-		religion = catholic
-	}
-}
-
-#female empress of texarkana
-tex_texarkana_female = { 
-	catholic_opinion = 5
-	monthly_character_prestige = 0.25
-	church_opinion = 10
-	command_modifier = {
-		religious_enemy = 0.1
-	}
-	bloodline_effect_great_heroes_appear = 1
-	inheritance = matrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_cross_crusader
-	flags = { bloodline_heroes }
-	active = {
-		religion = catholic
-	}
-}
-
-
-#male texan king
-high_king_bloodline = { 
-	starfolk_opinion = 15
-	monthly_character_prestige = 0.25
-	levy_reinforce_rate = 0.1
-	bloodline_effect_one_invasion = 1
-	#command_modifier = { # Doesn't make much sense IMO given Texas can be multiconfessional
-	#	religious_enemy = 0.3
-	#}
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_texas
-	flags = { bloodline_heroes bloodline_great_conquerors }
-	active = {
-		culture_group = starfolk
-	}
-}
-
-#female texan king
-high_queen_bloodline = { 
-	starfolk_opinion = 15
-	monthly_character_prestige = 0.25
-	levy_reinforce_rate = 0.1
-	bloodline_effect_one_invasion = 1
-	#command_modifier = { # Doesn't make much sense IMO given Texas can be multiconfessional
-	#	religious_enemy = 0.3
-	#}
-	inheritance = matrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_texas
-	flags = { bloodline_heroes bloodline_great_conquerors }
-	active = {
-		culture_group = starfolk
-	}
-}
-
-iron_chief_bloodline = {
-	combat_rating = 8
-	monthly_character_prestige = 0.25
-	plains_opinion = 10
-	bloodline_effect_great_heroes_appear = 1
-	inheritance = patrilineal
-	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_horse
-	flags = { bloodline_heroes }
 }

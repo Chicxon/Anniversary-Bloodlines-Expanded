@@ -1481,14 +1481,16 @@ iron_chief = {
 		speed = 0.1
 		cavalry = 0.1
 	}
-	cree_opinion = 5
+	plains_opinion = 5
+	saulteaux_opinion = 5
 	peyotist_opinion = 5
-	monthly_character_prestige = 0.2
+	monthly_character_prestige = 0.25
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_horse
 	flags = { created_bloodline iron_chief_line }
 }
+
 heir_riel_male = {
 	metis_opinion = 5
 	exovedate_opinion = 10
@@ -1594,5 +1596,79 @@ seven_seas_female = {
 			religion_group = nautical
 			religion = navegante
 		}
+	}
+}
+
+
+#male emperor of texarkana
+tex_texarkana_male = { 
+	catholic_opinion = 5
+	monthly_character_prestige = 0.25
+	church_opinion = 10
+	command_modifier = {
+		religious_enemy = 0.1
+	}
+	bloodline_effect_great_heroes_appear = 1
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_cross_crusader
+	flags = { bloodline_heroes }
+	active = {
+		religion = catholic
+	}
+}
+
+#female empress of texarkana
+tex_texarkana_female = { 
+	catholic_opinion = 5
+	monthly_character_prestige = 0.25
+	church_opinion = 10
+	command_modifier = {
+		religious_enemy = 0.1
+	}
+	bloodline_effect_great_heroes_appear = 1
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_cross_crusader
+	flags = { bloodline_heroes }
+	active = {
+		religion = catholic
+	}
+}
+
+
+#male texan king
+high_king_bloodline = { 
+	starfolk_opinion = 15
+	monthly_character_prestige = 0.25
+	levy_reinforce_rate = 0.1
+	bloodline_effect_one_invasion = 1
+	#command_modifier = { # Doesn't make much sense IMO given Texas can be multiconfessional
+	#	religious_enemy = 0.3
+	#}
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_texas
+	flags = { bloodline_heroes bloodline_great_conquerors }
+	active = {
+		culture_group = starfolk
+	}
+}
+
+#female texan king
+high_queen_bloodline = { 
+	starfolk_opinion = 15
+	monthly_character_prestige = 0.25
+	levy_reinforce_rate = 0.1
+	bloodline_effect_one_invasion = 1
+	#command_modifier = { # Doesn't make much sense IMO given Texas can be multiconfessional
+	#	religious_enemy = 0.3
+	#}
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_texas
+	flags = { bloodline_heroes bloodline_great_conquerors }
+	active = {
+		culture_group = starfolk
 	}
 }
