@@ -1,3 +1,8 @@
+Overall, this mod aims to enhance ATE's lore with additional bloodlines and fix inconsistencies in the title history. It is meant to be "vanilla+" or 
+conservative in style, and purely to refine the base ATE experience without conflicting with anything already established.
+If the Anniversary Edition devs are reading this, I would be truly honoured if you integrated this mod and listed me as a contributor :)
+/Chicxon
+
 New bloodlines added for:
     Solomon King
     Roisin Fenimore
