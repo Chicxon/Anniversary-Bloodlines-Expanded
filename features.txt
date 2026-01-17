@@ -18,6 +18,7 @@ New bloodlines added for:
 Changes to historical bloodlines to improve variety in their effects
 
 Implemented the Texas Restorer bloodline with icon, description and effects fixed
+Implemented the Texarkana bloodline
 
 Added a couple decisions to ensure bloodline inheritance for a few characters
 

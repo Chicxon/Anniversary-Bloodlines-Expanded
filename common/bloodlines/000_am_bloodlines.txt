@@ -1104,12 +1104,13 @@ heartbreaker_male_bloodline = {
 
 #male emperor of texarkana
 tex_texarkana_male = { 
-	christian_opinion = 5
-	monthly_character_prestige = 0.5
+	catholic_opinion = 5
+	monthly_character_prestige = 0.25
 	church_opinion = 10
 	command_modifier = {
-		religious_enemy = 0.3
+		religious_enemy = 0.1
 	}
+	bloodline_effect_great_heroes_appear = 1
 	inheritance = patrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_cross_crusader
@@ -1121,12 +1122,13 @@ tex_texarkana_male = {
 
 #female empress of texarkana
 tex_texarkana_female = { 
-	christian_opinion = 5
-	monthly_character_prestige = 0.5
+	catholic_opinion = 5
+	monthly_character_prestige = 0.25
 	church_opinion = 10
 	command_modifier = {
-		religious_enemy = 0.3
+		religious_enemy = 0.1
 	}
+	bloodline_effect_great_heroes_appear = 1
 	inheritance = matrilineal
 	allow_bastards = yes
 	picture = GFX_bloodlines_symbol_cross_crusader

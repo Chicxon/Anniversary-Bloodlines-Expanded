@@ -99,7 +99,7 @@ narrative_event = {
 	trigger = {
 		is_playable = yes
 		capital_scope = { region = custom_usa }
-		has_global_flag = texarkana_established
+		has_global_flag = texarkana_rises
 	}
 	
 	option = {
@@ -118,7 +118,7 @@ narrative_event = {
 				type = tex_texarkana_male
 			}
 			new_bloodline = {
-				set_description = "bloodline_desc_texarkana"
+				set_description = "tex_texarkana_male_desc"
 			}	
 			sound_effect = bloodline_added
 		}
@@ -131,7 +131,7 @@ narrative_event = {
 				type = tex_texarkana_female
 			}
 			new_bloodline = {
-				set_description = "bloodline_desc_texarkana"
+				set_description = "tex_texarkana_female_desc"
 			}	
 			sound_effect = bloodline_added
 		}
