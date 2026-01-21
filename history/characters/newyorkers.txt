@@ -1,4 +1,4 @@
-###NSI
+###ÄNSI
 1788001={
 	name="Baltus" # Baltus III of Hudsonia
 	dynasty=1776000 # Groot
@@ -47,6 +47,11 @@
 	father=1788005
 	culture=hudsonian
 	religion=anabaptist
+	trait=indulgent_wastrel
+	trait=gregarious
+	trait=ambitious
+	trait=proud
+	trait=cynical
 	2602.1.1={birth=yes}
 	2660.7.4={death=yes}
 }
@@ -94,6 +99,7 @@
 	trait=misguided_warrior # ...And lost, hence the independence of the Triple Cities and The Wilds
 	trait=cruel             # Didn't have the best relationship with his daughter (Tiaogeara II)
 	trait=temperate
+	trait=wroth
 	disallow_random_traits=yes
 	2555.1.1={birth=yes}
 	2570.1.1={trait=crowned_by_bishop}
