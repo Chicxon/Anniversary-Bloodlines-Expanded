@@ -1,6 +1,11 @@
-# 2460.1.1={ #Keep Solomon feudal
-# 	holder=1620200
-# }
+2312.1.1={
+	liege=d_penobscot
+	law=succ_tanistry
+}
+2460.1.1={
+	holder=1620200
+	liege=k_new_england
+}
 2489.12.25={
 	holder=1620107
 }
@@ -18,6 +23,4 @@
 }
 2617.6.14={
 	holder=1620026
-	liege=d_penobscot
-	law=succ_tanistry
 }

@@ -1,0 +1,7 @@
+2306.4.10={
+	law=succ_tanistry
+	liege=k_new_england
+}
+2638.5.31={
+	holder=1620041
+}

@@ -1,0 +1,7 @@
+2300.1.1={
+	liege=k_hudsonia
+}
+2653.1.1={
+	liege=d_adirondack
+	holder=1788010
+}

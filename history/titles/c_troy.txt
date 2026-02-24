@@ -1,0 +1,7 @@
+2400.1.1={
+	liege=k_hudsonia
+}
+2660.1.1={	
+	holder=1788016
+	liege=d_hudson_valley
+}

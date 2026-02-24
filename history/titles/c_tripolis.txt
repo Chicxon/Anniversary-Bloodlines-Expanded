@@ -1,0 +1,9 @@
+2400.1.1={
+	liege=k_hudsonia
+}
+2600.1.1={
+	liege=0
+}
+2660.1.1={
+	holder=1788018 # Raymond Bedhamton
+}

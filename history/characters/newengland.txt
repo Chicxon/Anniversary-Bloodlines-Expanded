@@ -1630,11 +1630,12 @@
 	trait=honest
 	trait=trusting
 	trait=kind
-	trait=pregnant
 	father=1620082
 	2466.10.25={birth=yes}
 	2482.10.30={add_spouse=1620105}
-	2491.1.13={death={
+	2491.1.13={
+		trait=pregnant
+		death={
 			death_reason=death_murder_unknown # This was not Cecily's doing but everyone probably kind of assumed it was
 		}
 	}
