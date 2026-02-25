@@ -28,6 +28,8 @@ Fix Genghis Cree/Iron chief bloodline spam
 
 Added a couple decisions to ensure bloodline inheritance for a few characters
 
+Opened up game starts from 2100-2666
+
 Made some changes/fixes to history:
     Randolph King's daughters marriages to landless men made matrilineal
     Some characters' spouses made the missing other parent of their children

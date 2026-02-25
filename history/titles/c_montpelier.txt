@@ -1,0 +1,19 @@
+2100.1.1={
+	liege=d_green_mountains
+}
+2328.5.17={
+	liege=k_new_england
+}
+2459.10.31={ # Battle of Saratoga Springs
+	liege=0
+}
+2475.1.1={ # Reclaimed by Solomon
+	liege=k_new_england
+}
+2501.1.1={ # Breaks off in Zane-Fenimore civil war
+	liege=0
+}
+2649.2.17={
+	holder=1620036
+	liege=d_green_mountains
+}

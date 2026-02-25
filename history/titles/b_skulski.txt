@@ -1,0 +1,26 @@
+2320.1.1 = {
+    holding_dynasty=1777057
+    liege=d_new_york
+    holder=1788236 # Philippe the Noble
+}
+2347.1.1={
+    holder=1788237 # Daniel
+}
+2376.1.1={
+    holder=1788260 # Achilles
+}
+2408.1.1={
+    holder=1788264 # Marcus
+}
+2429.1.1={
+    holder=1788242 # Jason
+}
+2433.1.1={
+    holder=1788261 # Ezra 
+}
+2436.1.1={
+    holder=1788245 # Salvator
+}
+2460.1.1={
+    holder=0 # Abraham Espinal's great purge wipes out the Skulskis
+}

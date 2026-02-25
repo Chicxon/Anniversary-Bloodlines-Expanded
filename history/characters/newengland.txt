@@ -1415,12 +1415,12 @@
 	culture=yankee
 	religion=occultist
 	trait=lore_old_ones
-	trait=depressed
 	trait=cruel
 	trait=impaler
 	father=1620073
 	2324.5.16={birth=yes}
 	2381.4.1={give_nickname=nick_the_terrible}
+	2381.6.30={trait=depressed}
 	2381.7.1={# Lost Hudsonia to the Clintons, threw himself in the sea.
 		death={
 			death_reason=death_suicide

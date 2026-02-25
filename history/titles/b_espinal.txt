@@ -1,0 +1,20 @@
+2320.1.1 = {
+    holding_dynasty=1917042
+    liege=d_new_york
+    holder=1788289 # Octavio
+}
+2343.1.1 = {
+    holder=1788290 # Luis Sr.
+}
+2366.1.1 = {
+    holder=1788291 # Luis Jr.
+}
+2426.1.1 = {
+    holder=1788243 # Vega
+}
+2440.1.1 = {
+    holder=1788246 # Abraham
+}
+2463.1.1 = {
+    holder=0 # Civil war; death of Abraham and the end of House Espinal
+}

@@ -1,0 +1,11 @@
+2520.1.1={
+    holding_dynasty=1796023
+    liege=d_cook
+	holder=1967115 # Daley Richard Sr.
+}
+2576.12.20={
+    holder=1967116 # Daley Richard Jr.
+}
+2611.5.16={
+    holder=0 # Extinction of the family
+}

@@ -1,0 +1,29 @@
+2320.1.1 = {
+    holding_dynasty=1777058
+    liege=d_new_york
+    holder=1788238 # Frederick
+}
+2384.1.1={
+    holder=1788240 # Salvador
+}
+2406.1.1={
+    holder=1788270 # Martin
+}
+2427.1.1={
+    holder=1788271 # Kiran
+}
+2449.1.1={
+    holder=1788247 # Peregrin
+}
+2478.1.1={
+    holder=1788273 # Paulus
+}
+2518.1.1={
+    holder=1788250 # Salvador II
+}
+2533.1.1={
+    holder=1788254 # Ludovick
+}
+2599.1.1={
+    holder=0 # The male line dies with Ludovick; his daughter Graziella ineligible
+}

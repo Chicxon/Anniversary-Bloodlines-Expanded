@@ -1,0 +1,14 @@
+2440.1.1={
+    holding_dynasty=1789003
+    liege=d_cook
+	holder=1967109 # Robert Parsons Sr.
+}
+2499.5.17={
+    holder=1967095 # Robert Parsons Jr.
+}
+2530.1.1={
+    holder=1967096 # Robert Parsons III
+}
+2550.1.1={
+    holder=0 # Extinction in the male line
+}

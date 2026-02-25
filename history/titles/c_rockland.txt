@@ -1,0 +1,16 @@
+2324.1.1={
+	liege=k_new_england
+}
+2382.1.1={
+	liege=k_hudsonia
+}
+2480.1.1={
+	liege=d_new_york # Brothers Chen invade Hudsonia
+}
+2481.1.1={
+	liege=k_hudsonia # Brothers Chen defeated
+}
+2660.1.1={
+	holder=1788208 # Tevye Anatevka
+	liege=d_hudson_valley
+}

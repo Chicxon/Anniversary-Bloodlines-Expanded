@@ -1,0 +1,23 @@
+2380.1.1={
+    holding_dynasty=1789000
+    liege=d_cook
+	holder=666103 # President Stanislaus Avondale
+}
+2420.4.5={
+    holder=1967089 # Morgan
+}
+2461.2.20={
+    holder=1967090 # Eira Morganowska, holding the title temporarily until her son is born
+}
+2477.5.10={
+    holder=666108 # President Ferguslav Avondale
+}
+2537.7.19={
+    holder=1967092 # Fionnslav; born before his grandfather's death so no need for his mother to hold the title
+}
+2603.5.9={
+    holder=666112 # President Anatol Avondale
+}
+2628.6.21={
+    holder=0 # Albert Soady sacks Chicago
+}
