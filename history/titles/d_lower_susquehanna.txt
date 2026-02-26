@@ -1,0 +1,42 @@
+2282.1.1={
+	liege=k_deitscherei
+}
+2360.1.1={
+	holder=1997005 # Stoltzfus held this area before his kingship
+}
+2400.1.1={
+	holder=1997006
+}
+2405.1.1={
+	holder=1997007
+}
+2407.1.1={
+	holder=1997008
+}
+2483.1.1={
+	holder=1997010
+}
+2486.1.1={
+	holder=1997011
+}
+2509.1.1={
+	holder=1997012
+}
+2524.1.1={
+	holder=1997013 # Lengachers
+}
+2556.1.1={
+	holder=1997014
+}
+2572.1.1={
+	holder=1997015
+}
+2617.1.1={
+	holder=1997016
+}
+2621.1.1={
+	holder=1997017
+}
+2656.1.1={
+	holder=1997018
+}

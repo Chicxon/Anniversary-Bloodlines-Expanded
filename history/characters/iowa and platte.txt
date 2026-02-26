@@ -895,6 +895,9 @@
 			has_dlc="Holy Fury"
 		}
 		trait=crowned_by_pope  # "Look at me. I'm the king her now. That's right. I'm the king over there too. Got that?"
+		effect={                                                                                         # Localizes trait as "Crowned by Pope Fear-Not"
+			ROOT = { save_persistent_event_target = { name = coronation_priest_per scope = c_666021 } }  # Who was Pope at the time of his coronation
+		}                                                                                                # Hell yeah
 	}
 	2440.1.1={add_spouse=1821205}
 	2478.3.9={death=yes}

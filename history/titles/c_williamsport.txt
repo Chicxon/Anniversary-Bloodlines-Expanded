@@ -1,0 +1,22 @@
+2300.1.1={
+	liege=k_deitscherei
+}
+2282.1.1={
+	holder=1997001
+}
+2308.1.1={
+	holder=1997002
+}
+2317.1.1={
+	holder=1997003
+}
+2336.1.1={
+	holder=1997004
+}
+2376.1.1={
+	holder=0
+}
+2660.1.1={
+	liege=d_upper_susquehanna
+	holder=1997019
+}

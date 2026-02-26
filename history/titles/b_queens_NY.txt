@@ -1,0 +1,15 @@
+2384.1.1 = {
+    holder=1788241 # Horatis
+}
+2431.1.1={
+    holder=1788244 # Param
+}
+2455.1.1 = {
+    holder=1788274 # Manohar
+}
+2478.1.1 = {
+    holder=1788277 # Isidorr the Bold, ahead of his older brothers
+}
+2481.1.1={
+    holder=0 # Failed invasion of Hudsonia; deaths of the Brothers Chen
+}

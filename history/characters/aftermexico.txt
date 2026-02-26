@@ -2143,12 +2143,12 @@
 	trait=deceitful
 	trait=charitable
 	2523.4.15={birth=yes}
-	2585.6.26={
+	2591.1.12={death=yes}
+	2609.11.2={  # Legacy is ruined
 		create_bloodline={
 			type=duque
 		}
 	}
-	2591.1.12={death=yes}
 }
 
 #Benemérito Porfirio Duque
@@ -2186,15 +2186,15 @@
 	trait=misguided_warrior
 	trait=marian_santa_muerte
 	trait=hedonist
-	trait=depressed
 	trait=gluttonous
 	trait=proud
 	trait=charitable
 	trait=content
 	father=6900089
-	2579.7.28={birth=yes}
-	2608.5.13={
-			death={
+	2580.7.28={birth=yes}
+	2608.12.20={trait=depressed} # Defeated by La Cucaracha
+	2609.11.2={  # Plotters of Ixcateopan destroy the Empire
+		death={
 			death_reason=death_suicide_hanging
 		}
 	}

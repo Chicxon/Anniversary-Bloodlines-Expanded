@@ -1,0 +1,12 @@
+2300.1.1={
+	liege=d_piedmont
+}
+2450.1.1={
+	liege=d_americanist
+}
+2474.4.14={
+	liege=d_piedmont
+}
+2660.1.1={
+	holder=1861062
+}

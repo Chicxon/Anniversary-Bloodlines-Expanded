@@ -1,0 +1,30 @@
+2200.1.1={
+	liege=d_new_york
+}
+2300.1.1 = {
+    holder=1788289 # Octavio Espinal
+}
+2343.1.1 = {
+    holder=1788290 # Luis Espinal Sr.
+}
+2366.1.1 = {
+    holder=1788291 # Luis Espinal Jr.
+}
+2426.1.1 = {
+    holder=1788243 # Vega Espinal
+}
+2440.1.1 = {
+    holder=1788246 # Abraham Espinal
+}
+2463.1.1 = {
+    holder=0 # Civil war; death of Abraham and the end of House Espinal
+}
+2560.1.1={ #Levi Rothschild
+	holder=1788255
+}
+2610.1.1={ #Baruch Rothschild
+	holder=1788279
+}
+2649.1.1={ #Lazar Rothschild
+	holder=1788025
+}

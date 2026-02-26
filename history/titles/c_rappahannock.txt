@@ -1,0 +1,20 @@
+2122.12.28={
+	liege=d_piedmont
+}
+2273.1.1={
+	liege=0
+	holder=1861612
+}
+2317.1.1={
+	holder=1861613
+}
+2355.1.1={
+	holder=1861614
+}
+2362.1.1={
+	liege=d_piedmont
+	holder=0
+}
+2660.1.1={ # Wallace Harllee
+	holder=1861076
+}

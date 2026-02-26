@@ -1489,6 +1489,7 @@
 	trait=shrewd
 	father=1620076
 	2419.8.19={birth=yes}
+	2459.11.1={wealth=-1000} # Zadok bankrupted the country, then died
 	2463.7.5={death={
 			death_reason=death_murder_unknown
 		}

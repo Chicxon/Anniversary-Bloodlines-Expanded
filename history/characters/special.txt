@@ -577,6 +577,9 @@
 	dynasty=1789000 # Avondale
 	culture=chicagoan
 	religion=americanist
+	trait=grey_eminence
+	trait=gregarious
+	trait=ambitious
 	2352.4.19={birth=yes}
 	2389.10.2={
 		add_trait=president

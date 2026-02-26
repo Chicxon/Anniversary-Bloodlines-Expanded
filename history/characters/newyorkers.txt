@@ -802,7 +802,7 @@
 	learning=3
 	father=1788006
 	culture=hudsonian
-	religion=sedevacantist
+	religion=catholic
 	trait=skilled_tactician
 	trait=bastard
 	trait=adventurer
@@ -952,9 +952,8 @@
 
 # IMO Tiaogeara deserves a bit more characterization than she got in base given all the events that happened during her reign if you look carefully
 # She came to the throne at age 9 as Hudsonia's first female ruler, having been 3rd in line for the throne just a little while before
-# And successfully weathered the greatest threat to her country in its history, albeit with help from her big brother Norton
-# Then she also resolved the schism with the St Louis papacy as well, but is only remembered for sleeping around.
-# My girl deserves better, even if she's really more like everyone's girl...
+# And successfully weathered the greatest threat to her country in its history and resolved the schism with the St Louis papacy as well
+# Then she is only remembered for sleeping around. My girl deserves better.
 1788108={
 	name="Tiaogeara" # I
 	dynasty=1776013 # Clinton
@@ -975,9 +974,12 @@
 	trait=proud
 	father=1788106
 	2441.9.25={birth=yes}
-	2460.7.18={
-		religion=catholic        # Brought her kingdom back under St Louis months after winning a decisive victory over heathens, while still a teenager
-		trait=crowned_by_pope    # Real Jeanne d'Arc type stuff. I think she deserved a big ceremony. As did the Pope. And herself.
+	2459.10.30={
+		religion=catholic    # Recognized St Louis in exchange for help against Zadok
+		trait=crowned_by_pope
+		effect={                                                                                         # Localizes trait as "Crowned by Pope David II"
+			ROOT = { save_persistent_event_target = { name = coronation_priest_per scope = c_666024 } }  # Who was Pope at the time of her coronation
+		}                                                                                                # Hell yeah
 	}
 	2469.11.25={
 		give_nickname=nick_the_unfaithful       # Probably would have got beatified if it wasn't for this
@@ -985,10 +987,8 @@
 	2479.8.12={death=yes}
 }
 
-# I think of Holbrook as much like his mother in a way, but having grown up without the strong family bonds that she had. (Apart from Uncle Norton!)
-# While Tiaogeara had a golden legacy to preserve and imitate, Holbrook was deeply insecure that his birth had tarnished the family's honour.
-# Tiaogeara's greatest accomplishments happened early in her reign, followed by a decline in her later years
-# While Holbrook did well to even hold onto power for 40 years against some rather hostile circumstances
+# His birth had tarnished the family's honour, and everything seemed to collapse around him in his youth. A bitter, insecure, but eventually effective king.
+# He did well to even hold onto power for 40 years against some rather hostile circumstances
 1788109={
 	name="Holbrook"
 	dynasty=1776013 # Clinton
@@ -2911,6 +2911,7 @@
 	trait=humble
 	father=1788254
 	2590.1.1={birth=yes} 
+	2599.1.1={wealth=700} # Extremely eligible bachelorette
 	2615.4.10={add_spouse=1788295}
 	2651.1.1={death=yes}
 }
@@ -2946,8 +2947,10 @@
 	2448.1.1={
 		trait=monk
 	}
-	2460.7.18={religion=catholic}
-	2460.7.19={trait=monk} #Trait lost on religion change
+	2459.10.30={
+		religion=catholic
+		trait=monk #Trait lost on religion change
+	}
 	2487.8.12={death=yes}
 }
 1788297={ 

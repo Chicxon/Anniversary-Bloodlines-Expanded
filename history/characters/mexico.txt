@@ -3498,13 +3498,19 @@
 	trait=ambitious
 	trait=just
 	trait=kind
-	1822.5.19={
+	# 1822.5.19={
+	# 	create_bloodline={
+	# 		type=iturbide
+	#		has_dlc="Holy Fury"
+	#	}
+	#}
+	2434.5.5={
+		birth=yes
 		create_bloodline={
-			type=iturbide
+	 		type=iturbide
 			has_dlc="Holy Fury"
 		}
 	}
-	2434.5.5={birth=yes}
 	2504.12.4={death=yes}
 }
 

@@ -1,0 +1,12 @@
+2461.10.10={
+	liege=d_bajio_occidente
+}
+2581.7.13={
+	holder=6900029 #Guillermo
+}
+2614.12.11={
+	holder=6900036 #Jorge
+}
+2646.12.1={
+	holder=6900031 #Filomeno
+}
