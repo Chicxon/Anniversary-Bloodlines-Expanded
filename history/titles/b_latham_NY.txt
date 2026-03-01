@@ -13,7 +13,7 @@
 2451.5.30={
 	holder=1788108 # Tiaogeara I Clinton
 }
-2459.12.1={
+2459.10.31={
 	holder=1788200  # Darius Tregart, granted by Queen Tiaogeara as a reward for killing Zadok Mahonic
 }
 2505.10.26={

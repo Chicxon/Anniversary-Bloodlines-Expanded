@@ -1978,6 +1978,7 @@
 	female=yes
 	culture=texan
 	religion=evangelical
+	trait=sympathy_oldworld
 	trait=strong
 	trait=robust
 	trait=patient

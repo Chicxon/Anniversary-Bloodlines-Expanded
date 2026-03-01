@@ -1,0 +1,5 @@
+dead_merchant_republic = {
+    customizer = no
+    random = no
+    hidden = yes
+}

@@ -1234,15 +1234,17 @@
 	dynasty=1967016
 	culture=motowner
 	religion=orientalist
-	trait=legendary
 	trait=grey_eminence
 	trait=proud
 	trait=diligent
 	trait=wroth
 	trait=zealous
-	occluded=yes
 	2413.3.5={birth=yes}
 	2475.3.2={death=yes}
+	2500.1.1={
+		trait=legendary
+		occluded=yes
+	}
 }
 1384002={
 	name="Lamont"
@@ -1250,15 +1252,17 @@
 	culture=motowner
 	religion=orientalist
 	father=1384001
-	trait=legendary
 	trait=intricate_webweaver
 	trait=cynical
 	trait=deceitful
 	trait=just
 	trait=patient
-	occluded=yes
 	2430.5.6={birth=yes}
 	2489.9.16={death=yes}
+	2500.1.1={
+		trait=legendary
+		occluded=yes
+	}
 }
 1384003={
 	name="Lionel"

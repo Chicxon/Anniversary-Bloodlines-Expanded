@@ -1,0 +1,31 @@
+2300.1.1={
+	liege=d_new_york
+}
+2352.1.1={
+    holder=1788237 # Daniel Skulski
+}
+2376.1.1={
+    holder=1788260 # Achilles Skulski
+}
+2408.1.1={
+    holder=1788264 # Marcus Skulski
+}
+2430.1.1={
+	holder=1788242 # Jason Skulski
+}
+2433.1.1={
+	holder=1788261 # Ezra Skulski
+}
+2436.1.1={
+	holder=1788245 # Salvator Skulski
+}
+2461.1.1={
+	holder=0
+	liege=0
+}
+2639.12.31={
+	liege=d_connecticut
+}
+2660.1.1={
+	holder=1788015 # Willem Stedvor
+}

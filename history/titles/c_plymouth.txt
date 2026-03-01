@@ -2,6 +2,12 @@
 	liege=k_new_england
 	law=succ_tanistry
 }
+2457.1.1={
+	holder=1620079 # Vincent II Mahonic
+}
+2469.6.21={
+	holder=0
+}
 2641.9.21={
 	holder=1620022
 }

@@ -1426,6 +1426,7 @@
 	stewardship=6
 	learning=8
 	trait=mastermind_theologian
+	trait=zealous
 	2428.12.21={birth=yes}
 	2485.12.29={death={
 			death_reason=death_execution
@@ -1615,7 +1616,8 @@
 	trait=shy
 	father=666103
 	2394.4.4={birth=yes}
-	2461.2.20={death=yes}
+	2461.2.20={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967090={
@@ -1634,7 +1636,8 @@
 	trait=gregarious
 	father=1967089
 	2443.11.23={birth=yes}
-	2491.6.25={death=yes}
+	2491.6.25={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967091={
@@ -1653,7 +1656,8 @@
 	trait=shy
 	father=666108
 	2503.3.13={birth=yes}
-	2561.9.5={death=yes}
+	2561.9.5={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967092={
@@ -1670,7 +1674,8 @@
 	trait=proud
 	mother=1967091
 	2536.8.25={birth=yes}
-	2603.5.9={death=yes}
+	2603.5.9={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967093={#Count of Laurel Highlands
@@ -1697,7 +1702,8 @@
 	religion=catholic
 	father=1967109
 	2453.1.1={birth=yes}
-	2530.1.1={death=yes}
+	2530.1.1={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967096={
@@ -1707,7 +1713,8 @@
 	religion=catholic
 	father=1967095
 	2479.1.1={birth=yes}
-	2550.1.1={death=yes}
+	2550.1.1={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967097={
@@ -1828,7 +1835,8 @@
 	culture=chicagoan
 	religion=americanist
 	2383.1.1={birth=yes}
-	2446.11.6={death=yes}
+	2446.11.6={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967109={
@@ -1837,7 +1845,8 @@
 	culture=chicagoan
 	religion=catholic
 	2420.1.1={birth=yes}
-	2499.5.17={death=yes}
+	2499.5.17={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967110={
@@ -1859,10 +1868,12 @@
 	2554.8.15={
 		add_spouse=1967111
 	}
-	2555.4.20={death={
+	2555.4.20={
+		death={
 			death_reason=death_murder
 			killer=1967111 # He had it coming
 		}
+		trait=dead_merchant_republic
 	}
 }
 
@@ -1915,7 +1926,8 @@
 	culture=chicagoan
 	religion=americanist
 	2502.5.15={birth=yes}
-	2576.12.20={death=yes}
+	2576.12.20={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967116={
@@ -1925,7 +1937,8 @@
 	religion=americanist
 	father=1967115
 	2542.4.24={birth=yes}
-	2611.5.16={death=yes}
+	2611.5.16={death=yes
+	trait=dead_merchant_republic}
 }
 
 1967117={#Edelweiss

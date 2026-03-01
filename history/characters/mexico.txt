@@ -2000,7 +2000,8 @@
 	trait=cynical
 	trait=envious
 	2601.11.28={birth=yes}
-	2655.6.3={death=yes}
+	2655.6.3={death=yes
+	trait=dead_merchant_republic}
 }
 
 1810111={

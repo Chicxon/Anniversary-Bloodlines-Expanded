@@ -695,10 +695,11 @@ bm_south_of_the_border = {
 }
 
 bm_saratoga_springs = {
-	name = "bm_saratoga_springs"
-	desc = "bm_saratoga_springs_desc"
+	name = "BM_SARATOGA_SPRINGS"
+	desc = "BM_SARATOGA_SPRINGS_DESC"
 	date = 2459.11.1
 	
+	era = yes
 	custom_start = yes				## Choosing "Custom Start" will open this bookmark
 	picture = GFX_pick_era_image_1
 
@@ -729,12 +730,44 @@ bm_saratoga_springs = {
 		
 		character = {
 			female = no
-			dna="ukastpijthk"
 			properties="wj00aa"
 			religion="occultist"
 			culture="yankee"
 			government = feudal_government
 			dynasty=1780046
+		}
+	}
+
+	selectable_character = {
+		id = 1620078 # Tarleton Irving
+		age = 25
+		name = ERA_CHAR_NAME_TARLETON
+		title = c_pictou
+		title_name = PICTOU
+		
+		character = {
+			female=no
+			properties="wj00aa"
+			religion="celtic_pagan"
+			culture="maritimer"
+			government=feudal_government
+			dynasty=1813076
+		}
+	}
+
+	selectable_character = {
+		id = 1788246 # Abraham Espinal
+		age = 58
+		name = ERA_CHAR_NAME_ABRAHAM
+		title = b_espinal
+		title_name = ESPINAL
+
+		character = {
+			female=no
+			religion="americanist"
+			culture=nuyorican
+			dynasty=1917042
+			government=merchant_republic_government
 		}
 	}
 }

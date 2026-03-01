@@ -39,6 +39,13 @@
 }
 2240.9.16={
 	holder=6900052
+	law=crown_authority_2
+	law=succ_byzantine_elective
+	law=centralization_3
+	law=imperial_administration
+	law=ze_administration_laws_2
+	law=vice_royalty_2
+	law=revoke_title_law_1
 }
 2258.8.19={
 	holder=6900053

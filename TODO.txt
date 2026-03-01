@@ -1,5 +1,6 @@
 TODO:
 Look at republic condition for buendia
+Lock k_mexico succession to e_mexico somehow
 
 MAYBE for:
     Cervanteses (Baijio)

@@ -810,7 +810,8 @@
 			has_dlc="Holy Fury"
 		}
 	}
-	2653.2.17={death=yes}
+	2653.2.17={death=yes
+	trait=dead_merchant_republic}
 }
 
 1811045={
@@ -1011,7 +1012,8 @@
 	trait=just
 	trait=patria_bolivar
 	2601.1.1={birth=yes}
-	2663.3.18={death=yes}
+	2663.3.18={death=yes
+	trait=dead_merchant_republic}
 }
 
 1811058={
@@ -1067,7 +1069,8 @@
 	trait=deceitful
 	trait=patient
 	2597.10.5={birth=yes}
-	2649.6.5={death=yes}
+	2649.6.5={death=yes
+	trait=dead_merchant_republic}
 }
 
 1811062={

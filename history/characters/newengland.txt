@@ -1515,6 +1515,11 @@
 	trait=syphilitic
 	father=1620078
 	2440.3.15={birth=yes}
+	2458.1.1={
+		effect={
+			give_job_title=job_spymaster
+		}
+	}
 	2469.6.20={death={
 			death_reason=death_duel
 			killer=1620200
@@ -2166,7 +2171,7 @@
 	trait=inspiring_leader
 	culture=yankee
 	religion=occultist
-	2449.5.12={birth=yes}
+	2442.5.12={birth=yes} # Made slightly older to better fit into the Saratoga Springs start date
 	2469.6.20={
 		create_bloodline={
 			type=king_bloodline

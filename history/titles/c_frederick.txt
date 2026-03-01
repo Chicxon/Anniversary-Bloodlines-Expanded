@@ -1,0 +1,10 @@
+2345.1.1={
+	liege=d_americanist
+}
+2474.4.14={
+	liege=0
+}
+2660.1.1={ # Franklin Ironwrit
+	holder=1789009 # Babbs Zappa
+	liege=d_capital
+}

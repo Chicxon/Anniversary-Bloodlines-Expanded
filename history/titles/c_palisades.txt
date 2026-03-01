@@ -1,0 +1,30 @@
+2300.1.1={
+	liege=d_new_york
+}
+2360.1.1={ # German Wayne (Gotham City is canonically in NJ, apparently)
+	holder=1788239
+}
+2391.1.1={ # Corydon Wayne
+	holder=1788283
+}
+2440.1.1={ # Varian Wayne
+	holder=1788284
+}
+2478.1.1={ # Henreyk Wayne
+	holder=1788285
+}
+2504.1.1={ # Jonas Wayne
+	holder=1788251
+}
+2545.1.1={ # Varian Wayne
+	holder=1788286
+}
+2565.1.1={ # Idrees Wayne
+	holder=1788287
+}
+2578.1.1={ # Idrees sold his biggest title (Greedy + slow), probably to Najme Hasan's ancestor but no character specified 
+	holder=0
+}
+2660.1.1={
+	holder=1788012
+}

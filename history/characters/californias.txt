@@ -303,6 +303,7 @@
 	2567.9.13={birth=yes}
 	2660.12.1={death={
 			death_reason=death_murder_unknown
+			trait=dead_merchant_republic
 		}
 	}
 }
@@ -502,6 +503,7 @@
 	2610.1.1={birth=yes}
 	2651.12.1={death={
 			death_reason=death_murder_unknown
+			trait=dead_merchant_republic
 		}
 	}
 }
@@ -734,8 +736,14 @@
 	trait=ambitious
 	2594.7.14={birth=yes}
 	2615.6.23={add_spouse=1910029}
-	2638.9.17={death={death_reason=death_murder
-		killer=1910031}}
+	2638.9.17={
+		death={
+			death_reason=death_murder
+			killer=1910031
+		}
+		trait=dead_merchant_republic
+	}
+
 }
 
 1910029={

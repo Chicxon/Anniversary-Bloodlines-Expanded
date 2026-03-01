@@ -2,7 +2,7 @@
 	liege=d_penobscot
 	law=succ_tanistry
 }
-2460.1.1={
+2458.1.1={
 	holder=1620200
 	liege=k_new_england
 }

@@ -585,7 +585,8 @@
 		add_trait=president
 		give_nickname=nick_lastname
 	}
-	2420.4.5={death=yes}
+	2420.4.5={death=yes
+	trait=dead_merchant_republic}
 }
 666104={
 	name="Margaret"
@@ -671,7 +672,8 @@
 		add_trait=president
 		give_nickname=nick_lastname
 	}
-	2537.7.19={death=yes}
+	2537.7.19={death=yes
+	trait=dead_merchant_republic}
 }
 666109={
 	name="Florence"
@@ -725,10 +727,12 @@
 		add_trait=president
 		give_nickname=nick_lastname
 	}
-	2628.6.21={death={
+	2628.6.21={
+		death={
 			death_reason=death_sacrificed
 			killer=1919000
 		}
+		trait=dead_merchant_republic
 	}
 }
 

@@ -54,3 +54,75 @@
         death=yes
     }
 }
+
+19430000={
+    name="Cave"
+    religion=chrome_cultist
+    culture=dixie
+    dynasty=1943000
+    trait=underhanded_rogue
+    trait=quick
+    trait=groomed
+    trait=ambitious
+    trait=gregarious
+    trait=wroth
+    trait=lunatic
+    disallow_random_traits=yes
+    2410.1.1={birth=yes}
+    2450.1.1={add_spouse=19430001}
+    2478.1.1={trait=cough}
+    2480.1.1={trait=infirm}
+    2482.1.1={
+        death=yes
+        trait=legendary
+        occluded=yes
+    }
+}
+
+19430001={
+    name="Caroline"
+    female=yes
+    religion=chrome_cultist
+    culture=lacustrine
+    trait=scholarly_theologian
+    trait=quick
+    trait=fair
+    trait=scholar
+    trait=diligent
+    trait=patient
+    trait=erudite
+    trait=chaste
+    disallow_random_traits=yes
+    2428.1.1={birth=yes}
+    2484.1.1={
+        death=yes
+        trait=legendary
+        occluded=yes
+    }
+}
+
+19430002={
+    name="Chell"
+    dynasty=1943000
+    female=yes
+    culture=edokko
+    religion=chrome_cultist
+    trait=quick
+    trait=strong
+    trait=adopted_child
+    trait=stubborn
+    trait=patient
+    trait=willful
+    disallow_random_traits=yes
+    father=19430000
+    mother=19430001
+    2450.1.1={
+        birth=yes
+        culture=lacustrine
+    }
+    2510.1.1={
+        death=yes
+        trait=legendary
+        occluded=yes
+    }
+}

@@ -185,11 +185,13 @@
 	religion=evangelical
 	trait=cruel
 	trait=stubborn
-	trait=dead_crown_hcc
 	father=1861008 # Hank Yelverton
 	2440.1.1={birth=yes}
 	2441.1.1={give_nickname=nick_the_terrible}
-	2495.1.1={death=yes}
+	2495.1.1={
+		death=yes
+		trait=dead_crown_hcc
+	}
 }
 
 1861010={
@@ -208,7 +210,6 @@
 	dynasty=1782000 # Royall
 	culture=tuskegean
 	religion=evangelical
-	trait=dead_crown_hcc
 	trait=ambitious
 	trait=paranoid
 	trait=brave
@@ -217,9 +218,10 @@
 	father=1861388
 	give_nickname=nick_the_butcher
 	2442.1.1={birth=yes
-		culture=southron
+	culture=southron
 	}
 	2509.1.1={death={
+			trait=dead_crown_hcc
 			death_reason=death_battle
 			killer=1861245
 		}
@@ -2688,7 +2690,8 @@
 	trait=content
 	2591.8.7={birth=yes}
 	2610.4.16={add_spouse=3000094}
-	2646.9.12={death=yes}
+	2646.9.12={death=yes
+	trait=dead_merchant_republic}
 }
 
 3000096={
@@ -2857,7 +2860,8 @@
 	trait=cruel
 	2596.4.1={birth=yes}
 	2618.10.6={add_spouse=3000104}
-	2657.2.23={death=yes}
+	2657.2.23={death=yes
+	trait=dead_merchant_republic}
 }
 
 3000104={
@@ -5257,10 +5261,12 @@
 	dynasty=1782046 # Johnston
 	culture=southron
 	religion=evangelical
-	give_nickname=nick_the_old
 	trait=proud
 	trait=patient
 	2435.1.1={birth=yes}
+	2500.1.1={
+		give_nickname=nick_the_old
+	}
 	2511.1.1={death=yes}
 }
 1861271={
@@ -7134,6 +7140,7 @@
 	trait=patient
 	trait=gluttonous
 	trait=is_fat
+	trait=dead_merchant_republic
 	disallow_random_traits=yes
 	2048.5.3={birth=yes}
 	2108.3.17={death=yes}
@@ -7150,6 +7157,7 @@
 	trait=feeble
 	trait=fair
 	trait=diligent
+	trait=dead_merchant_republic
 	disallow_random_traits=yes
 	2056.8.23={birth=yes}
 	2112.2.14={death=yes}
@@ -7169,6 +7177,7 @@
 	trait=gluttonous
 	trait=shrewd
 	trait=proud
+	trait=dead_merchant_republic
 	disallow_random_traits=yes
 	2039.9.1={birth=yes}
 	2122.12.28={death={death_reason=death_battle killer=1861444}}

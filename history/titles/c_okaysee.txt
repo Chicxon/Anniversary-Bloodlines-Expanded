@@ -1,0 +1,15 @@
+2300.1.1={
+	liege=d_oklahoma
+}
+2546.1.1={
+	holder=1875015 # Pahayoko I Nokona
+}
+2599.1.1={
+	holder=1875014 # Moseh 'the Apostle' Nokona
+}
+2628.1.1={
+	holder=1875013 # Ohettoint Nokona
+}
+2662.1.1={
+	holder=1875001 # Pahayoko II Nokona
+}

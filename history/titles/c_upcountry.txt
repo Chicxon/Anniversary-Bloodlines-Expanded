@@ -1,0 +1,36 @@
+2300.1.1={
+	liege=d_santee
+}
+2420.1.1={
+	holder=1861007 # Atticus I Yelverton
+}
+2455.1.1={
+	holder=1861008 # Hank Yelverton, who predeceased his father and was never Emperor
+}
+2462.1.1={
+	holder=1861009 # Atticus II Yelverton
+}
+2495.1.1={
+	holder=1861010 # Preston Yelverton
+}
+2502.1.1={
+	holder=1861134 # Robbie Yelverton, Preston's brother
+}
+2504.3.18={        # Samuel kills the Santee Yelvertons 
+	holder=1861166 # And replaces them with the Hamptons
+}
+2547.1.1={ 
+	holder=1861167
+}
+2561.1.1={ 
+	holder=1861168
+}
+2585.1.1={ 
+	holder=1861169
+}
+2617.1.1={ 
+	holder=1861170
+}
+2653.1.1={ 
+	holder=1861052
+}

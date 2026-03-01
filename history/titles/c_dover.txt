@@ -1,0 +1,69 @@
+2119.1.11={
+	holder=1861454
+}
+2180.12.27={
+	holder=1861450
+}
+2203.3.29={
+	holder=1861458 #Thomas Hanover
+}
+2203.4.5={
+	holder=1861457
+}
+2207.5.20={
+	holder=1861580
+}
+2208.1.1={
+	holder=1861581
+}
+2223.1.1={
+	holder=1861582
+}
+2242.1.1={
+	holder=1861583
+}
+2253.5.3={
+	holder=1861584 # Given to Adrienne and her successors to fill the gap in the 2459 start date
+}
+2278.1.1={
+	holder=1861585
+}
+2285.1.1={
+	holder=1861586
+}
+2310.1.1={
+	holder=1861587
+}
+2334.1.1={
+	holder=1861588
+}
+2350.1.1={
+	holder=1861589
+}
+2369.1.1={
+	holder=1861590
+}
+2372.1.1={
+	holder=1861591
+}
+2398.1.1={
+	holder=1861592
+}
+2420.1.1={
+	holder=1861593
+}
+2441.1.1={
+	holder=1861594
+}
+2457.1.1={
+	holder=1861595
+}
+2465.1.1={
+	holder=1861596
+}
+2472.1.1={
+	holder=0 # Kingmakers fought alongside President Kelleher but were defeated
+}
+2660.1.1={
+	holder=1789007 # Nicholas Derren
+}
