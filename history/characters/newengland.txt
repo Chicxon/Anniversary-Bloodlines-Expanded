@@ -2977,3 +2977,43 @@
 	2553.6.12={birth=yes}
 	2604.2.27={death=yes}
 }
+
+### Saratoga Springs ###
+
+1620300={ # Composite of LoZ and Zelda Fitzgerald
+	name="Zelda"
+	dynasty=1782200 # "Highrule"
+	culture=norse
+	religion=catholic
+	female=yes
+	trait=charismatic_negotiator
+	trait=quick
+	trait=fair
+	trait=mystic
+	trait=painter
+	trait=patient
+	trait=erudite
+	trait=drunkard
+	trait=lunatic
+	2440.2.21={
+		birth=yes
+		culture=southron
+		effect={
+			set_character_flag=diversity
+		}
+	}
+	2465.1.1={
+		trait=brave
+		remove_trait=drunkard
+		remove_trait=lunatic
+	}
+	2469.6.21={
+		trait=shieldmaiden
+		give_nickname=nick_the_legendary
+	}
+	2480.1.1={
+		death=yes
+		trait=legendary
+		occluded=yes
+	}
+}

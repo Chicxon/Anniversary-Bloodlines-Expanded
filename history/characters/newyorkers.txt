@@ -2556,13 +2556,15 @@
 	trait=brilliant_strategist
 	trait=defensive_leader
 	trait=organizer
-	trait=one_eyed
 	trait=zealous
 	trait=just
 	trait=patient
 	trait=deceitful
 	2443.1.1={birth=yes
 	culture=gothamite
+	}
+	2476.1.1={
+		trait=one_eyed
 	}
 	2520.1.1={
 		death=yes

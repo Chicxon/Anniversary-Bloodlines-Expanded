@@ -1,8 +1,13 @@
-2300.1.1={
-	liege=d_connecticut
+2320.1.1={
+	liege=k_new_england
+}
+2469.6.21={
+	liege=0
+	holder=1620300
 }
 2639.12.31={
 	holder=1788037 #DeWitt the Bastard
+	liege=d_connecticut
 }
 2653.1.1={
 	holder=1788013 #Ellis

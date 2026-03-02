@@ -1,0 +1,16 @@
+# 1002 - Blackshear
+
+# County Title
+title=c_blackshear
+
+# Settlements
+max_settlements=4
+b_albany_GA=temple
+b_cordele_GA=castle
+
+# Misc
+culture=dixie
+religion=evangelical
+
+2300.1.1={ capital=b_cordele_GA }
+2510.1.1={ capital=b_albany_GA }

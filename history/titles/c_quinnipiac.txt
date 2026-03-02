@@ -1,7 +1,20 @@
-2300.1.1={
-	liege=d_connecticut
+2320.1.1={
+	set_tribute_suzerain={
+		who=k_new_england
+		type=permanent 
+	}
+}
+2450.1.1={
+	holder=1620300 # Zelda Highrule (Long Island was taken but this is close enough)
+}
+2465.1.1={
+	clear_tribute_suzerain = k_new_england
+}
+2480.1.1={
+	holder=0
 }
 2639.12.31={
+	liege=d_connecticut
 	holder=1788037 #DeWitt the Bastard
 }
 2653.1.1={

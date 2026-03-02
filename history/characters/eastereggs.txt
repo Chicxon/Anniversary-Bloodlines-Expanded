@@ -59,7 +59,7 @@
     name="Cave"
     religion=chrome_cultist
     culture=dixie
-    dynasty=1943000
+    dynasty=1788100 # Johnson
     trait=underhanded_rogue
     trait=quick
     trait=groomed
@@ -103,7 +103,7 @@
 
 19430002={
     name="Chell"
-    dynasty=1943000
+    dynasty=1788100
     female=yes
     culture=edokko
     religion=chrome_cultist
@@ -124,5 +124,77 @@
         death=yes
         trait=legendary
         occluded=yes
+    }
+}
+
+19410000={
+    name="Seth"
+    dynasty=1795100 # Paridon
+    culture=cajun
+    religion=catholic
+    trait=scholarly_theologian
+    trait=sympathy_oldworld
+    trait=scholar
+    trait=diligent
+    trait=humble
+    trait=honest
+    trait=erudite
+    disallow_random_traits=yes
+    2420.1.1={
+        birth=yes
+        effect={add_friend=19410001}
+        effect={add_friend=19410002}
+    }
+    2480.1.1={
+        death=yes
+    }
+}
+
+19410001={
+    name="William"
+    dynasty=1784100 # Toti
+    culture=rostmann
+    religion=catholic
+    trait=tough_soldier
+    trait=adventurer
+    trait=sympathy_nautical
+    trait=diligent
+    trait=humble
+    trait=honest
+    trait=just
+    disallow_random_traits=yes
+    2400.1.1={
+        birth=yes
+        give_nickname=nick_the_sailor
+    }
+    2455.1.1={
+        employer=19410000
+    }
+    2480.1.1={
+        death=yes
+    }
+}
+
+19410002={
+    name="Jonathan"
+    dynasty=1793100 # Parshall
+    culture=northlander
+    religion=catholic
+    trait=mastermind_theologian
+    trait=sympathy_pacific
+    trait=scholar
+    trait=gregarious
+    trait=patient
+    trait=humble
+    disallow_random_traits=yes
+    2410.1.1={
+        birth=yes
+        effect={add_friend=19410001}
+    }
+    2455.1.1={
+        employer=19410000
+    }
+    2480.1.1={
+        death=yes
     }
 }

@@ -3,6 +3,8 @@ conservative in style, and purely to refine the base ATE experience without conf
 If the Anniversary Edition devs are reading this, I would be truly honoured if you integrated this mod and listed me as a contributor :)
 /Chicxon
 
+REQUIRES RODENHOS
+
 New bloodlines added for:
     Solomon King
     Roisin Fenimore

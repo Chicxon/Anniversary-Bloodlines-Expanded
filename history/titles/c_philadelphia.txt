@@ -1,0 +1,9 @@
+2458.12.15={ # December 15; Ratification of the US Bill of Rights
+	holder=1789100 # Liberty Rightbill
+}
+2476.1.1={
+	holder=0
+}
+2665.1.1={
+	holder=1789014
+}

@@ -1,0 +1,18 @@
+2300.1.1={
+	liege=e_dixie
+}
+2456.1.1={
+	holder=1861009 # Atticus II Yelverton
+}
+2495.1.1={
+	holder=1861010 # Preston Yelverton
+}
+2503.1.1={
+	holder=1861135 # Atticus Yelverton, youngest son of Atticus II
+}
+2504.3.18={
+	holder=0 # Death of Atticus Yelverton
+}
+2650.1.1={
+	holder=1861080 # Tift Dougherty
+}
