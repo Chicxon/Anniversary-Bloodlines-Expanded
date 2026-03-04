@@ -87,6 +87,11 @@
 	2558.1.19={birth=yes
 		culture=californiano
 	}
+	2621.8.1={
+		create_bloodline={
+			type=caballero_bloodline
+		}
+	}
 	2630.9.5={death=yes}
 }
 

@@ -1,0 +1,505 @@
+### Self insert ###
+20050000={
+    name="Jacobus"
+    religion=catholic
+    culture=scottish
+    trait=scholarly_theologian
+    trait=sympathy_christendom
+    trait=sympathy_cult_of_saints
+    trait=sympathy_pacific
+    trait=erudite
+    trait=kind
+    trait=patient
+    trait=shy
+    trait=lunatic
+    occluded=yes
+    2600.6.28={
+        birth=yes
+    }
+    2664.1.1={
+        death=yes
+    }
+}
+20050001={
+    name="Brunella"
+    religion=chrome_cultist
+    culture=riverlander # From Kentucky
+    father=20050000
+    dna=dchmfllcaaf # For use with anime portraits for her "canon" appearance
+    properties=ah
+    female=yes
+    trait=fortune_builder
+    trait=shrewd
+    trait=tech_scavenger
+    trait=chariot
+    trait=brave
+    trait=diligent
+    trait=erudite
+    trait=greedy
+    disallow_random_traits=yes
+    2642.1.1={
+        birth=yes
+        effect={
+            add_artifact=old_world_shades
+            add_artifact=old_world_engine
+            add_artifact=ate_firearm
+            add_artifact=main_street_swamp_car
+        }
+        give_nickname=nick_the_mechanic
+    }
+    2665.1.1={
+        employer=3000200 # Daytona Speedway, she would drive to Canada, if she had a working car
+    }
+    2720.1.1={
+        death=yes
+    }
+}
+
+### NORTH ATLANTIC ###
+
+1620300={ # Composite of LoZ and Zelda Fitzgerald
+	name="Zelda"
+	dynasty=1782200 # "Highrule"
+	culture=norse
+	religion=catholic
+	female=yes
+	trait=charismatic_negotiator
+	trait=quick
+	trait=fair
+	trait=mystic
+	trait=painter
+	trait=patient
+	trait=erudite
+	trait=drunkard
+	trait=lunatic
+	2440.2.21={
+		birth=yes
+		culture=southron
+		effect={
+			set_character_flag=diversity
+		}
+	}
+	2465.1.1={
+		trait=brave
+		remove_trait=drunkard
+		remove_trait=lunatic
+	}
+	2469.6.21={
+		trait=shieldmaiden
+		give_nickname=nick_the_legendary
+	}
+	2480.1.1={
+		death=yes
+		trait=legendary
+		occluded=yes
+	}
+}
+
+1788300 = {
+    name="Max"
+    dynasty=2005102 # Yasgur
+    culture=yiddish
+    religion=jewish
+    trait=fortune_builder
+    trait=hedonist
+    trait=charitable
+    trait=kind
+    trait=just
+    trait=diligent
+    2410.12.15={
+        birth=yes
+    }
+    2470.1.1={
+        death=yes
+    }
+}
+
+### MIDWEST ###
+
+19430000={
+    name="Cave"
+    religion=chrome_cultist
+    culture=dixie
+    dynasty=1788100 # Johnson
+    trait=underhanded_rogue
+    trait=quick
+    trait=groomed
+    trait=ambitious
+    trait=gregarious
+    trait=wroth
+    trait=lunatic
+    disallow_random_traits=yes
+    2410.1.1={birth=yes}
+    2450.1.1={add_spouse=19430001}
+    2478.1.1={trait=cough}
+    2480.1.1={trait=infirm}
+    2482.1.1={
+        death=yes
+        trait=legendary
+        occluded=yes
+    }
+}
+
+19430001={
+    name="Caroline"
+    female=yes
+    religion=chrome_cultist
+    culture=lacustrine
+    trait=scholarly_theologian
+    trait=quick
+    trait=fair
+    trait=scholar
+    trait=diligent
+    trait=patient
+    trait=erudite
+    trait=chaste
+    disallow_random_traits=yes
+    2428.1.1={birth=yes}
+    2484.1.1={
+        death=yes
+        trait=legendary
+        occluded=yes
+    }
+}
+
+19430002={
+    name="Chell"
+    dynasty=1788100
+    female=yes
+    culture=edokko
+    religion=chrome_cultist
+    trait=quick
+    trait=strong
+    trait=adopted_child
+    trait=stubborn
+    trait=patient
+    trait=willful
+    disallow_random_traits=yes
+    father=19430000
+    mother=19430001
+    2450.1.1={
+        birth=yes
+        culture=lacustrine
+    }
+    2510.1.1={
+        death=yes
+        trait=legendary
+        occluded=yes
+    }
+}
+
+### MIDATLANTIC ###
+
+1789100={ # Amish-backed Libertarian rebel, crossing the Delaware to attack Trenton
+	name="Beatrice"
+	female=yes
+	culture=beltway
+	dynasty=1781100 # Rightbill
+	religion=americanist
+	trait=brilliant_strategist
+	trait=giant
+	trait=holy_warrior
+	trait=winter_soldier
+	trait=americanist_leader
+	trait=brave
+	trait=erudite
+	trait=just
+	disallow_random_traits=yes
+	diplomacy=7
+	martial=6
+	stewardship=3
+	intrigue=7
+	learning=9
+	2432.2.22={ # George Washington's 700th birthday
+		birth=yes
+	}
+	2454.7.4={
+		religion=libertarian
+		name="Liberty"
+		trait=zealous
+		trait=ambitious
+	}
+	2458.12.15={ # December 15; Ratification of the US Bill of Rights
+		trait=heresiarch
+		trait=adventurer
+	}
+	2459.1.1={capital=c_philadelphia}
+	2476.1.1={
+		death={
+			death_reason=death_duel
+			killer=1788249 #Ulderic Theovelt
+		}
+	}
+}
+
+1789101={
+	name="Madison"
+	religion=libertarian
+	culture=delawarean
+	trait=organizer
+	trait=administrator
+	trait=dwarf
+	trait=quick
+	trait=erudite
+	trait=diligent
+	disallow_random_traits=yes
+	2444.3.15={
+		birth=yes
+	}
+	2457.1.1={
+		trait=adopted_child
+		mother=1789100
+		dynasty=1781100
+	}
+	2460.3.15={
+		trait=charismatic_negotiator
+	}
+	2480.1.1={
+		religion=americanist
+	}
+	2536.6.28={
+		death=yes
+	}
+}
+
+1789102={
+	name="Yitzchak" # Ruler of Jersey shore
+	dynasty=2005100 # Levy
+	culture=yiddish
+	religion=reform # Jewish
+	trait=underhanded_rogue
+	trait=mystic
+	trait=lustful
+	trait=humble
+	trait=charitable
+	trait=deceitful
+	trait=depressed
+	2381.1.1={
+		birth=yes
+	}
+	2461.1.1={
+		death=yes
+	}
+}
+
+1789103={
+	name="Zevulun" # Ruler of Vineland
+	dynasty=2005101 # Simantov
+	culture=yiddish
+	religion=jewish
+	trait=flamboyant_schemer
+	trait=jewish_derekh_eretz
+	trait=proud
+	trait=envious
+	trait=honest
+	trait=just
+	trait=drunkard
+	2413.1.1={
+		birth=yes
+	}
+	2458.1.1={
+		effect={add_rival=1789102}
+	}
+	2476.1.1={
+		death=yes
+	}
+}
+
+1789104={
+	name="George"
+	dynasty=1778100 # Hunt
+	culture=delawarean
+	religion=americanist
+	2420.1.1={
+		birth=yes
+	}
+	2480.1.1={
+		death=yes
+	}
+}
+
+### LOUISIANA-DIXIE ###
+
+19410000={
+    name="Seth"
+    dynasty=1795100 # Paridon
+    culture=cajun
+    religion=catholic
+    trait=scholarly_theologian
+    trait=sympathy_oldworld
+    trait=scholar
+    trait=diligent
+    trait=humble
+    trait=honest
+    trait=erudite
+    disallow_random_traits=yes
+    2420.1.1={
+        birth=yes
+        effect={add_friend=19410001}
+        effect={add_friend=19410002}
+    }
+    2480.1.1={
+        death=yes
+    }
+}
+
+19410001={
+    name="William"
+    dynasty=1784100 # Toti
+    culture=rostmann
+    religion=catholic
+    trait=tough_soldier
+    trait=adventurer
+    trait=sympathy_nautical
+    trait=diligent
+    trait=humble
+    trait=honest
+    trait=just
+    trait=brave
+    disallow_random_traits=yes
+    2400.1.1={
+        birth=yes
+        give_nickname=nick_the_sailor
+    }
+    2455.1.1={
+        employer=19410000
+    }
+    2480.1.1={
+        death=yes
+    }
+}
+
+19410002={
+    name="Jonathan"
+    dynasty=1793100 # Parshall
+    culture=northlander
+    religion=catholic
+    trait=mastermind_theologian
+    trait=sympathy_pacific
+    trait=scholar
+    trait=gregarious
+    trait=patient
+    trait=humble
+    disallow_random_traits=yes
+    2410.1.1={
+        birth=yes
+        effect={add_friend=19410001}
+    }
+    2455.1.1={
+        employer=19410000
+    }
+    2480.1.1={
+        death=yes
+    }
+}
+
+1865000={ # Count of Rappahannock in 2459
+    name="Bobby-Lee"
+    dynasty=1787028 # Longstreet, pre-existing but seemingly unused
+    religion=evangelical
+    culture=dixie
+    trait=skilled_tactician
+    trait=aggressive_leader
+    trait=organizer
+    trait=knight
+    trait=strategist
+    trait=brave
+    trait=diligent
+    trait=devout
+    disallow_random_traits=yes
+    2407.1.19={
+        birth=yes
+    }
+    2470.10.12={
+        death=yes
+    }
+}
+
+### TEXAS ###
+
+1836200={
+	name="Dwight"
+	dynasty=1848100 # Eisenhauer
+	culture=texaner
+	religion=evangelical
+	trait=skilled_tactician
+	trait=organizer
+	trait=sympathy_oldworld
+	trait=administrator
+	trait=humble
+	trait=patient
+	trait=diligent
+	trait=devout
+	2410.10.14={
+		birth=yes
+	}
+	2489.3.28={
+		death=yes
+	}
+}
+
+### CALIFORNIA ###
+
+2500200 = { # Parent to Maria and Luisa, deceased
+    name="Reginald"
+    dynasty=1777100 #Segale
+    culture=gothamite
+    religion=cetic
+    trait=architect
+    2400.1.1={
+        birth=yes
+    }
+    2455.1.1={
+        death=yes
+    }
+}
+
+2500201 = {
+    name=María
+    female=yes
+    father=2500200 # Reginald Segale
+    dynasty=1777100 #Segale
+    culture=californiano
+    religion=cetic
+    trait=tough_soldier
+    trait=way_fist
+    trait=imp_ex2
+    trait=twin
+    trait=dwarf
+    trait=sturdy
+    trait=brave
+    trait=gluttonous
+    disallow_random_traits=yes
+    2440.10.11={
+        birth=yes
+    }
+    2525.1.1={
+        death=yes
+    }
+}
+
+2500202 = {
+    name=Luisa
+    female=yes
+    father=2500200 # Reginald Segale
+    dynasty=1777100 #Segale
+    culture=californiano
+    religion=cetic
+    trait=thrifty_clerk
+    trait=way_dove
+    trait=imp_ex3
+    trait=trickster
+    trait=twin
+    trait=giant
+    trait=brave
+    trait=shy
+    trait=kind
+    disallow_random_traits=yes
+    2440.10.11={
+        birth=yes
+        effect={add_artifact=brazilian_beret} # Green hat lol
+    }
+    2530.1.1={
+        death=yes
+    }
+}

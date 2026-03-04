@@ -2811,6 +2811,9 @@
 	2608.12.20={ # The day he killed Moises Duque
 		trait=scarred
 		trait=scarred_type_8
+		create_bloodline={
+			type=cucaracha
+		}
 	}
 	2610.3.10={
 		effect={add_artifact=old_world_shades
@@ -2819,10 +2822,6 @@
 	2620.1.31={add_spouse=1810201}
 	2656.8.24={
 		effect={add_rival=1810226}
-		create_bloodline={
-			type=cucaracha
-			has_dlc="Holy Fury"
-		}
 	}
 	2670.7.13={death=yes}
 }

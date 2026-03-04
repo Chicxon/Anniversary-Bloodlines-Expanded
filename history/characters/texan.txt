@@ -2146,26 +2146,3 @@
 	2506.1.1={birth=yes}
 	2573.1.1={death=yes}
 }
-
-### Saratoga Springs ###
-
-1836200={
-	name="Dwight"
-	dynasty=1848100 # Eisenhauer
-	culture=texaner
-	religion=evangelical
-	trait=skilled_tactician
-	trait=organizer
-	trait=sympathy_oldworld
-	trait=administrator
-	trait=humble
-	trait=patient
-	trait=diligent
-	trait=devout
-	2410.10.14={
-		birth=yes
-	}
-	2489.3.28={
-		death=yes
-	}
-}

@@ -15,6 +15,12 @@
 	liege=d_piedmont
 	holder=0
 }
+2455.1.1={ # Bobby Lee
+	holder=1865000
+}
+2470.10.12={
+	holder=0
+}
 2660.1.1={ # Wallace Harllee
 	holder=1861076
 }

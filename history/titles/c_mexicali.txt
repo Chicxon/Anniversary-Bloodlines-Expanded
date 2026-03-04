@@ -1,0 +1,19 @@
+
+2440.1.1={
+	liege=e_california
+	holder=2500200 # Reginald Segale
+}
+2450.1.1={
+	holder=2500202 # Luisa Segale
+}
+2530.1.1={
+	holder=0
+	law=succ_primogeniture
+	liege=k_baja_california
+}
+2585.3.14={
+	holder=1910010
+}
+2660.12.1={
+	holder=1910011
+}

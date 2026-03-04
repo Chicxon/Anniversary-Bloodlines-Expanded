@@ -1,0 +1,21 @@
+# c_mexicali
+
+# County Title
+title=c_mexicali
+
+# Settlements
+max_settlements=5
+
+b_mexicali_BAJ=city
+b_guadalupe_victoria_BAJ=castle
+b_los_algodones_BAJ=city
+b_santa_isabel_BAJ=temple
+
+# Misc
+culture=chino
+religion=cetic #sacred_heart
+terrain=farmlands
+#History
+
+2300.1.1={ capital=b_guadalupe_victoria_BAJ }
+2550.1.1={ capital=b_mexicali_BAJ }

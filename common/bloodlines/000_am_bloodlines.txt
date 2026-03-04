@@ -261,7 +261,7 @@ yudkow = { #Emperors of California
 	learning = 2
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_cetic #tbd
+	picture = GFX_bloodlines_symbol_cetic_2 #tbd
 	flags = { historical_bloodline bloodline_heroes }
 }
 
@@ -288,7 +288,7 @@ gable = { #Kings of Jefferson
 	}
 	inheritance = patrilineal
 	allow_bastards = yes
-	picture = GFX_bloodlines_symbol_cetic
+	picture = GFX_bloodlines_symbol_cetic_2
 	flags = { historical_bloodline }
 }
 
@@ -471,12 +471,6 @@ buendia = {
 	allow_bastards = yes
 	picture = GFX_bloodlines_placeholder_symbol_2
 	flags = { historical_bloodline }
-	#active = {
-	#	OR = {
-	#		government = merchant_republic_government
-	#		government = republic_government
-	#	}
-	#}
 }
 
 
@@ -610,7 +604,7 @@ nys_emperor_male = {
 	bloodline_effect_great_heroes_appear = 1
 	inheritance = patrilineal
 	allow_bastards = yes
-	flags = { created_bloodline }
+	flags = { created_bloodline bloodline_heroes }
 	active = {
 		OR = {
 			culture_group = mid_atlantic
@@ -628,7 +622,7 @@ nys_emperor_female = {
 	bloodline_effect_great_heroes_appear = 1
 	inheritance = matrilineal
 	allow_bastards = yes
-	flags = { created_bloodline }
+	flags = { created_bloodline bloodline_heroes }
 	active = {
 		OR = {
 			culture_group = mid_atlantic

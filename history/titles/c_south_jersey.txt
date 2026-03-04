@@ -1,0 +1,16 @@
+2450.1.1={
+	liege=d_jersey
+	holder=1789102 # Yitzhak Levy
+}
+2455.1.1={
+	holder=1789103 # Zavulon Simantov
+}
+2460.1.1={
+	holder=1789100 # Liberty Rightbill
+}
+2476.1.1={
+	holder=0
+}
+2660.1.1={
+	holder=1789006 # Henry Midfield
+}
