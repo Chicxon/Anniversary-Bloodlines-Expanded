@@ -4,6 +4,14 @@
 2400.1.1={
 	liege=k_hudsonia
 }
+2443.1.1={
+	liege=d_hudson_valley
+	holder=1788301
+}
+2464.1.1={
+	liege=k_hudsonia
+	holder=0
+}
 2660.1.1={	
 	holder=1788016
 	liege=d_hudson_valley

@@ -4,6 +4,12 @@
 2382.1.1={
 	liege=k_hudsonia
 }
+2437.1.1={
+	holder=1788304
+}
+2486.1.1={
+	holder=0
+}
 2650.1.1={ # Rip Ranvincle
 	liege=d_catskill
 	holder=1788009

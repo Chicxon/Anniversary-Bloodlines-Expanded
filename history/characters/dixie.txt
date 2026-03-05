@@ -146,7 +146,6 @@
 	disallow_random_traits=yes
 	culture=dixie
 	religion=evangelical
-	trait=dead_crown_hcc
 	trait=ambitious
 	trait=scarred
 	trait=scarred_type_1
@@ -165,7 +164,10 @@
 		}
 		give_nickname=nick_the_ironside
 	}
-	2462.1.1={death=yes}
+	2462.1.1={
+		death=yes
+		trait=dead_crown_hcc
+	}
 }
 
 1861008={
@@ -187,7 +189,7 @@
 	trait=stubborn
 	father=1861008 # Hank Yelverton
 	2440.1.1={birth=yes}
-	2441.1.1={give_nickname=nick_the_terrible}
+	2463.1.1={give_nickname=nick_the_terrible} # Moved till after Saratoga Springs
 	2495.1.1={
 		death=yes
 		trait=dead_crown_hcc
@@ -216,9 +218,11 @@
 	trait=arbitrary
 	trait=skilled_tactician
 	father=1861388
-	give_nickname=nick_the_butcher
 	2442.1.1={birth=yes
 	culture=southron
+	}
+	2505.1.1={
+		ive_nickname=nick_the_butcher
 	}
 	2509.1.1={death={
 			trait=dead_crown_hcc

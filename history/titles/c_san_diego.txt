@@ -1,0 +1,44 @@
+2240.1.1={
+	liege=k_socal
+	holder=2200196 # Johnny Flowers
+}
+2270.11.7={
+	holder=2200197 # Seneca Flowers
+}
+2320.11.7={
+	holder=2200198 # David Flowers
+}
+2350.11.7={
+	holder=2200207 # James Flowers
+}
+2395.7.11={
+	holder=2200208 # Rick Flowers
+}
+2430.1.1={
+	liege=e_california
+}
+2435.7.11={
+	holder=2200209 # Vivienne Flowers
+}
+2475.7.11={
+	holder=2200210 # Katerina Flowers
+}
+2505.7.11={
+	holder=2200211 # Alvis Flowers
+}
+2535.7.11={
+	holder=2200212 # Eric Flowers
+}
+2575.7.11={
+	holder=2200205 # Madeleine Flowers
+}
+2620.7.11 = {
+	holder=2200206 # Cynthia Flowers
+}
+2622.5.5={
+	liege=k_socal
+	holder=1910150 # William Carmine
+}
+2650.12.1={
+	holder=1910151 # Ronald Carmine
+}

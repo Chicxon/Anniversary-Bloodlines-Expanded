@@ -1,14 +1,29 @@
 2055.10.5={
-	holder=2500110
+	holder=2500110 # Jody Bute
 	liege=k_socal
 }
-2576.4.5={
-	holder=2200030
+2090.2.14={
+	holder=0
+}
+2435.1.1={
+	holder=2200201 # Johnny Carmine, granted by order of the Emperor
+}
+2469.7.11={
+	holder=2200202 # Michael
+}
+2500.7.11={
+	holder=2200203 # Skyler
+}
+2530.7.11={
+	holder=2200204 # Michael
+}
+2600.7.11={
+	holder=2200030 # David the Soldier, moved forward to his father's death
 }
 2616.11.7={
-	holder=1910150
+	holder=1910150 # William
 }
 2650.1.1={
-	holder=1910205
+	holder=1910205 # Lillian Harlow
 }
 

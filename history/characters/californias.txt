@@ -306,10 +306,11 @@
 	trait=midas_touched
 	trait=imp_ex2
 	2567.9.13={birth=yes}
-	2660.12.1={death={
+	2660.12.1={
+		death={
 			death_reason=death_murder_unknown
-			trait=dead_merchant_republic
 		}
+		trait=dead_merchant_republic
 	}
 }
 
@@ -1783,7 +1784,8 @@
 	religion=nazarene
 	trait=nz_presbyter
 	2604.12.16={birth=yes}
-	2659.12.1={death=yes}
+	2659.12.1={death=yes
+	trait=dead_merchant_republic}
 }
 
 1910136={

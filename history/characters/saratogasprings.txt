@@ -95,7 +95,7 @@
 	}
 }
 
-1788300 = {
+1788300 = { # Count of Sullivan and Rockland
     name="Max"
     dynasty=2005102 # Yasgur
     culture=yiddish
@@ -114,6 +114,72 @@
     }
 }
 
+1788301 = { # Duchess of Hudson Valley
+    name="Ellois"
+    female=yes
+    culture=hudsonian
+    religion=sedevacantist
+    trait=flamboyant_schemer
+    trait=temperate
+    trait=zealous
+    trait=stubborn
+    trait=proud
+    trait=brave
+    disallow_random_traits=yes
+    2433.1.1={
+        birth=yes
+    }
+    2464.1.1={
+        death=yes
+    }
+}
+
+1788302 = { # Duke of Onondaga
+    name="Jishkaaga"
+    culture=iroquois
+    religion=catholic
+    trait=fair
+    trait=gregarious
+    trait=lustful
+    trait=hunter
+    2431.1.1={birth=yes}
+    2476.1.1={death=yes}
+}
+
+1788303 = { # Big Moose and etc.
+    name="Rudolf"
+    religion=norse_pagan
+    culture=yooper
+    trait=tough_soldier
+    trait=adventurer
+    trait=brave
+    trait=humble
+    trait=ambitious
+    disallow_random_traits=yes
+    2412.1.1={birth=yes}
+    2437.1.1={
+        religion=high_church
+        trait=low_anglican
+        trait=sympathy_pagans
+    }
+    2481.1.1={death=yes}
+}
+
+1788304 = { # Count of Otsego and Schoharie
+    name="Orpheus"
+    religion=catholic
+    culture=hudsonian
+    trait=naive_appeaser
+    trait=robust
+    trait=uncouth
+    trait=shy
+    trait=kind
+    trait=chaste
+    disallow_random_traits=yes
+    2417.1.1={birth=yes}
+    2486.1.1={death=yes}
+}
+
 ### MIDWEST ###
 
 19430000={
@@ -124,6 +190,7 @@
     trait=underhanded_rogue
     trait=quick
     trait=groomed
+    trait=architect
     trait=ambitious
     trait=gregarious
     trait=wroth
@@ -306,7 +373,7 @@
 }
 
 1789104={
-	name="George"
+	name="George" # Duke of Jersey
 	dynasty=1778100 # Hunt
 	culture=delawarean
 	religion=americanist
@@ -398,7 +465,7 @@
     dynasty=1787028 # Longstreet, pre-existing but seemingly unused
     religion=evangelical
     culture=dixie
-    trait=skilled_tactician
+    trait=brilliant_strategist
     trait=aggressive_leader
     trait=organizer
     trait=knight
@@ -409,6 +476,9 @@
     disallow_random_traits=yes
     2407.1.19={
         birth=yes
+    }
+    2455.1.1={
+        add_spouse=1861563 # Hera Hanover
     }
     2470.10.12={
         death=yes
@@ -440,7 +510,7 @@
 
 ### CALIFORNIA ###
 
-2500200 = { # Parent to Maria and Luisa, deceased
+2500200 = { # Father to Maria and Luisa, deceased
     name="Reginald"
     dynasty=1777100 #Segale
     culture=gothamite
@@ -455,7 +525,7 @@
 }
 
 2500201 = {
-    name=María
+    name="María"
     female=yes
     father=2500200 # Reginald Segale
     dynasty=1777100 #Segale
@@ -465,10 +535,10 @@
     trait=way_fist
     trait=imp_ex2
     trait=twin
-    trait=dwarf
     trait=sturdy
     trait=brave
     trait=gluttonous
+    trait=gregarious
     disallow_random_traits=yes
     2440.10.11={
         birth=yes
@@ -479,7 +549,7 @@
 }
 
 2500202 = {
-    name=Luisa
+    name="Luisa"
     female=yes
     father=2500200 # Reginald Segale
     dynasty=1777100 #Segale
@@ -500,6 +570,34 @@
         effect={add_artifact=brazilian_beret} # Green hat lol
     }
     2530.1.1={
+        death=yes
+    }
+}
+
+2500203 = { # Non-canon brother-in-law to Elton I, count of Yuba
+    name="Presley"
+    dynasty=1851170 #Sabina
+    religion=cetic
+    culture=valleyan
+    father=2500126 # Joseph Sabina
+    trait=tough_soldier
+    trait=quick
+    trait=diligent
+    trait=just
+    trait=wroth
+    trait=chaste
+    2395.1.1={
+        birth=yes
+    }
+    2425.1.1={
+        religion=cetic
+        trait=way_book
+        trait=imp_ex3
+    }
+    2450.1.1={
+        trait=governator # Succeeded Hardin to become the 2nd Governator
+    }
+    2471.1.1={
         death=yes
     }
 }
