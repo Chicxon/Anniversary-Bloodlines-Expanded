@@ -607,6 +607,7 @@
 	dynasty=1814032 # Kelleher
 	culture=texan
 	religion=americanist
+	trait=cavalry_leader
 	2411.12.5={birth=yes}
 	2453.8.8={
 		add_trait=president

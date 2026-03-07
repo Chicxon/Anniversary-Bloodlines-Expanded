@@ -1366,6 +1366,7 @@
 	trait=way_fist
 	trait=sympathy_judaism
 	trait=sympathy_islam
+	trait=theologian # Literally founded a religion, how could he not be lol
 	trait=honest
 	trait=diligent
 	trait=cynical

@@ -1,0 +1,19 @@
+2339.1.1={
+	holder=1845149 # Gordon "Fire and Brimstone"
+}
+2380.1.1={
+	holder=2500012 # Joaquin Baskett
+}
+2420.1.1={
+	holder=2500013
+}
+2430.1.1={
+	holder=2500041 # Grilsey Baskett
+}
+2460.1.30={
+	holder=0 # Removed as Shepard moved to Eureka
+}
+2643.3.1={
+	holder=1911115
+	liege=k_jefferson
+}

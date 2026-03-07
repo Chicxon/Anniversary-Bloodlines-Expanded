@@ -1,0 +1,11 @@
+2430.1.1={
+	holder=2500041 # Grilsey Baskett
+	liege=d_shasta_cascade
+}
+2460.1.30={
+	holder=0
+}
+2643.3.1={
+	holder=1911115
+	liege=k_jefferson
+}

@@ -7450,6 +7450,7 @@ coat_of_arms = {
 1783058 = { name="Hagans" culture=appalachian }
 1783059 = { name="Canady" culture=appalachian }
 1783060 = { name="Babbitt" culture=appalachian }
+1783100 = { name="Lee" culture=appalachian }
 
 
 1784000 = { name="Stahlbleche" culture=rostmann }
@@ -11829,6 +11830,7 @@ coat_of_arms = {
 	}
 }
 1849102 = { name="Rose" culture=bayfolk }
+1849200 = { name="Smith" culture=bayfolk }
 
 1850000 = { name="Bogart" culture=angeleno }
 1850001 = { name="Hepburn" culture=angeleno }
@@ -18439,3 +18441,4 @@ coat_of_arms = {
 2057060 = { name="Copperhead" culture=oklahoman used_for_random = no }
 2057061 = { name="Broken-Arrow" culture=oklahoman used_for_random = no }
 2057062 = { name="Reed" culture=oklahoman used_for_random = no }
+2057100 = { name="Milton" culture=oklahoman }

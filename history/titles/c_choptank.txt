@@ -1,0 +1,50 @@
+2199.10.12={
+	holder=1861465 #Daisy Northam
+}
+2231.1.30={
+	holder=1861492 #Nicholas Northam
+}
+2232.4.30={
+	holder=1861497 #Zachary Northam
+}
+2235.4.4={
+	holder=1861501 #Walter Northam
+}
+2238.9.5={
+	holder=1861507 #Randolph Northam
+}
+2279.6.16={
+	holder=1861510 #Lee Northam
+}
+2280.10.9={
+	holder=1789111 #Thomas Northam, the Americanist
+	set_tribute_suzerain={
+		who=d_americanist
+		type=permanent 
+	}
+}
+2312.1.1={
+	holder=1789110 #George Northam, son of Lee
+}
+2333.1.1={
+	holder=1789109 #Abigail Northam
+}
+2401.1.1={
+	holder=1789108 #Abraham Northam
+}
+2412.1.1={
+	holder=1789107 #Peter Northam
+}
+2440.1.1={
+	holder=1789106 #Petra Northam
+}
+2474.4.14={
+	clear_tribute_suzerain= d_americanist
+}
+2475.1.1={
+	holder=0
+}
+2660.1.1={ # Franklin Ironwrit
+	holder=1789022 # Malik Bowser
+	liege=d_capital
+}

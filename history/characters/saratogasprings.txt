@@ -385,6 +385,107 @@
 	}
 }
 
+1789105={ # Count of Pocomoke
+    name="Nicholas"
+    culture=southron
+    religion=catholic
+    trait=midas_touched
+    trait=sympathy_oldworld
+    trait=pilgrim
+    trait=kind
+    trait=charitable
+    trait=gluttonous
+    disallow_random_traits=yes
+    2404.12.25={birth=yes}
+    2505.1.1={death=yes}
+}
+
+1789106={ # Countess of Choptank
+    name="Petra"
+    female=yes
+    dynasty=1782166 # Northam descendant
+    father=1789107
+    culture=beltway
+    religion=americanist
+    secret_religion=catholic
+    trait=intricate_webweaver
+    trait=sympathy_christendom
+    trait=paranoid
+    trait=envious
+    trait=erudite
+    trait=proud
+    trait=chaste
+    disallow_random_traits=yes
+    2427.1.1={birth=yes}
+    2475.1.1={death=yes}
+}
+
+# Her ancestors
+
+1789107={
+    name="Peter"
+    dynasty=1782166 # Northam
+    culture=beltway
+    religion=americanist
+    secret_religion=catholic
+    father=1789108
+    trait=sympathy_christendom
+    2389.1.1={birth=yes}
+    2440.1.1={death=yes}
+}
+
+1789108={
+    name="Abraham"
+    dynasty=1782166 # Northam
+    culture=beltway
+    religion=americanist
+    trait=sympathy_christendom
+    secret_religion=catholic
+    mother=1789109
+    2352.1.1={birth=yes}
+    2412.1.1={death=yes}
+}
+
+1789109={
+    name="Abigail"
+    female=yes
+    father=1789110
+    dynasty=1782166 # Northam
+    culture=beltway
+    religion=americanist
+    trait=patient
+    trait=stubborn
+    trait=sympathy_christendom
+    secret_religion=catholic
+    2319.1.1={birth=yes}
+    2401.1.1={death=yes}
+}
+
+1789110={ # Son of Lee Northam
+    name="George"
+    dynasty=1782166 # Northam
+    father=1861510 # Lee Northam
+    culture=beltway
+    religion=americanist
+    trait=sympathy_christendom
+    trait=erudite
+    trait=patient
+    2277.1.1={birth=yes}
+    2282.12.25={secret_religion=catholic} # Petra's doing
+    2333.1.1={death=yes}
+}
+
+1789111={ # Son of Victor the Apostate, placed there by Americanist (Kingmaker) machinations
+    name="Thomas"
+    dynasty=1782166 # Northam
+    father=1861508
+    culture=beltway
+    religion=americanist
+    trait=homosexual
+    2256.1.1={birth=yes}
+    2312.1.1={death=yes}
+}
+
 ### LOUISIANA-DIXIE ###
 
 19410000={
@@ -599,5 +700,220 @@
     }
     2471.1.1={
         death=yes
+    }
+}
+
+2500204 = { # TNO REFERENCE!!! (Ruler of Salinas)
+    name="Steve"
+    dynasty=1849200
+    culture=bayfolk
+    religion=nazarene
+    trait=charismatic_negotiator
+    trait=adventurer
+    trait=nz_presbyter
+    trait=sympathy_pacific
+    trait=socializer
+    trait=shrewd
+    trait=patient
+    trait=trusting
+    trait=erudite
+    trait=just
+    disallow_random_traits=yes
+    2432.1.1={birth=yes}
+    2456.1.1={
+        add_spouse=2500205
+        add_lover=2500205
+    }
+    2490.1.1={death=yes}
+}
+
+2500205 = { # TNO REFERENCE!!!
+    name="Zoya"
+    female=yes
+    culture=petropavlovskiy
+    religion=nazarene
+    trait=adventurer
+    trait=tough_soldier
+    trait=nz_seraph
+    trait=sympathy_pacific
+    trait=duelist
+    trait=robust
+    trait=shrewd
+    trait=patient
+    trait=kind
+    trait=brave
+    disallow_random_traits=yes
+    2430.1.1={birth=yes}
+    2450.1.1={effect={add_artifact=ate_firearm}}
+    2488.1.1={death=yes}
+}
+
+2500206 = { # Son of last king of Sacramento, later made duke of Kern
+    name="Sebas"
+    dynasty=1850049 # Sofocante
+    father=2500011 # Hardin Strutter
+    mother=2500077 # Julia Sofocante
+    religion=cetic
+    culture=valleyan
+    trait=fair
+    trait=diligent
+    trait=just
+    trait=paranoid
+    trait=greedy
+    trait=imp_ex2
+    trait=way_fist
+    2407.2.15={birth=yes}
+    2482.1.1={death=yes}
+}
+
+2500207 = { # Duchess of Central Valley
+    name="Xia"
+    female=yes
+    dynasty=1851102 # Nakamura, pre-existing but unused
+    religion=cetic
+    secret_religion=qingzhen
+    culture=calaotian
+    trait=mastermind_theologian
+    trait=quick
+    trait=reclusive
+    trait=uncouth
+    trait=way_book
+    trait=imp_ex4
+    trait=gamer
+    trait=diligent
+    trait=patient
+    trait=devout
+    trait=shy
+    2441.1.1={birth=yes}
+    2513.1.1={death=yes}
+}
+
+2500208 = { # Protector of the Channel Islands
+    name="Willis"
+    dynasty=1783100 # Lee
+    culture=appalachian
+    religion=navegante
+    trait=brilliant_strategist
+    trait=genius
+    trait=adventurer
+    trait=strategist
+    trait=sympathy_pacific
+    trait=sympathy_nautical
+    trait=sympathy_oldworld
+    trait=brave
+    trait=patient
+    trait=diligent
+    disallow_random_traits=yes
+    2418.5.11={
+        birth=yes
+        effect={set_character_flag=diversity}
+    }
+    2470.8.25={death=yes}
+}
+
+2500209 = { # Count of Tahoe
+    name="George"
+    dynasty=2057100 # Milton
+    culture=oklahoman
+    religion=nazarene
+    trait=underhanded_rogue
+    trait=dwarf
+    trait=shrewd
+    trait=nz_presbyter
+    trait=just
+    trait=kind
+    trait=diligent
+    trait=ambitious
+    2425.1.1={
+        birth=yes
+        effect={add_friend=2500210}
+    }
+    2490.1.1={death=yes}
+}
+
+2500210 = {
+    name="Lennie"
+    culture=oklahoman
+    religion=nazarene
+    trait=naive_appeaser
+    trait=giant
+    trait=strong
+    trait=slow
+    trait=robust
+    trait=nz_presbyter
+    trait=kind
+    trait=craven
+    trait=lustful
+    trait=trusting
+    martial=4
+    2424.1.1={birth=yes}
+    2450.1.1={employer=2500209}
+    2490.1.1={death=yes}
+}
+
+2500211 = { # Count of Mariposa
+    name="Adam"
+    religion=edenite
+    culture=valleyan
+    trait=martial_cleric
+    trait=fair
+    trait=groomed
+    trait=sympathy_pacific
+    trait=slothful
+    trait=charitable
+    trait=devout
+    trait=content
+    diplomacy=5
+    martial=4
+    stewardship=6
+    intrigue=2
+    learning=5
+    2430.1.1={birth=yes}
+    2487.1.1={death=yes}
+}
+
+2500212 = { # Count of Mendocino
+    name="Julian"
+    religion=true_cross
+    culture=angeleno
+    trait=elusive_shadow
+    trait=heresiarch
+    trait=inspiring_leader
+    trait=holy_warrior
+    trait=gardener
+    trait=shrewd
+    trait=robust
+    trait=gregarious
+    trait=erudite
+    trait=brave
+    trait=devout
+    trait=temperate
+    martial=8
+    2429.1.1={birth=yes}
+    2460.1.1={
+        death={
+            death_reason=death_battle
+        }
+    }
+}
+2500213 = { # Count of Bragg
+    name="Warren"
+    religion=nazarene
+    culture=bayfolk
+    secret_religion=true_cross
+    trait=nz_acolyte
+    trait=skilled_tactician
+    trait=hunter
+    trait=chaste
+    trait=temperate
+    trait=humble
+    trait=envious
+    2426.1.1={birth=yes}
+    2460.1.1={
+        remove_trait=nz_acolyte
+        religion=true_cross
+        death={
+            death_reason=death_battle
+        }
     }
 }

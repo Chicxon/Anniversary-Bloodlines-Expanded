@@ -8383,7 +8383,9 @@
 	father=1861507
 	mother=1861509
 	2241.7.4={birth=yes}
-	2280.10.9={death=yes} #murdered by a Kingmaker
+	2280.10.9={death={
+		death_reason=death_murder_unknown
+	}} #murdered by a Kingmaker
 }
 1861511={
 	name="Achilles"
@@ -9258,6 +9260,15 @@
 	father=1861592
 	culture=delawarean
 	religion=americanist
+	# Giving him some traits as he killed Elkanah Stoltzfus
+	trait=elusive_shadow
+	trait=flanker
+	trait=defensive_leader
+	trait=americanist_leader
+	trait=brave
+	trait=patient
+	trait=cruel
+	trait=devout
 	2379.1.1={birth=yes}
 	2441.1.1={death=yes}
 }

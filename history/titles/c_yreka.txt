@@ -1,0 +1,17 @@
+2380.1.1={
+	holder=2500012 # Joaquin Baskett
+}
+2420.1.1={
+	holder=2500013
+}
+2430.1.1={
+	holder=2500041 # Grilsey Baskett/Gearhart
+	liege=d_shasta_cascade
+}
+2460.1.30={
+	holder=0
+}
+2643.3.1={
+	holder=1911115
+	liege=k_jefferson
+}

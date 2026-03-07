@@ -3530,6 +3530,7 @@ name="Elfie"
 	trait=trusting
 	trait=midas_touched
 	trait=charitable
+	trait=imp_ex1
 	2372.1.1={birth=yes}
 	2440.1.1={death=yes}
 }
@@ -3547,6 +3548,7 @@ name="Elfie"
 	trait=kind
 	trait=midas_touched
 	trait=diligent
+	trait=imp_ex3
 	2410.1.1={birth=yes}
 	2480.1.1={death=yes}
 }
@@ -3566,6 +3568,7 @@ name="Elfie"
 	trait=skilled_tactician
 	trait=diligent
 	2450.1.1={birth=yes}
+	2480.1.1={trait=imp_ex1}
 	2520.1.1={death=yes}
 }
 2500137={
@@ -3583,6 +3586,7 @@ name="Elfie"
 	trait=wroth
 	trait=intricate_webweaver
 	trait=diligent
+	trait=imp_ex3
 	2490.1.1={birth=yes}
 	2560.1.1={death=yes}
 }
@@ -3601,6 +3605,7 @@ name="Elfie"
 	trait=wroth
 	trait=skilled_tactician
 	trait=slothful
+	trait=imp_ex2
 	2520.1.1={birth=yes}
 	2590.1.1={death=yes}
 }
@@ -3619,6 +3624,7 @@ name="Elfie"
 	trait=erudite
 	trait=skilled_tactician
 	trait=diligent
+	trait=imp_ex4
 	2580.1.1={birth=yes}
 	2640.1.1={death=yes}
 }
@@ -3638,7 +3644,10 @@ name="Elfie"
 	trait=diligent
 	trait=duelist
 	2620.1.1={birth=yes}
-	2645.6.21={add_spouse=2500141}
+	2645.6.21={
+		add_spouse=2500141
+		trait=imp_ex1
+	}
 	2699.1.1={death=yes}
 }
 2500141={

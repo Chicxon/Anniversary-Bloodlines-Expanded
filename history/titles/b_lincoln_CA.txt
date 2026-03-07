@@ -1,0 +1,33 @@
+2421.5.5={
+	law=succ_seniority
+	law=agnatic_succession
+	liege=e_california
+}
+2421.5.5={
+	holder=1910100
+}
+2473.12.1={
+	holder=1910101
+}
+2493.12.1={
+	holder=1910102
+}
+2501.12.1={
+	holder=1910103
+}
+2503.12.1={
+	holder=1910104
+}
+2559.12.1={
+	holder=1910105
+}
+2596.12.1={
+	holder=1910106
+}
+2615.5.2={
+	liege=e_california
+	holder=1910106
+}
+2635.1.1={
+	holder=0 # "Fuckers took my barony. Can't have shit in Sacramento."
+}

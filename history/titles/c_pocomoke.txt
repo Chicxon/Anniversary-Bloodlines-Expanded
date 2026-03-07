@@ -1,0 +1,12 @@
+2300.1.1={
+	liege=d_delmarva
+}
+2430.12.25={ # Nicholas
+	holder=1789105
+}
+2505.1.1={
+	holder=0
+}
+2642.1.1={ # Marmaduke Coriaceus
+	holder=1861026
+}
