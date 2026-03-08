@@ -1,0 +1,6 @@
+2426.1.1={
+	holder=1836100 # Fritz the Longhorn
+}
+2459.12.1={
+	holder=0
+}

@@ -57,7 +57,7 @@
 
 ### NORTH ATLANTIC ###
 
-1620300={ # Composite of LoZ and Zelda Fitzgerald
+1620300={ # Composite of LoZ and Zelda Fitzgerald, ruler of Connecticut
 	name="Zelda"
 	dynasty=1782200 # "Highrule"
 	culture=norse
@@ -185,7 +185,7 @@
 19430000={
     name="Cave"
     religion=chrome_cultist
-    culture=dixie
+    culture=lacustrine
     dynasty=1788100 # Johnson
     trait=underhanded_rogue
     trait=quick
@@ -387,7 +387,7 @@
 
 1789105={ # Count of Pocomoke
     name="Nicholas"
-    culture=southron
+    culture=delawarean
     religion=catholic
     trait=midas_touched
     trait=sympathy_oldworld
@@ -586,6 +586,62 @@
     }
 }
 
+1865001={ # Littlepage ancestor, earl of Pee Dee in 2459
+    name="Pluto"
+    dynasty=1782002 # Littlepage
+    religion=evangelical
+    culture=southron
+    trait=amateurish_plotter
+    trait=cavalry_leader
+    trait=fair
+    trait=dwarf  # "Little"
+    trait=lefthanded
+    trait=robust
+    trait=knight # "Page"
+    trait=brave
+    trait=humble
+    trait=gregarious
+    trait=charitable
+    diplomacy=10
+    martial=9
+    stewardship=4
+    intrigue=4
+    learning=3
+    2436.1.1={birth=yes}
+    2502.1.1={death=yes}
+}
+
+1865002={
+    name="Neptune"
+    dynasty=1782002 # Littlepage
+    religion=evangelical
+    culture=southron
+    father=1865001
+    2467.1.1={birth=yes}
+    2511.1.1={death=yes}
+}
+
+1865003={
+    name="Saturn"
+    dynasty=1782002 # Littlepage
+    religion=evangelical
+    culture=southron
+    father=1865002
+    trait=cynical
+    2490.1.1={birth=yes}
+    2578.1.1={death=yes}
+}
+
+1865004={
+    name="Henry"
+    dynasty=1782002 # Littlepage
+    religion=evangelical
+    culture=southron
+    father=1865003
+    2538.1.1={birth=yes}
+    2600.1.1={death=yes}
+}
+
 ### TEXAS ###
 
 1836200={
@@ -603,6 +659,7 @@
 	trait=devout
 	2410.10.14={
 		birth=yes
+        effect={set_character_flag=diversity}
 	}
 	2489.3.28={
 		death=yes
@@ -625,7 +682,7 @@
     }
 }
 
-2500201 = {
+2500201 = { # Countess of Tijuana
     name="María"
     female=yes
     father=2500200 # Reginald Segale
@@ -649,7 +706,7 @@
     }
 }
 
-2500202 = {
+2500202 = { # Countess of Mexicali
     name="Luisa"
     female=yes
     father=2500200 # Reginald Segale
@@ -675,7 +732,7 @@
     }
 }
 
-2500203 = { # Non-canon brother-in-law to Elton I, count of Yuba
+2500203 = { # Non-canon brother-in-law to Elton I, Duke of North Valley
     name="Presley"
     dynasty=1851170 #Sabina
     religion=cetic
@@ -916,4 +973,54 @@
             death_reason=death_battle
         }
     }
+}
+
+2500214 = { # Countess of Antelope
+    name="Mihrimah"
+    female=yes
+    religion=nazarene
+    culture=tehrangeleno
+    trait=scholarly_theologian
+    trait=socializer
+    trait=nz_seraph
+    trait=devout
+    trait=patient
+    trait=proud
+    trait=erudite
+    disallow_random_traits=yes
+    2435.1.1={birth=yes}
+    2492.1.1={death=yes}
+}
+
+2500215 = { # Count of Descanso
+    name="Joaquín"
+    religion=nazarene
+    culture=californiano
+    trait=nz_acolyte
+    trait=midas_touched
+    trait=ambitious
+    trait=gluttonous
+    trait=diligent
+    trait=charitable
+    2434.1.1={birth=yes}
+    2521.1.1={death=yes}
+}
+
+2500216 = { # Count of Palm Springs
+    name="Matthew"
+    culture=canuck
+    religion=cetic
+    trait=charismatic_negotiator
+    trait=fair
+    trait=way_cowl
+    trait=imp_ex4
+    trait=hedonist
+    trait=lustful
+    trait=gluttonous
+    trait=cynical
+    trait=gregarious
+    trait=depressed
+    disallow_random_traits=yes
+    2437.1.1={birth=yes}
+    2465.1.1={death=yes}
 }

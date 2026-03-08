@@ -1,0 +1,15 @@
+2400.1.1={
+	liege=d_red_raider
+}
+2425.12.1={
+	holder=1836101
+}
+2460.1.1={
+	holder=0
+}
+2500.1.1={
+	liege=d_estacado
+}
+2664.1.1={
+	holder=1836039
+}

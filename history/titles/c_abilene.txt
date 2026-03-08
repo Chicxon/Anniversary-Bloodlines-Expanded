@@ -1,4 +1,7 @@
-2300.1.1={
+2400.1.1={
+	liege=d_red_raider
+}
+2500.1.1={
 	liege=d_abilene
 }
 2590.1.1={

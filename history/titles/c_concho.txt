@@ -1,0 +1,9 @@
+2400.1.1={
+	liege=d_longhorns
+}
+2500.1.1={
+	liege=d_abilene
+}
+2659.1.1={
+	holder=1836035
+}

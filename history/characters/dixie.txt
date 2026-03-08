@@ -6061,6 +6061,7 @@
 1861347={
 	name="Orton" 
 	dynasty=1782002 # Littlepage
+	father=1865004
 	culture=southron
 	religion=evangelical
 	2561.1.1={birth=yes}

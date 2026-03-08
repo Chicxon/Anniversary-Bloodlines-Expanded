@@ -1375,7 +1375,6 @@
 	trait=imp_ex4
 	trait=patient
 	trait=ambitious
-	trait=dead_crown_california
 	give_nickname=nick_the_lawgiver
 	2421.12.25={
 		create_bloodline={
@@ -1385,7 +1384,10 @@
 	}
 	2390.12.16={birth=yes}
 	2420.1.1={add_spouse=2500127}
-	2473.12.1={death=yes}
+	2473.12.1={
+		death=yes
+		trait=dead_crown_california
+	}
 }
 
 1910101={
@@ -1412,7 +1414,9 @@
 	father=1910100
 	mother=2500127
 	2420.12.16={birth=yes}
-	2493.12.1={death=yes}
+	2493.12.1={death=yes
+		trait=dead_crown_california
+	}
 }
 
 1910102={
@@ -1432,12 +1436,12 @@
 	trait=diligent
 	trait=envious
 	trait=patient
-	trait=ill
-	trait=dead_crown_california
 	give_nickname=nick_the_just
 	father=1910101
 	2439.12.16={birth=yes}
+	2500.1.1={trait=ill}
 	2501.12.1={death={death_reason=death_trait}
+		trait=dead_crown_california
 	}
 }
 
@@ -1484,7 +1488,10 @@
 	trait=dead_crown_california
 	father=1910103
 	2496.12.16={birth=yes}
-	2559.12.1={death={death_reason=death_battle}
+	2559.12.1={death={
+		death_reason=death_battle
+		killer=1845000 # Jonathan the Hammer, seems most appropriate candidate
+		}
 	}
 }
 

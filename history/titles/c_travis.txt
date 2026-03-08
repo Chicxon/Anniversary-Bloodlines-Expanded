@@ -1,0 +1,14 @@
+2426.1.1={
+	liege=d_longhorns
+	holder=1836100 # Fritz the Longhorn
+}
+2459.12.1={
+	holder=0
+}
+2613.9.2={
+	holder=1836010
+	liege=d_longhorns
+}
+2646.4.21={
+	holder=1836012
+}

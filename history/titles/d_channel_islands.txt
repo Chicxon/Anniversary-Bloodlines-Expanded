@@ -5,6 +5,9 @@
 2470.8.25={
 	holder=0
 }
+2600.1.1={
+	liege=0
+}
 2666.6.4={
 	holder=1910125
 	law=tribal_organization_4

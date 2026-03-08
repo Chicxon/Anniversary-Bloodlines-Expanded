@@ -1,18 +1,31 @@
 2300.1.1={ 
 	liege=e_dixie
 }
-2500.1.1={
-	liege=d_cape_fear
+2457.1.1={
+	holder=1865001 # Pluto Littlepage
+}
+2502.1.1={
+	holder=1865002 # Neptune Littlepage
+}
+2511.1.1={
+	holder=1865003 # Saturn Littlepage
+}
+2578.1.1={
+	holder=1865004 # Henry Littlepage
 }
 2600.1.1={
-	holder=1861347
+	holder=1861347 # Orton Littlepage
 }
 2624.1.1={
-	holder=1861348
+	holder=1861348 # Eurylaus Littlepage
 }
 2640.1.1={
-	holder=1861023
+	holder=1861023 # Wade Littlepage, the Strong
 }
 2660.1.1={
+	holder=1861001 # Algernon Littlepage, before he became emperor
+}
+2665.1.1={
+	liege=d_cape_fear
 	holder=1861027 # Wade Littlepage, the younger brother of Emperor Algernon
 }

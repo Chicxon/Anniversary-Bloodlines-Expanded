@@ -1,0 +1,9 @@
+2400.1.1={
+	liege=d_miners
+}
+2500.1.1={
+	liege=d_estacado
+}
+2660.1.1={
+	holder=1836036
+}
