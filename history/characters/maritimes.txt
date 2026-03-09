@@ -1078,7 +1078,7 @@
 	trait=celtic_leader
 	give_nickname=nick_the_mad
 	2434.4.4={birth=yes}
-	2468.1.1={add_spouse=1899107}
+	2457.1.1={add_spouse=1899107}
 	2469.3.26={
 		create_bloodline={
 			type=irving

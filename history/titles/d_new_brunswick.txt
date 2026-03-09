@@ -1,0 +1,35 @@
+2300.2.27={
+	liege=k_maritimes
+}
+2333.1.1={
+	set_tribute_suzerain={
+		who=k_new_england
+		type=permanent 
+	}
+}
+2455.1.1={
+	law=succ_tanistry
+	holder=1899108 # Malmure Criss
+}
+2470.1.1={
+	clear_tribute_suzerain=k_new_england
+}
+2473.1.1={
+	liege=k_maritimes
+}
+2489.3.16={
+	holder=0
+}
+2600.1.1={
+	holder=1899115
+}
+2617.1.1={
+	holder=1899114
+}
+2644.5.2={
+	holder=1899000 # Doughal Kilmarnock
+	law=succ_tanistry
+}
+2654.5.2={
+	holder=1899020 # Richard Kilmarnock
+}

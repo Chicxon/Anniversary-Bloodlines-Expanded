@@ -4,7 +4,12 @@
 2328.5.17={
 	liege=k_new_england
 }
-2459.10.31={ # Battle of Saratoga Springs
+2430.1.1={
+	holder=1620302 # Calvin
+	liege=d_green_mountains
+}
+2470.1.1={
+	holder=0
 	liege=0
 }
 2475.1.1={ # Reclaimed by Solomon

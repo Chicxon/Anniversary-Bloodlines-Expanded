@@ -2,10 +2,10 @@
 	liege=k_new_england
 	law=succ_tanistry
 }
-2462.1.1={
-	liege=k_hudsonia
+2430.1.1={
+	liege=d_green_mountains
 }
-2480.1.1={
+2470.1.1={
 	liege=0
 }
 2600.1.1={

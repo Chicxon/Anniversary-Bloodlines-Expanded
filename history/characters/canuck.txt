@@ -1652,7 +1652,7 @@
 	female=yes
 	mother=1886105
 	religion=gaian
-	2463.10.12={birth=yes}
+	2459.10.12={birth=yes} # Moved forward for Saratoga Springs
 	2518.7.22={death=yes}
 }
 1886105={

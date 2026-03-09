@@ -95,6 +95,19 @@
 	}
 }
 
+1620302={ # Duke of Vermont, tributary to Tiaogeara
+    name="Calvin"
+    culture=yankee
+    religion=nonconformist
+    trait=shy
+    trait=patient
+    trait=slothful
+    trait=erudite
+    trait=fortune_builder
+    2401.7.4={birth=yes}
+    2470.1.1={death=yes}
+}
+
 1788300 = { # Count of Sullivan and Rockland
     name="Max"
     dynasty=2005102 # Yasgur
@@ -180,80 +193,7 @@
     2486.1.1={death=yes}
 }
 
-### MIDWEST ###
 
-19430000={
-    name="Cave"
-    religion=chrome_cultist
-    culture=lacustrine
-    dynasty=1788100 # Johnson
-    trait=underhanded_rogue
-    trait=quick
-    trait=groomed
-    trait=architect
-    trait=ambitious
-    trait=gregarious
-    trait=wroth
-    trait=lunatic
-    disallow_random_traits=yes
-    2410.1.1={birth=yes}
-    2450.1.1={add_spouse=19430001}
-    2478.1.1={trait=cough}
-    2480.1.1={trait=infirm}
-    2482.1.1={
-        death=yes
-        trait=legendary
-        occluded=yes
-    }
-}
-
-19430001={
-    name="Caroline"
-    female=yes
-    religion=chrome_cultist
-    culture=lacustrine
-    trait=scholarly_theologian
-    trait=quick
-    trait=fair
-    trait=scholar
-    trait=diligent
-    trait=patient
-    trait=erudite
-    trait=chaste
-    disallow_random_traits=yes
-    2428.1.1={birth=yes}
-    2484.1.1={
-        death=yes
-        trait=legendary
-        occluded=yes
-    }
-}
-
-19430002={
-    name="Chell"
-    dynasty=1788100
-    female=yes
-    culture=edokko
-    religion=chrome_cultist
-    trait=quick
-    trait=strong
-    trait=adopted_child
-    trait=stubborn
-    trait=patient
-    trait=willful
-    disallow_random_traits=yes
-    father=19430000
-    mother=19430001
-    2450.1.1={
-        birth=yes
-        culture=lacustrine
-    }
-    2510.1.1={
-        death=yes
-        trait=legendary
-        occluded=yes
-    }
-}
 
 ### MIDATLANTIC ###
 
@@ -664,6 +604,131 @@
 	2489.3.28={
 		death=yes
 	}
+}
+
+### MIDWEST ###
+
+19430000={
+    name="Cave"
+    religion=chrome_cultist
+    culture=lacustrine
+    dynasty=1788100 # Johnson
+    trait=underhanded_rogue
+    trait=quick
+    trait=groomed
+    trait=architect
+    trait=ambitious
+    trait=gregarious
+    trait=wroth
+    trait=lunatic
+    disallow_random_traits=yes
+    2410.1.1={birth=yes}
+    2450.1.1={add_spouse=19430001}
+    2478.1.1={trait=cough}
+    2480.1.1={trait=infirm}
+    2482.1.1={
+        death=yes
+        trait=legendary
+        occluded=yes
+    }
+}
+
+19430001={
+    name="Caroline"
+    female=yes
+    religion=chrome_cultist
+    culture=lacustrine
+    trait=scholarly_theologian
+    trait=quick
+    trait=fair
+    trait=scholar
+    trait=diligent
+    trait=patient
+    trait=erudite
+    trait=chaste
+    disallow_random_traits=yes
+    2428.1.1={birth=yes}
+    2484.1.1={
+        death=yes
+        trait=legendary
+        occluded=yes
+    }
+}
+
+19430002={
+    name="Chell"
+    dynasty=1788100
+    female=yes
+    culture=edokko
+    religion=chrome_cultist
+    trait=quick
+    trait=strong
+    trait=adopted_child
+    trait=stubborn
+    trait=patient
+    trait=willful
+    disallow_random_traits=yes
+    father=19430000
+    mother=19430001
+    2450.1.1={
+        birth=yes
+        culture=lacustrine
+    }
+    2510.1.1={
+        death=yes
+        trait=legendary
+        occluded=yes
+    }
+}
+
+### GREAT PLAINS ###
+
+1889100={ # Ruler of Rushmore
+    name="Fremont"
+    dynasty=1889100 # Keystone
+	culture=mountainer
+	religion=jeffersonian
+    trait=brilliant_strategist
+    trait=fair
+    trait=scholar
+    trait=brave
+    trait=temperate
+    trait=proud
+    trait=legit_bastard
+    disallow_random_traits=yes
+    father=1889101
+    diplomacy=3
+    martial=7
+    stewardship=6
+    intrigue=3
+    learning=10
+    2413.1.21={birth=yes}
+    2490.1.1={death={
+        death_reason=death_battle
+    }}
+    
+}
+
+1889101={ # His father, illegitimate son of Ned Pitchstone
+    name="Custer"
+    dynasty=1889100 # Keystone
+    culture=mountainer
+    religion=americanist
+    trait=brave
+    trait=stubborn
+    trait=zealous
+    trait=gregarious
+    trait=socializer
+    trait=aggressive_leader
+    trait=misguided_warrior
+    trait=bastard
+    disallow_random_traits=yes
+    father=666102
+    2376.5.12={birth=yes}
+    2450.1.1={religion=jeffersonian}
+    2456.1.1={death={
+        death_reason=death_battle
+    }}
 }
 
 ### CALIFORNIA ###

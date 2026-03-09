@@ -30,17 +30,21 @@
 }
 2328.5.17={
 	holder=0
-	liege=k_new_england
 }
 2430.1.1={
+	liege=0
 	holder=1620302 # Calvin
-	liege=d_green_mountains
+	set_tribute_suzerain={
+		who=k_hudsonia
+		type=permanent 
+	}
 }
 2470.1.1={
 	holder=0
-	liege=0
+}
+2520.1.1={
+	clear_tribute_suzerain=k_hudsonia
 }
 2649.2.17={
 	holder=1620036
-	liege=d_green_mountains
 }

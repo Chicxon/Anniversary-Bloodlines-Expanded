@@ -1,0 +1,32 @@
+2400.1.1={
+	liege=d_olympus
+}
+2523.1.1={
+	liege=d_lewis
+	holder=1845147
+	law=enatic_cognatic_succession
+}
+2543.3.2={
+	holder=0
+}
+2561.2.7={
+	holder=1845003
+}
+2577.12.6={
+	liege=k_cascadia
+}
+2584.10.7={
+	holder=1845027
+}
+2620.6.25={
+	holder=1845029
+}
+2628.12.9={
+	liege=0
+}
+2645.4.9={
+	holder=1845031
+}
+2659.4.28={
+	holder=1845034
+}

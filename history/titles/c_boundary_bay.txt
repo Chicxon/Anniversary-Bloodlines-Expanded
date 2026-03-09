@@ -1,0 +1,10 @@
+2400.1.1={
+	liege=d_fraser
+	law=true_cognatic_succession
+}
+2590.2.3={
+	holder=1200011
+}
+2626.2.3={
+	holder=1886001
+}

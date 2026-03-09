@@ -1,0 +1,7 @@
+2400.1.1={
+	liege=d_airmen
+}
+2660.1.1={
+	liege=k_rio_bravo
+	holder=1810000
+}

@@ -13510,6 +13510,7 @@ coat_of_arms = {
 1889059 = { name="Belk" culture=mountainer }
 1889060 = { name="Westwood" culture=mountainer }
 1889061 = { name="Pineline" culture=mountainer }
+1889100 = { name="Keystone" culture=mountainer }
 
 1895000 = { name="de Ternant" culture=creole }
 1895001 = { name="de Macarty" culture=creole }
