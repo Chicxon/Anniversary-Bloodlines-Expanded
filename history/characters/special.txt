@@ -667,7 +667,9 @@
 	dynasty=1789000 # Avondale
 	culture=chicagoan
 	religion=americanist
+	father=1967202 # Fuller DeSalle, non-canonical
 	mother=1967090
+	trait=sympathy_christendom
 	2477.5.10={birth=yes}
 	2513.5.16={
 		add_trait=president

@@ -606,6 +606,19 @@
 	}
 }
 
+1836201={ # A daughter for Selena Ofelia of Yutep as she is too old to have children in 2459
+    name="Gabriela Sofia"
+    female=yes
+    mother=1836104 # Selena Ofelia
+    dynasty=5001191
+    religion=americanist
+	culture=tejano
+    trait=fair
+    trait=falconer
+    2441.1.1={birth=yes}
+    2500.1.1={death=yes}
+}
+
 ### MIDWEST ###
 
 19430000={
@@ -678,6 +691,103 @@
         death=yes
         trait=legendary
         occluded=yes
+    }
+}
+
+1967200={ # DeSalle Ancestors, counts of Rockford
+    name="Thaddeus"
+	dynasty=1789012 # DeSalle
+	culture=chicagoan
+	religion=catholic
+    martial=7
+    trait=tough_soldier
+    trait=cynical
+    2416.1.1={birth=yes}
+    2484.1.1={death=yes}
+}
+
+1967201={
+    name="Logan"
+    father=1967200
+    dynasty=1789012 # DeSalle
+    trait=intricate_webweaver
+	culture=chicagoan
+	religion=catholic
+    2431.1.1={birth=yes}
+    2501.1.1={death=yes}
+}
+
+1967202={ # Younger son, matrilineally married to Eira Morganowska Avondale, non-canonical father to President Ferguslav
+    name="Fuller"
+    father=1967200
+    dynasty=1789012 # DeSalle
+	culture=chicagoan
+	religion=catholic
+    trait=underhanded_rogue
+    trait=sympathy_oldworld
+    trait=honest
+    trait=brave
+    2444.1.1={birth=yes}
+    2458.1.1={                         # Eira Morganowska Avondale, patricians aren't allowed matrilineal marriages
+        add_matrilineal_spouse=1967090 # but she needs one to continue the Avondale family as in the history
+        effect={add_lover=1967090}     # and she loves him! <3 (Important to give them high fertility as Morgan is 65 and has no male relatives)
+    }
+    2489.1.1={death=yes}
+}
+
+1967203={
+    name="Cyrus"
+    father=1967201
+    dynasty=1789012 # DeSalle
+	culture=chicagoan
+	religion=catholic
+    2489.1.1={birth=yes}
+    2555.1.1={death=yes}
+}
+
+1967204={ # Sheridan's father
+    name="Harrison"
+    father=1967203
+    dynasty=1789012 # DeSalle
+	culture=chicagoan
+	religion=catholic
+    2521.1.1={birth=yes}
+    2568.1.1={death=yes}
+}
+
+1967205={ # Emil Young's Great-Grandfather
+    name="Gresham"
+    dynasty=1842069 # Young
+    culture=chicagoan
+    religion=woolleyite
+    2424.1.1={birth=yes}
+    2479.1.1={death=yes
+    trait=dead_merchant_republic
+    }
+}
+
+1967206={ # Emil Young's Grandfather
+    name="Jonas"
+    dynasty=1842069 # Young
+    culture=chicagoan
+    religion=woolleyite
+    father=1967205
+    2455.1.1={birth=yes}
+    2497.1.1={
+        death=yes
+        trait=dead_merchant_republic
+    }
+}
+
+1967207={ # Emil Young's Father
+    name="Eustace"
+    dynasty=1842069 # Young
+    culture=chicagoan
+    religion=woolleyite
+    father=1967206
+    2480.1.1={birth=yes}
+    2530.1.1={death=yes
+    trait=dead_merchant_republic
     }
 }
 
@@ -1088,4 +1198,25 @@
     disallow_random_traits=yes
     2437.1.1={birth=yes}
     2465.1.1={death=yes}
+}
+
+2500218 = { # Hamiltonian ruler of Mojave, last holdout of Americanism in California region
+    name="Dodge"
+    culture=arixan
+    religion=hamiltonian
+    trait=elusive_shadow
+    trait=strong
+    trait=cruel
+    2429.1.1={birth=yes}
+    2500.1.1={death=yes}
+}
+
+2500219 = { # Sedevecantist remnant in Death Valley, last remnant of "Old" Christianity in Cali
+    name="Ignacio"
+    culture=battleborn
+    religion=sedevacantist
+    trait=quick
+    trait=devout
+    2418.1.1={birth=yes}
+    2479.1.1={death=yes}
 }

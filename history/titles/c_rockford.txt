@@ -1,0 +1,30 @@
+2400.1.1={
+	liege=d_cook
+}
+2440.1.1={
+	holder=1967200 # Thaddeus DeSalle
+}
+2484.1.1={
+	holder=1967201 # Logan DeSalle
+}
+2501.1.1={
+	holder=1967203 # Cyrus DeSalle
+}
+2555.1.1={
+	holder=1967204 # Harrison DeSalle
+}
+2568.1.1={
+	holder=1967098 # Sheridan DeSalle
+}
+2600.1.1={
+	holder=1967099 # Cormac Sheridanowski DeSalle
+}
+2628.6.21={
+	liege=0
+}
+2653.1.1={
+	holder=1967007 # Robert DeSalle
+}
+2660.1.1={
+	liege=d_cook
+}

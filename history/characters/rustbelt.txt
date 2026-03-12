@@ -1632,6 +1632,7 @@
 	intrigue=5
 	learning=2
 	trait=charismatic_negotiator
+	trait=sympathy_christendom # Married a Catholic
 	trait=proud
 	trait=gregarious
 	father=1967089
@@ -1732,6 +1733,7 @@
 
 1967098={
 	name="Sheridan"
+	father=1967204 # Harrison DeSalle
 	dynasty=1789012
 	culture=chicagoan
 	religion=catholic
@@ -1855,6 +1857,7 @@
 	culture=chicagoan
 	religion=woolleyite #apparently this guy is a reference to the musical Chicago, this is why he is woolleyite
 	trait=lustful
+	father=1967207 # Eustace, non-canonical
 	2515.6.30={birth=yes}
 	2535.2.13={
 		add_spouse=1967114

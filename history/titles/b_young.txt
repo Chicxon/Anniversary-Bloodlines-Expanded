@@ -1,0 +1,17 @@
+2455.1.1={
+    holding_dynasty=1842069
+    liege=d_cook
+	holder=1967205 # Gresham
+}
+2479.1.1={
+    holder=1967206 # Jonas
+}
+2497.1.1={
+    holder=1967207 # Eustace
+}
+2530.1.1={
+    holder=1967110 # Emil
+}
+2555.4.20={
+    holder=0 # Extinction of the family
+}

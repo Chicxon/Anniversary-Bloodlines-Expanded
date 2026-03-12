@@ -364,3 +364,7 @@ b_parsons = {
 b_richard = {
 	culture = chicagoan
 }
+
+b_young = {
+	culture = chicagoan
+}
