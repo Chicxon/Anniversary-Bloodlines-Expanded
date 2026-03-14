@@ -4,8 +4,11 @@
 2469.7.11={
 	holder=0
 }
-2622.5.5={
+2600.4.8={
 	law=succ_primogeniture
+	holder=2500015 # Kirk "Redwood" Gable
+}
+2622.5.5={
 	holder=1911100
 }
 2645.3.1={

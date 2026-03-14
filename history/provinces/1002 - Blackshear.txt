@@ -13,4 +13,4 @@ culture=dixie
 religion=evangelical
 
 2300.1.1={ capital=b_cordele_GA }
-2510.1.1={ capital=b_albany_GA }
+2600.1.1={ capital=b_albany_GA }

@@ -238,7 +238,6 @@
 	learning=9
 	culture=californiano
 	religion=cetic #sacred_heart
-	trait=scholar
 	trait=shy
 	trait=kind
 	trait=just
@@ -246,9 +245,10 @@
 	trait=trusting
 	trait=patient
 	trait=temperate
-	trait=imp_ex3
 	trait=content
 	trait=way_dove
+	trait=imp_ex3
+	trait=scholar
 	trait=charismatic_negotiator
 	2640.12.25={birth=yes}
 	2700.1.11={death=yes}
@@ -2014,6 +2014,9 @@
 	trait=way_dove
 	trait=socializer
 	trait=gregarious
+	trait=deceitful
+	trait=brave
+	trait=arbitrary
 	2596.3.1={birth=yes}
 	2650.12.1={death=yes}
 }
@@ -2076,6 +2079,7 @@
 	female=no
 	dynasty=1912055
 	culture=californiano
+	trait=imp_ex1
 	trait=way_dove
 	religion=cetic
 	2626.3.1={birth=yes}
@@ -2237,6 +2241,7 @@
 	religion=cetic
 	trait=zealous
 	trait=way_fist
+	trait=imp_ex1
 	2600.3.1={birth=yes}
 	2655.12.1={death=yes}
 }
@@ -2266,6 +2271,10 @@
 	religion=cetic
 	trait=midas_touched
 	trait=way_dove
+	trait=imp_ex3
+	trait=ambitious
+	trait=deceitful
+	trait=brave
 	2603.3.1={birth=yes}
 	2654.11.30={death=yes}
 }

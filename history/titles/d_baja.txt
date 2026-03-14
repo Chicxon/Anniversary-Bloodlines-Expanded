@@ -1,0 +1,26 @@
+2430.1.1={ 
+	liege=e_california
+	law=succ_primogeniture
+}
+2435.7.11={
+	holder=2200209 # Vivienne Flowers
+}
+2475.7.11={
+	holder=2200210 # Katerina Flowers
+}
+2505.7.11={
+	holder=2200211 # Alvis Flowers
+}
+2535.7.11={
+	holder=2200212 # Eric Flowers
+}
+2575.7.11={
+	holder=2200205 # Madeleine Flowers
+}
+2585.3.14={
+	liege=k_baja_california
+	holder=1910010 # Yuk Danilo
+}
+2660.12.1={
+	holder=1910011 # Yuk Chang-Lin
+}

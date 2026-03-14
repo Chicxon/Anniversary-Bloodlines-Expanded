@@ -1636,7 +1636,10 @@
 	trait=proud
 	trait=gregarious
 	father=1967089
-	2443.11.23={birth=yes}
+	2443.11.23={
+		birth=yes
+		employer=1967089
+	}
 	2491.6.25={death=yes
 	trait=dead_merchant_republic}
 }

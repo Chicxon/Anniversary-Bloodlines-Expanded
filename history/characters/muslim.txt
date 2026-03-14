@@ -203,8 +203,11 @@
 	trait=shrewd
 	trait=sympathy_pacific
 	disallow_random_traits=yes
-	give_nickname=nick_the_bowed
 	2370.4.6={birth=yes}
+	2425.1.1={
+		give_nickname=nick_the_bowed
+		trait=imp_ex3
+	}
 	2430.7.11={death=yes}
 }
 2200010={
@@ -216,6 +219,7 @@
 	trait=sayyid2
 	trait=fortune_builder
 	trait=sympathy_pacific
+	trait=imp_ex2
 	disallow_random_traits=yes
 	2412.8.3={birth=yes}
 	2467.1.9={death=yes}
@@ -232,6 +236,7 @@
 	trait=depressed
 	trait=charitable
 	trait=sympathy_pacific
+	trait=imp_ex4
 	disallow_random_traits=yes
 	2460.4.5={birth=yes}
 	2505.7.11={ # Death of Katerina Flowers
@@ -248,6 +253,7 @@
 	trait=sayyid2
 	trait=fortune_builder
 	trait=sympathy_pacific
+	trait=imp_ex2
 	disallow_random_traits=yes
 	2502.3.10={birth=yes}
 	2560.11.22={death=yes}
@@ -261,6 +267,7 @@
 	trait=sayyid2
 	trait=fortune_builder
 	trait=sympathy_pacific
+	trait=imp_ex2
 	disallow_random_traits=yes
 	2540.8.14={birth=yes}
 	2609.7.14={death=yes}
@@ -282,6 +289,7 @@
 	trait=indulgent_wastrel
 	trait=kind
 	trait=sympathy_pacific
+	trait=imp_ex1
 	disallow_random_traits=yes
 	2593.12.14={birth=yes}
 	2618.3.1={add_spouse=2200031}
@@ -304,6 +312,7 @@
 	culture=anjalusi
 	religion=imamite
 	trait=sayyid2
+	trait=imp_ex3
 	2618.12.14={birth=yes}
 	2663.11.7={death={
 			death_reason=death_murder_unknown #Murdered.
@@ -639,6 +648,7 @@
 	trait=deceitful
 	trait=ambitious
 	trait=arbitrary
+	trait=imp_ex2
 	culture=angeleno
 	religion=cetic
 	give_nickname=nick_the_soldier
@@ -678,6 +688,7 @@
 	culture=anjalusi
 	religion=imamite
 	trait=sayyid2
+	trait=not_evaluated
 	2620.11.4={birth=yes}
 	2621.6.3={death={
 			death_reason=death_murder_unknown #Murdered.
@@ -1929,6 +1940,7 @@
 	trait=confucianism_qingzhen
 	trait=diligent
 	trait=just
+	trait=imp_ex2
 	father=1384091
 	2380.1.22={birth=yes}
 	2460.11.2={death=yes}
@@ -1948,6 +1960,7 @@
 	father=1384038
 	give_nickname=nick_the_soldier
 	2430.1.22={birth=yes}
+	2460.1.1={trait=imp_ex1}
 	2500.11.2={death=yes}
 }
 
@@ -1961,6 +1974,7 @@
 	trait=just
 	trait=diligent
 	trait=zealous
+	trait=imp_ex3
 	father=1384039
 	2460.1.22={birth=yes}
 	2550.11.2={death=yes}
@@ -1976,6 +1990,7 @@
 	trait=mystic
 	trait=diligent
 	trait=just
+	trait=imp_ex4
 	father=1384040
 	give_nickname=nick_the_old
 	2530.2.11={birth=yes}
@@ -2013,6 +2028,7 @@
 	trait=zealous
 	trait=diligent
 	trait=schemer
+	trait=imp_ex3
 	father=1384042
 	give_nickname=nick_the_fox
 	2600.1.10={birth=yes}
@@ -2373,6 +2389,7 @@
 	trait=charitable
 	trait=kind
 	trait=cynical
+	trait=imp_ex1
 	trait=sympathy_pacific
 	father=1384061
 	2420.11.14={birth=yes}
@@ -2391,6 +2408,7 @@
 	trait=diligent
 	trait=just
 	trait=gregarious
+	trait=imp_ex2
 	trait=sympathy_pacific
 	father=1384062
 	2446.11.14={birth=yes}
@@ -2409,6 +2427,7 @@
 	trait=diligent
 	trait=shy
 	trait=humble
+	trait=imp_ex3
 	father=1384063
 	2489.1.4={birth=yes}
 	2545.7.12={death=yes}
@@ -2425,6 +2444,7 @@
 	trait=gluttonous
 	trait=diligent
 	trait=sympathy_pacific
+	trait=imp_ex2
 	father=1384064
 	2538.11.29={birth=yes}
 	2592.12.25={death=yes}
@@ -2443,12 +2463,13 @@
 	trait=shy
 	trait=erudite
 	trait=sympathy_pacific
+	trait=imp_ex4
 	father=1384065
 	2570.11.29={birth=yes}
 	2650.12.25={death=yes}
 }
 
-1384067={ #duke of mojave and count of blythe
+1384067={ # Claimant to be duke of mojave and count of blythe
 	name="Joesph"
 	dynasty=1864101 #Hall
 	culture=battleborn
@@ -2754,6 +2775,7 @@
 	trait=diligent
 	trait=ambitious
 	trait=zealous
+	trait=imp_ex3
 	father=1384083
 	mother=1384082
 	2380.1.10={birth=yes}
@@ -2771,6 +2793,7 @@
 	trait=diligent
 	trait=ambitious
 	trait=sympathy_pacific
+	trait=imp_ex3
 	father=1384084
 	2420.8.12={birth=yes}
 	2494.3.7={death=yes}
@@ -2787,6 +2810,7 @@
 	trait=diligent
 	trait=ambitious
 	trait=sympathy_pacific
+	trait=imp_ex3
 	father=1384085
 	2451.1.10={birth=yes}
 	2529.4.21={death=yes}
@@ -2803,6 +2827,7 @@
 	trait=diligent
 	trait=ambitious
 	trait=sympathy_pacific
+	trait=imp_ex3
 	father=1384086
 	2511.9.22={birth=yes}
 	2602.3.20={death=yes}
@@ -2821,6 +2846,7 @@
 	trait=sympathy_pacific
 	trait=ansari
 	trait=wroth
+	trait=imp_ex4
 	father=1384087
 	2545.1.13={birth=yes}
 	2622.4.25={death={
@@ -3754,6 +3780,7 @@ name="Elfie"
 	trait=diligent
 	trait=ambitious
 	trait=legit_bastard
+	trait=imp_ex3
 	mother=2500129
 	2389.6.6={birth=yes}
 	#2419.6.21={add_spouse=2500156}
@@ -4050,6 +4077,7 @@ name="Elfie"
 	trait=diligent
 	trait=way_book
 	trait=architect
+	trait=imp_ex3
 	disallow_random_traits=yes
 	father=2200184
 	culture=german
@@ -4092,6 +4120,9 @@ name="Elfie"
 			set_character_flag=physique
 		}
 	}
+	2474.1.1={
+		trait=imp_ex4
+	}
 	2523.3.7={death=yes}
 }
 2200187={
@@ -4110,6 +4141,7 @@ name="Elfie"
 	trait=diligent
 	trait=way_book
 	trait=architect
+	trait=imp_ex4
 	disallow_random_traits=yes
 	father=2200186
 	culture=german
@@ -4140,6 +4172,7 @@ name="Elfie"
 	trait=diligent
 	trait=way_book
 	trait=architect
+	trait=imp_ex3
 	disallow_random_traits=yes
 	father=2200187
 	culture=german
@@ -4170,6 +4203,7 @@ name="Elfie"
 	trait=diligent
 	trait=way_book
 	trait=architect
+	trait=imp_ex3
 	disallow_random_traits=yes
 	father=2200188
 	culture=german
@@ -4550,6 +4584,7 @@ name="Elfie"
 	trait=diligent
 	trait=schemer
 	trait=way_book
+	trait=imp_ex3
 	disallow_random_traits=yes
 	father=2200200
 	culture=german
@@ -4582,6 +4617,7 @@ name="Elfie"
 	trait=diligent
 	trait=schemer
 	trait=lustful
+	trait=imp_ex1
 	disallow_random_traits=yes
 	father=2200201
 	culture=german
@@ -4613,8 +4649,8 @@ name="Elfie"
 	trait=diligent
 	trait=shrewd
 	trait=schemer
-	trait=imp_ex4
 	trait=way_fist
+	trait=imp_ex4
 	disallow_random_traits=yes
 	father=2200202
 	culture=german
@@ -4781,6 +4817,7 @@ name="Elfie"
 	trait=shrewd
 	trait=scholar
 	trait=way_dove
+	trait=imp_ex4
 	disallow_random_traits=yes
 	father=2200207
 	culture=german
@@ -4815,6 +4852,7 @@ name="Elfie"
 	trait=patient
 	trait=trusting
 	trait=way_dove
+	trait=imp_ex2
 	disallow_random_traits=yes
 	father=2200208
 	culture=german
@@ -4848,6 +4886,7 @@ name="Elfie"
 	trait=patient
 	trait=trusting
 	trait=way_book
+	trait=imp_ex4
 	disallow_random_traits=yes
 	mother=2200209
 	culture=german
@@ -4884,6 +4923,7 @@ name="Elfie"
 	trait=patient
 	trait=trusting
 	trait=way_dove
+	trait=imp_ex2
 	disallow_random_traits=yes
 	mother=2200210
 	culture=german
@@ -4917,6 +4957,7 @@ name="Elfie"
 	trait=scholar
 	trait=shy
 	trait=way_dove
+	trait=imp_ex3
 	disallow_random_traits=yes
 	father=2200211
 	culture=german

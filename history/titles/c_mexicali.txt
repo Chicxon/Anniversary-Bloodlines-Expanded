@@ -1,6 +1,6 @@
 
 2440.1.1={
-	liege=e_california
+	liege=d_baja
 	holder=2500200 # Reginald Segale
 }
 2450.1.1={
@@ -9,7 +9,6 @@
 2530.1.1={
 	holder=0
 	law=succ_primogeniture
-	liege=k_baja_california
 }
 2585.3.14={
 	holder=1910010

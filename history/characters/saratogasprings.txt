@@ -426,6 +426,23 @@
     2312.1.1={death=yes}
 }
 
+1997100={ # Count of Three Mile Island, Batenburger
+    name="Gabriel"
+    culture=deitsch
+    religion=batenburger
+    martial=8
+    trait=skilled_tactician
+    trait=aggressive_leader
+    trait=holy_warrior
+    trait=wroth
+    trait=temperate
+    trait=just
+    trait=cruel
+    disallow_random_traits=yes
+    2435.1.1={birth=yes}
+    2500.1.1={death=yes}
+}
+
 ### LOUISIANA-DIXIE ###
 
 19410000={
@@ -702,6 +719,7 @@
     martial=7
     trait=tough_soldier
     trait=cynical
+    trait=sympathy_oldworld
     2416.1.1={birth=yes}
     2484.1.1={death=yes}
 }
@@ -727,7 +745,10 @@
     trait=sympathy_oldworld
     trait=honest
     trait=brave
-    2444.1.1={birth=yes}
+    2444.1.1={
+        birth=yes
+        employer=1967200
+    }
     2458.1.1={                         # Eira Morganowska Avondale, patricians aren't allowed matrilineal marriages
         add_matrilineal_spouse=1967090 # but she needs one to continue the Avondale family as in the history
         effect={add_lover=1967090}     # and she loves him! <3 (Important to give them high fertility as Morgan is 65 and has no male relatives)
@@ -813,6 +834,7 @@
     intrigue=3
     learning=10
     2413.1.21={birth=yes}
+    2531.1.1={capital=c_rushmore}
     2490.1.1={death={
         death_reason=death_battle
     }}
@@ -950,6 +972,7 @@
     trait=trusting
     trait=erudite
     trait=just
+    trait=imp_ex2
     disallow_random_traits=yes
     2432.1.1={birth=yes}
     2456.1.1={
@@ -1056,6 +1079,7 @@
     trait=kind
     trait=diligent
     trait=ambitious
+    trait=imp_ex2
     2425.1.1={
         birth=yes
         effect={add_friend=2500210}
@@ -1140,6 +1164,7 @@
     trait=temperate
     trait=humble
     trait=envious
+    trait=imp_ex2
     2426.1.1={birth=yes}
     2460.1.1={
         remove_trait=nz_acolyte
@@ -1158,6 +1183,7 @@
     trait=scholarly_theologian
     trait=socializer
     trait=nz_seraph
+    trait=imp_ex3
     trait=devout
     trait=patient
     trait=proud
@@ -1173,6 +1199,7 @@
     culture=californiano
     trait=nz_acolyte
     trait=midas_touched
+    trait=imp_ex2
     trait=ambitious
     trait=gluttonous
     trait=diligent

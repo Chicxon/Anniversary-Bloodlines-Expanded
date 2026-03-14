@@ -1,0 +1,18 @@
+2321.1.9={
+	holder=666102 # Ned Pitchstone
+}
+2389.10.2={
+	holder=666104 # Margaret Pitchstone
+}
+2453.8.8={
+	holder=1889101 # Custer Keystone
+}
+2456.1.1={
+	holder=1889100 # Fremont Keystone
+}
+2500.1.1={
+	liege=k_lakotah
+}
+2644.1.1={
+	holder=1889001 # Tasinagi Hokwoju
+}
