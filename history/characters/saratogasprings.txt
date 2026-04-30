@@ -564,7 +564,10 @@
     stewardship=4
     intrigue=4
     learning=3
-    2436.1.1={birth=yes}
+    2436.1.1={
+        birth=yes
+        effect={set_character_flag=diversity}
+    }
     2502.1.1={death=yes}
 }
 
@@ -597,6 +600,19 @@
     father=1865003
     2538.1.1={birth=yes}
     2600.1.1={death=yes}
+}
+
+1865010={ # Hannibal Barron's father
+    name="Rayford"
+    dynasty=1787004 # Barron
+    religion=americanist
+    culture=dixie
+    2402.1.1={
+        birth=yes
+    }
+    2463.1.1={
+        death=yes
+    }
 }
 
 ### TEXAS ###
@@ -1025,14 +1041,13 @@
     name="Xia"
     female=yes
     dynasty=1851102 # Nakamura, pre-existing but unused
-    religion=cetic
-    secret_religion=qingzhen
+    religion=qingzhen
     culture=calaotian
     trait=mastermind_theologian
     trait=quick
     trait=reclusive
     trait=uncouth
-    trait=way_book
+    trait=buddhism_qingzhen
     trait=imp_ex4
     trait=gamer
     trait=diligent
@@ -1109,11 +1124,14 @@
 
 2500211 = { # Count of Mariposa
     name="Adam"
-    religion=edenite
+    religion=nazarene
+    secret_religion=edenite
     culture=valleyan
     trait=martial_cleric
     trait=fair
     trait=groomed
+    trait=nz_acolyte
+    trait=imp_ex1
     trait=sympathy_pacific
     trait=slothful
     trait=charitable
@@ -1246,4 +1264,21 @@
     trait=devout
     2418.1.1={birth=yes}
     2479.1.1={death=yes}
+}
+
+2500220 = { # Count of Riverside
+    name="Richard" # AROOOOO
+    #dynasty= # Milhous
+    culture=angeleno
+    religion=nazarene
+    trait=elusive_shadow
+    trait=nz_presbyter
+    trait=sympathy_pacific
+    trait=quick
+    trait=ambitious
+    trait=stubborn
+    trait=deceitful
+    trait=patient
+    2413.1.9={birth=yes}
+    2494.4.22={death=yes}
 }

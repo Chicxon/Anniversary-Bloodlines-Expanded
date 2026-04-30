@@ -1950,7 +1950,19 @@
 	trait=brave
 	trait=envious
 	2590.1.1={birth=yes}
-	2618.12.3={death=yes}
+	2610.1.1={
+		create_bloodline={
+			type=bolvariana
+		}
+	}
+	2618.11.1={
+		trait=fever
+	}
+	2618.12.3={
+		death={
+			death_reason=death_trait
+		}
+	}
 }
 
 1811121={
@@ -2570,6 +2582,7 @@
 	culture=caraqueno
 	religion=espiritista
 	trait=tough_soldier
+	trait=unyielding_leader
 	trait=proud
 	trait=cruel
 	trait=zealous

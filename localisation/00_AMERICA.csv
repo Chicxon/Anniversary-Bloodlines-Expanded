@@ -1761,6 +1761,7 @@ pelagic_opinion;[pelagic.GetName] Opinion;;;;;;;;;;;;;x
 nonconformist_opinion;[nonconformist.GetName] Opinion;;;;;;;;;;;;;x
 fidencista_opinion;[fidencista.GetName] Opinion;;;;;;;;;;;;;x
 navegante_opinion;[navegante.GetName] Opinion;;;;;;;;;;;;;x
+cristo_rey_opinion;[cristo_rey.GetName] Opinion;;;;;;;;;;;;;x
 
 #Culture opinion modifiers
 tuskegean_opinion;[tuskegean.GetName] Opinion;;;;;;;;;;;;;x

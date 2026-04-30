@@ -625,6 +625,10 @@
 	dynasty=1787004 # Barron
 	culture=dixie
 	religion=americanist
+	father=1865010 # Rayford Barron
+	trait=charismatic_negotiator
+	trait=gregarious
+	trait=ambitious
 	2443.11.14={birth=yes}
 	2485.7.4={
 		add_trait=president

@@ -1,6 +1,12 @@
 2200.1.1={
 	liege=k_socal
 }
+2450.1.1={
+	holder=2500220 # NIXON NOW!
+}
+2494.4.22={
+	holder=0
+}
 2655.12.1={
 	holder=1910170
 	liege=d_berdoo

@@ -1,0 +1,21 @@
+1970.1.1={
+	holder=1910211
+}
+1982.9.2={
+	holder=0
+}
+2412.2.3={
+	holder=1910212
+}
+2425.1.1={
+	liege=e_california
+}
+2468.12.26={
+	holder=0
+}
+2622.5.5={ # Collapse of the Empire
+	liege=0
+}
+2655.9.25={
+	holder=1910208
+}

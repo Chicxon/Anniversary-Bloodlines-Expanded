@@ -1,0 +1,15 @@
+2430.1.1={
+	holder=1865010 # Rayford Barron
+}
+2463.1.1={
+	holder=666106 # Hannibal Barron
+}
+2501.8.13={
+	holder=0
+}
+2597.1.1={
+	holder=3000070 # Tiberius Angier
+}
+2656.2.14={
+	holder=3000073 # Jubal Angier
+}

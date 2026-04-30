@@ -19,8 +19,13 @@
 	trait=brave
 	trait=zealous
 	trait=holy_warrior
-	give_nickname=nick_sword_of_curicaueri 
 	2578.11.28={birth=yes}
+	2606.9.20={
+		create_bloodline={
+			type=uriel_kuruchi
+		}
+		give_nickname=nick_sword_of_curicaueri 
+	}
 	2628.6.3={death=yes}
 }
 

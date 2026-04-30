@@ -1108,6 +1108,9 @@
 	trait=temperate
 	give_nickname=nick_the_just
 	2461.1.1={birth=yes}
+	2488.8.8={
+		create_bloodline={type=beaton}
+	}
 	2488.12.25={
 		trait=crowned_by_pope # Saved Canterbury from Tarleton
 	}

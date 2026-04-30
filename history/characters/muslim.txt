@@ -1609,11 +1609,14 @@
 	culture=guyanese
 	religion=traditionalist
 	trait=brilliant_strategist
+	trait=jungle_terrain_leader
 	trait=strong
+	trait=sayyid2
+	trait=trsunni
 	trait=patient
 	trait=zealous
 	trait=just
-	trait=sayyid2
+	disallow_random_traits=yes
 	2590.1.1={birth=yes}
 	2620.1.1={
 		create_bloodline={
@@ -1630,14 +1633,17 @@
 	religion=traditionalist
 	trait=midas_touched
 	trait=strong
+	trait=sayyid2
+	trait=trsunni
 	trait=just
 	trait=cruel
 	trait=wroth
 	trait=temperate
-	trait=has_small_pox
-	trait=sayyid2
 	father=1384020
 	2609.1.1={birth=yes}
+	2641.1.1={
+		trait=has_small_pox
+	}
 	2642.1.1={death={
 			death_reason=death_trait
 		}
@@ -1650,11 +1656,12 @@
 	culture=guyanese
 	religion=traditionalist
 	trait=indulgent_wastrel
+	trait=sayyid2
+	trait=trsunni
 	trait=wroth
 	trait=cruel
 	trait=temperate
 	trait=proud
-	trait=sayyid2
 	father=1384021
 	2626.1.1={birth=yes}
 	2645.2.6={death={
@@ -1674,8 +1681,8 @@
 	learning=8
 	culture=guyanese
 	religion=traditionalist
-	trait=trsunni
 	trait=sayyid2
+	trait=trsunni
 	trait=greedy
 	trait=patient
 	trait=lustful

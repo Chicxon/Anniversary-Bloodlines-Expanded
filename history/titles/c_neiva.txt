@@ -1,0 +1,31 @@
+2439.1.1={
+	law=succ_gavelkind
+	holder=1811030 # Ollantay I Yupanqui
+}
+2470.7.26={
+	holder=1811031 # Ollantay II
+}
+2500.3.5={
+	holder=1811032 # Ollantay III
+}
+2543.5.13={
+	holder=1811081 # Docoshamu
+}
+2565.2.23={
+	holder=1811082 # Buvaovamu
+}
+2583.1.18={
+	holder=1811083 # Nahuel
+}
+2605.2.1={
+	holder=1811084 # Manco
+}
+2622.2.2={
+	liege=d_gran_cafetal
+}
+2655.8.24={
+	holder=1811085
+}
+2656.3.21={
+	holder=1811086
+}

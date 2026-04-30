@@ -1,0 +1,18 @@
+2609.1.1={
+	holder=1384020 # Shareef Muhammad Khan
+}
+2620.1.1={
+	liege=k_guyana
+}
+2640.1.1={
+	holder=1384021 # Shareef Bairam Khan
+}
+2642.1.1={
+	holder=1384022 # Shareef Abdool Khan
+}
+2645.2.6={
+	holder=1384023 # Abdool Jr.
+}
+2664.1.1={
+	liege=k_grand_trinidad
+}
