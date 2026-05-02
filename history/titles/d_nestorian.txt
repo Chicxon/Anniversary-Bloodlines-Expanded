@@ -1,0 +1,21 @@
+2376.8.1={
+	holder=1967106 # Hnanisho
+}
+2377.1.1={
+	holder=1967100 # Eliya
+}
+2401.1.1={
+	set_tribute_suzerain={
+		who=d_green_bay
+		type=permanent 
+	}
+}
+2410.1.1={
+	holder=1848002 # Avrahim
+}
+2439.1.1={
+	holder=1848001 # Grigorios
+}
+2467.1.1={
+	clear_tribute_suzerain=d_green_bay
+}

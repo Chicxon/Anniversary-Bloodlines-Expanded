@@ -1,6 +1,5 @@
 Overall, this mod aims to enhance ATE's lore with additional bloodlines and fix inconsistencies in the title history. It is meant to be "vanilla+" or 
 conservative in style, and purely to refine the base ATE experience without conflicting with anything already established.
-If the Anniversary Edition devs are reading this, I would be truly honoured if you integrated this mod and listed me as a contributor :)
 /Chicxon
 
 REQUIRES RODENHOS
@@ -30,7 +29,7 @@ Fix Genghis Cree/Iron chief bloodline spam
 
 Added a couple decisions to ensure bloodline inheritance for a few characters
 
-Opened up game starts from 2100-2666
+Opened up game starts from 2600-2666, and added an option to start in 2459
 
 Made some changes/fixes to history:
     Randolph King's daughters marriages to landless men made matrilineal
@@ -53,4 +52,5 @@ Added title history for:
     Lochloosa/Steinhatchee
     Barony of Latham (in Hudsonia)
 
-Added missing loc tags for Fidencista, Navegante, Bravo and Altiplanense opinion modifiers
+
+Added missing loc tags for Fidencista, Navegante, Bravo, Cristero and Altiplanense opinion modifiers

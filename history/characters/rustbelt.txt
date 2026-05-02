@@ -1763,6 +1763,8 @@
 	name="Eliya"
 	culture=chiraqi
 	religion=nestorian
+    trait=sympathy_pagans
+    trait=sympathy_islam
 	2350.1.1={birth=yes}
 	2410.1.1={death=yes}
 }

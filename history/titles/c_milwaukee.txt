@@ -1,0 +1,18 @@
+2401.1.1={
+	holder=1967100 # Patriarch Eliya
+}
+2410.1.1={
+	holder=1848002 # Patriarch Avrahim
+}
+2439.1.1={
+	holder=1848001 # Patriarch Grigorios
+}
+2467.1.1={
+	holder=0
+}
+2640.1.1={
+	holder=1920004 # Mike Stoklasa
+}
+2653.2.1={
+	holder=1919002 # Gertrude Stoklasa
+}

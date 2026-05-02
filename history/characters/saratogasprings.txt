@@ -828,6 +828,38 @@
     }
 }
 
+1848000={ # Ruler of Green Bay
+    name="Kevin"
+    dynasty=1798100 # MacLeod
+    culture=dellsman
+    religion=norse_pagan
+    trait=musician
+    trait=charitable
+    trait=diligent
+    2420.1.1={birth=yes}
+    2480.1.1={death=yes}
+}
+
+1848001={ # Patriarch of the East, in exile in Milwaukee
+    name="Grigorios"
+    culture=dellsman
+    religion=nestorian
+    trait=sympathy_pagans
+    trait=sympathy_islam
+    2403.1.1={birth=yes}
+    2467.1.1={death=yes}
+}
+
+1848002={ # Patriarch of the East, filler between Eliya and Grigorios
+    name="Avrahim"
+    culture=chiraqi
+    religion=nestorian
+    trait=sympathy_pagans
+    trait=sympathy_islam
+    2377.1.1={birth=yes}
+    2439.1.1={death=yes}
+}
+
 ### GREAT PLAINS ###
 
 1889100={ # Ruler of Rushmore

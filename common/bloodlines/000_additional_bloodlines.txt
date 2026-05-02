@@ -223,14 +223,17 @@ caballero_bloodline = {
 khan_bloodline = {
 	picture = GFX_bloodlines_symbol_sunni
 	monthly_character_prestige = 0.1
-	muslim_opinion = 5
+	muslim_opinion = 10
+	command_modifier = {
+		light_infantry = 0.1
+	}
 	inheritance = patrilineal
 	allow_bastards = yes
 	flags = { historical_bloodline }
 }
 
 beaton = {
-	picture = GFX_bloodlines_symbol_horse
+	picture = GFX_bloodlines_symbol_anglican
 	monthly_character_prestige = 0.1
 	monthly_character_piety = 0.05
 	christian_opinion = 5
